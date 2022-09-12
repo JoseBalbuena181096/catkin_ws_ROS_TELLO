@@ -1,0 +1,23 @@
+Correr el nodo maestro:
+$roscore
+Lista de nodos en el grafo computacional:
+$rosnode list
+Lista de topicos en el grfo computacional:
+$rostopic list
+Correr un nuevo nodo:
+$rosrun turtlesim turtlesim_node
+Obtener información de un nodo:
+$rostopic info /turtlesim
+Obtener información de un topico:
+$rostopic info /turtle1/cmd_vel
+Correr un nodo para mover la tortuga:
+$rosrun turtlesim turtle_teleop_key
+Obtener información del tópico /turtle1/cmd_vel 
+$rostopic info /turtle1/cmd_vel 
+Mostrar el contenido de un mensaje
+$rosmsg show geometry_msgs/Twist
+Publicar un mensaje desde la terminal:
+$rostopic pub -r 5 /turtle1/cmd_vel geometry_msgs/Twist '{linear: {x: 0.1, y: 0.0, z_: 0.0}, angular: {x:0.0, y: 0.0, z: 0.0}}'
+Visualizar grafos de ros con rqt de manera gráfica:
+$rosrun rqt_graph rqt_graph
+
