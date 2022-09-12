@@ -1,0 +1,8 @@
+prefix=/home/jose/catkin_ws/install
+
+Name: h264_image_transport
+Description: Description of h264_image_transport
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lh264_image_transport
+Requires: message_runtime std_msgs pluginlib

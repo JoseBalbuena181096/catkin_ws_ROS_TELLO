@@ -1,0 +1,7 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~fixed_video_rate" : \b [int] Video rate min: 0, default: 0, max: 4
+- \b "~video_req_sps_hz" : \b [double] Rate for regularly requesting SPS data from drone (0: disabled) min: 0.0, default: 0.5, max: 4.0
+
