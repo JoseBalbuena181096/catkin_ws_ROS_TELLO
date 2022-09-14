@@ -57,6 +57,12 @@ class TelloDriver(object):
         self._drone.quit()
         self._drone = None
 
+    def resize_image(self, image, scale_percent):
+        width = int(image.shape[1]*(scale_percent/100))
+        height = int(image.shape[0]*(scale_percent/100))
+        dim = (width, height)
+        resize = cv2.resize(image, dim, interpolation= cv2.INTER_AREA)
+        return resize
 
     def cmd_vel_callback(self, msg):
         self._drone.set_pitch(msg.linear.x)
@@ -81,7 +87,7 @@ class TelloDriver(object):
 
             # Convert PyAV frame => PIL image => OpenCV Mat
             color_mat = cv2.cvtColor(numpy.array(frame.to_image()), cv2.COLOR_RGB2BGR)
-            color_mat = cv2.resize(color_mat,(360,240))
+            color_mat = self.resize_image(color_mat, 60)
             # Convert OpenCV Mat => ROS Image message and publish
             self._image_pub.publish(self._cv_bridge.cv2_to_imgmsg(color_mat, 'bgr8'))
 
