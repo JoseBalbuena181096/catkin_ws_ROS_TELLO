@@ -55,6 +55,7 @@ include tello_driver/CMakeFiles/tello_driver_generate_messages_py.dir/progress.m
 
 tello_driver/CMakeFiles/tello_driver_generate_messages_py: /home/jose/catkin_ws/devel/lib/python3/dist-packages/tello_driver/msg/_TelloStatus.py
 tello_driver/CMakeFiles/tello_driver_generate_messages_py: /home/jose/catkin_ws/devel/lib/python3/dist-packages/tello_driver/msg/__init__.py
+tello_driver/CMakeFiles/tello_driver_generate_messages_py: /home/jose/catkin_ws/devel/lib/python3/dist-packages/tello_driver/srv/__init__.py
 
 
 /home/jose/catkin_ws/devel/lib/python3/dist-packages/tello_driver/msg/_TelloStatus.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
@@ -67,9 +68,15 @@ tello_driver/CMakeFiles/tello_driver_generate_messages_py: /home/jose/catkin_ws/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jose/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for tello_driver"
 	cd /home/jose/catkin_ws/build/tello_driver && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/jose/catkin_ws/devel/lib/python3/dist-packages/tello_driver/msg --initpy
 
+/home/jose/catkin_ws/devel/lib/python3/dist-packages/tello_driver/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/jose/catkin_ws/devel/lib/python3/dist-packages/tello_driver/srv/__init__.py: /home/jose/catkin_ws/devel/lib/python3/dist-packages/tello_driver/msg/_TelloStatus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jose/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python srv __init__.py for tello_driver"
+	cd /home/jose/catkin_ws/build/tello_driver && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/jose/catkin_ws/devel/lib/python3/dist-packages/tello_driver/srv --initpy
+
 tello_driver_generate_messages_py: tello_driver/CMakeFiles/tello_driver_generate_messages_py
 tello_driver_generate_messages_py: /home/jose/catkin_ws/devel/lib/python3/dist-packages/tello_driver/msg/_TelloStatus.py
 tello_driver_generate_messages_py: /home/jose/catkin_ws/devel/lib/python3/dist-packages/tello_driver/msg/__init__.py
+tello_driver_generate_messages_py: /home/jose/catkin_ws/devel/lib/python3/dist-packages/tello_driver/srv/__init__.py
 tello_driver_generate_messages_py: tello_driver/CMakeFiles/tello_driver_generate_messages_py.dir/build.make
 
 .PHONY : tello_driver_generate_messages_py

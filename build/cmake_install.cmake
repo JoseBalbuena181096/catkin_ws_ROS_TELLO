@@ -132,8 +132,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jose/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/jose/catkin_ws/build/first_pkg/cmake_install.cmake")
+  include("/home/jose/catkin_ws/build/keyboard/cmake_install.cmake")
+  include("/home/jose/catkin_ws/build/face_detection_tello/cmake_install.cmake")
   include("/home/jose/catkin_ws/build/h264_image_transport/cmake_install.cmake")
   include("/home/jose/catkin_ws/build/image_viewer_tello/cmake_install.cmake")
+  include("/home/jose/catkin_ws/build/jose_driver_tello/cmake_install.cmake")
   include("/home/jose/catkin_ws/build/tello_driver/cmake_install.cmake")
 
 endif()

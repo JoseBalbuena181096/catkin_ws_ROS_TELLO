@@ -1,0 +1,8 @@
+prefix=/home/jose/catkin_ws/install
+
+Name: keyboard
+Description: Description of keyboard
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

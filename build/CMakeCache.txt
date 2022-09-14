@@ -368,6 +368,9 @@ UBUNTU:BOOL=TRUE
 UBUNTU_FOCAL:BOOL=TRUE
 
 //Path to a file.
+_file_name:FILEPATH=/home/jose/catkin_ws/src/camera_info_manager_py/tests/unit_test.test
+
+//Path to a file.
 _gmock_INCLUDES:FILEPATH=/usr/src/googletest/googlemock/include/gmock/gmock.h
 
 //Path to a file.
@@ -382,11 +385,29 @@ _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/noetic/share/actionlib_msgs/cmake
 
+//The directory containing a CMake configuration file for camera_calibration_parsers.
+camera_calibration_parsers_DIR:PATH=/opt/ros/noetic/share/camera_calibration_parsers/cmake
+
+//The directory containing a CMake configuration file for camera_info_manager.
+camera_info_manager_DIR:PATH=/opt/ros/noetic/share/camera_info_manager/cmake
+
+//Value Computed by CMake
+camera_info_manager_py_BINARY_DIR:STATIC=/home/jose/catkin_ws/build/camera_info_manager_py
+
+//The directory containing a CMake configuration file for camera_info_manager_py.
+camera_info_manager_py_DIR:PATH=/home/jose/catkin_ws/devel/share/camera_info_manager_py/cmake
+
+//Value Computed by CMake
+camera_info_manager_py_SOURCE_DIR:STATIC=/home/jose/catkin_ws/src/camera_info_manager_py
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/noetic/share/catkin/cmake
 
 //The directory containing a CMake configuration file for class_loader.
 class_loader_DIR:PATH=/opt/ros/noetic/share/class_loader/cmake
+
+//The directory containing a CMake configuration file for codec_image_transport.
+codec_image_transport_DIR:PATH=/opt/ros/noetic/share/codec_image_transport/cmake
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/noetic/share/cpp_common/cmake
@@ -398,10 +419,55 @@ cv_bridge_DIR:PATH=/opt/ros/noetic/share/cv_bridge/cmake
 dynamic_reconfigure_DIR:PATH=/opt/ros/noetic/share/dynamic_reconfigure/cmake
 
 //Value Computed by CMake
+face_detection_tello_BINARY_DIR:STATIC=/home/jose/catkin_ws/build/face_detection_tello
+
+//Value Computed by CMake
+face_detection_tello_SOURCE_DIR:STATIC=/home/jose/catkin_ws/src/face_detection_tello
+
+//Value Computed by CMake
 first_pkg_BINARY_DIR:STATIC=/home/jose/catkin_ws/build/first_pkg
 
 //Value Computed by CMake
 first_pkg_SOURCE_DIR:STATIC=/home/jose/catkin_ws/src/first_pkg
+
+//Value Computed by CMake
+flock_BINARY_DIR:STATIC=/home/jose/catkin_ws/build/flock/flock
+
+//Value Computed by CMake
+flock_SOURCE_DIR:STATIC=/home/jose/catkin_ws/src/flock/flock
+
+//Value Computed by CMake
+flock_base_BINARY_DIR:STATIC=/home/jose/catkin_ws/build/flock/flock_base
+
+//Value Computed by CMake
+flock_base_SOURCE_DIR:STATIC=/home/jose/catkin_ws/src/flock/flock_base
+
+//Value Computed by CMake
+flock_description_BINARY_DIR:STATIC=/home/jose/catkin_ws/build/flock/flock_description
+
+//Value Computed by CMake
+flock_description_SOURCE_DIR:STATIC=/home/jose/catkin_ws/src/flock/flock_description
+
+//Value Computed by CMake
+flock_driver_BINARY_DIR:STATIC=/home/jose/catkin_ws/build/flock/flock_driver
+
+//Value Computed by CMake
+flock_driver_SOURCE_DIR:STATIC=/home/jose/catkin_ws/src/flock/flock_driver
+
+//Value Computed by CMake
+flock_msgs_BINARY_DIR:STATIC=/home/jose/catkin_ws/build/flock/flock_msgs
+
+//The directory containing a CMake configuration file for flock_msgs.
+flock_msgs_DIR:PATH=/home/jose/catkin_ws/devel/share/flock_msgs/cmake
+
+//Value Computed by CMake
+flock_msgs_SOURCE_DIR:STATIC=/home/jose/catkin_ws/src/flock/flock_msgs
+
+//Value Computed by CMake
+flock_rviz_BINARY_DIR:STATIC=/home/jose/catkin_ws/build/flock/flock_rviz
+
+//Value Computed by CMake
+flock_rviz_SOURCE_DIR:STATIC=/home/jose/catkin_ws/src/flock/flock_rviz
 
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/noetic/share/gencpp/cmake
@@ -491,6 +557,18 @@ image_viewer_tello_BINARY_DIR:STATIC=/home/jose/catkin_ws/build/image_viewer_tel
 //Value Computed by CMake
 image_viewer_tello_SOURCE_DIR:STATIC=/home/jose/catkin_ws/src/image_viewer_tello
 
+//Value Computed by CMake
+jose_driver_tello_BINARY_DIR:STATIC=/home/jose/catkin_ws/build/jose_driver_tello
+
+//Value Computed by CMake
+jose_driver_tello_SOURCE_DIR:STATIC=/home/jose/catkin_ws/src/jose_driver_tello
+
+//Value Computed by CMake
+keyboard_BINARY_DIR:STATIC=/home/jose/catkin_ws/build/keyboard
+
+//Value Computed by CMake
+keyboard_SOURCE_DIR:STATIC=/home/jose/catkin_ws/src/keyboard
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/noetic/lib/libxmlrpcpp.so
 
@@ -533,6 +611,9 @@ rospack_DIR:PATH=/opt/ros/noetic/share/rospack/cmake
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/noetic/share/rospy/cmake
 
+//The directory containing a CMake configuration file for rostest.
+rostest_DIR:PATH=/opt/ros/noetic/share/rostest/cmake
+
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/noetic/share/rostime/cmake
 
@@ -547,6 +628,9 @@ tello_driver_BINARY_DIR:STATIC=/home/jose/catkin_ws/build/tello_driver
 
 //Value Computed by CMake
 tello_driver_SOURCE_DIR:STATIC=/home/jose/catkin_ws/src/tello_driver
+
+//The directory containing a CMake configuration file for visualization_msgs.
+visualization_msgs_DIR:PATH=/opt/ros/noetic/share/visualization_msgs/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/noetic/share/xmlrpcpp/cmake
@@ -699,7 +783,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

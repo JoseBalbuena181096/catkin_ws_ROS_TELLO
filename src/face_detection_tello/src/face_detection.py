@@ -62,7 +62,7 @@ class Image_converter:
         except CvBridgeError as e:
             print(e)
         (rows,cols,channels) = cv_image.shape
-        cv_image = self.resize_image(cv_image, 60)
+        #cv_image = self.resize_image(cv_image, 100)
         print(f'rows: {rows}, cols: {cols}, channels: {channels}')
         (cv_image, xmid, ymid) = self.face_detection(cv_image)
         self.center_detections.data = [int(xmid), int(ymid)]

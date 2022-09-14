@@ -1,0 +1,8 @@
+prefix=/home/jose/catkin_ws/devel
+
+Name: jose_driver_tello
+Description: Description of jose_driver_tello
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
