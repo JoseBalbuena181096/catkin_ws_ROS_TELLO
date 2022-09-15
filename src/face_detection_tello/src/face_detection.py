@@ -2,7 +2,6 @@
 import sys
 import rospy
 import cv2
-from std_msgs.msg import String
 from std_msgs.msg import Int32MultiArray
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge, CvBridgeError 
@@ -51,7 +50,7 @@ class Image_converter:
                     cv2.line(image, (0, ymid), (cols, ymid), color=(0, 255, 0), thickness=3)
                     cv2.circle(image, (xmid, ymid), radius=3, color=(0, 0, 255), thickness=3)
                     data = f'Center X: {xmid}, Y: {ymid}'
-                    cv2.putText(image, data, (20, 20), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255))
+                    cv2.putText(image, data, (20, 20), cv2.FONT_HERSHEY_TRIPLEX, 1, (0, 0, 255))
                     rospy.loginfo(data)
         
         return image, xmid, ymid

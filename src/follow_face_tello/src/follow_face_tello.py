@@ -50,10 +50,10 @@ class FollowFaceTello:
 				self.vel_msg.angular.z = 0.0
 				self.pub_cmd_vel.publish(self.vel_msg)
 			else:
-				sigx = 0.4*(error_x)/self.width_by_2 
+				sigx = 0.5*(error_x)/self.width_by_2 
 				rospy.loginfo(f'signal control x: {sigx}')
 				
-				sigz = 0.25*(error_z/ self.height_by_2)
+				sigz = 0.35*(error_z/ self.height_by_2)
 				rospy.loginfo(f'signal control z: {sigz}')
 
 				self.vel_msg.linear.x = 0.0
