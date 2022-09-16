@@ -50,7 +50,7 @@ class Image_converter:
                     cv2.line(image, (0, ymid), (cols, ymid), color=(0, 255, 0), thickness=3)
                     cv2.circle(image, (xmid, ymid), radius=3, color=(0, 0, 255), thickness=3)
                     data = f'Center X: {xmid}, Y: {ymid}'
-                    cv2.putText(image, data, (20, 20), cv2.FONT_HERSHEY_TRIPLEX, 1, (0, 0, 255))
+                    cv2.putText(image, data, (20, 20), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255))
                     rospy.loginfo(data)
         
         return image, xmid, ymid
