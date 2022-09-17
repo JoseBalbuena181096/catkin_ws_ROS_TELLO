@@ -9,6 +9,7 @@ from cv_bridge import CvBridge, CvBridgeError
 
 
 class FollowFaceTello:
+
     def __init__(self):
         self.bridge = CvBridge()
         self.pub_cmd_vel = rospy.Publisher('/tello/cmd_vel', Twist, queue_size=10)
