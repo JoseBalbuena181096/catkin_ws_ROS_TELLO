@@ -469,6 +469,12 @@ flock_rviz_BINARY_DIR:STATIC=/home/jose/catkin_ws/build/flock/flock_rviz
 //Value Computed by CMake
 flock_rviz_SOURCE_DIR:STATIC=/home/jose/catkin_ws/src/flock/flock_rviz
 
+//Value Computed by CMake
+follow_face_tello_BINARY_DIR:STATIC=/home/jose/catkin_ws/build/follow_face_tello
+
+//Value Computed by CMake
+follow_face_tello_SOURCE_DIR:STATIC=/home/jose/catkin_ws/src/follow_face_tello
+
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/noetic/share/gencpp/cmake
 
@@ -783,7 +789,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

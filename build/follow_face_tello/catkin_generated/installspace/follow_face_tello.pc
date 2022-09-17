@@ -1,0 +1,8 @@
+prefix=/home/jose/catkin_ws/install
+
+Name: follow_face_tello
+Description: Description of follow_face_tello
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

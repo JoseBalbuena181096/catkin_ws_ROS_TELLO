@@ -57,6 +57,7 @@ all: gtest/all
 all: first_pkg/all
 all: keyboard/all
 all: face_detection_tello/all
+all: follow_face_tello/all
 all: h264_image_transport/all
 all: image_viewer_tello/all
 all: jose_driver_tello/all
@@ -69,6 +70,7 @@ preinstall: gtest/preinstall
 preinstall: first_pkg/preinstall
 preinstall: keyboard/preinstall
 preinstall: face_detection_tello/preinstall
+preinstall: follow_face_tello/preinstall
 preinstall: h264_image_transport/preinstall
 preinstall: image_viewer_tello/preinstall
 preinstall: jose_driver_tello/preinstall
@@ -86,6 +88,7 @@ clean: gtest/clean
 clean: first_pkg/clean
 clean: keyboard/clean
 clean: face_detection_tello/clean
+clean: follow_face_tello/clean
 clean: h264_image_transport/clean
 clean: image_viewer_tello/clean
 clean: jose_driver_tello/clean
@@ -146,6 +149,24 @@ first_pkg/clean: first_pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 first_pkg/clean: first_pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 .PHONY : first_pkg/clean
+
+#=============================================================================
+# Directory level rules for directory follow_face_tello
+
+# Recursive "all" directory target.
+follow_face_tello/all:
+
+.PHONY : follow_face_tello/all
+
+# Recursive "preinstall" directory target.
+follow_face_tello/preinstall:
+
+.PHONY : follow_face_tello/preinstall
+
+# Recursive "clean" directory target.
+follow_face_tello/clean:
+
+.PHONY : follow_face_tello/clean
 
 #=============================================================================
 # Directory level rules for directory gtest

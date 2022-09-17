@@ -1,2 +1,2 @@
-face_detection_tello:first_pkg:h264_image_transport:image_viewer_tello:jose_driver_tello:keyboard:tello_driver
+face_detection_tello:first_pkg:follow_face_tello:h264_image_transport:image_viewer_tello:jose_driver_tello:keyboard:tello_driver
 -DCATKIN_DEVEL_PREFIX=/home/jose/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jose/catkin_ws/install -G Unix Makefiles

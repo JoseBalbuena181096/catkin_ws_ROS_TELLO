@@ -8,7 +8,9 @@ project(follow_face_tello)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
+  cv_bridge
   geometry_msgs
+  image_transport
   roscpp
   rospy
   sensor_msgs
@@ -107,7 +109,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES follow_face_tello
-#  CATKIN_DEPENDS geometry_msgs roscpp rospy sensor_msgs std_msgs
+#  CATKIN_DEPENDS cv_bridge geometry_msgs image_transport roscpp rospy sensor_msgs std_msgs
 #  DEPENDS system_lib
 )
 

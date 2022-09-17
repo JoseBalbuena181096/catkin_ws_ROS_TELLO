@@ -81,6 +81,13 @@
 /home/jose/catkin_ws/build/face_detection_tello/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
 /home/jose/catkin_ws/build/face_detection_tello/CMakeFiles/sensor_msgs_generate_messages_eus.dir
 /home/jose/catkin_ws/build/face_detection_tello/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
+/home/jose/catkin_ws/build/follow_face_tello/CMakeFiles/install/strip.dir
+/home/jose/catkin_ws/build/follow_face_tello/CMakeFiles/install/local.dir
+/home/jose/catkin_ws/build/follow_face_tello/CMakeFiles/install.dir
+/home/jose/catkin_ws/build/follow_face_tello/CMakeFiles/list_install_components.dir
+/home/jose/catkin_ws/build/follow_face_tello/CMakeFiles/rebuild_cache.dir
+/home/jose/catkin_ws/build/follow_face_tello/CMakeFiles/edit_cache.dir
+/home/jose/catkin_ws/build/follow_face_tello/CMakeFiles/test.dir
 /home/jose/catkin_ws/build/h264_image_transport/CMakeFiles/install/strip.dir
 /home/jose/catkin_ws/build/h264_image_transport/CMakeFiles/install/local.dir
 /home/jose/catkin_ws/build/h264_image_transport/CMakeFiles/rebuild_cache.dir

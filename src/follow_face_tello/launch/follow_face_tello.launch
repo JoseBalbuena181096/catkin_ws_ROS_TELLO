@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<launch>
-	
+<launch>	
+
 	<arg name="image_reduction" default="60"/>
-	
+
 	<rosparam file="$(find follow_face_tello)/config/tello_cam.yaml" command="load" />
 	<node name="followFaceTello" pkg="follow_face_tello" type="follow_face_tello.py" output="screen" >		
-		<param name="imageRedution" type="int" value="$(arg image_reduction)" />
+		<param name="imageReduction" type="int" value="$(arg image_reduction)" />
     </node>
 </launch>
