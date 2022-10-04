@@ -1,0 +1,765 @@
+
+Merging program properties
+
+
+As-needed library included to satisfy reference by file (symbol)
+
+libarsal.so                   /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o (ARSAL_Mutex_Lock)
+libardiscovery.so             /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o (ARDISCOVERY_getProductID)
+libarutils.so                 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o (ARUTILS_Http_Get)
+libardatatransfer.so          /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o (ARDATATRANSFER_Uploader_CancelThread)
+libpuf.so                     /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o (puf_new)
+libmux.so                     /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o (mux_ref)
+libpomp.so                    /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o (pomp_msg_get_id)
+libjson-c.so                  /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o (json_object_put)
+libpthread.so.0               /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o (write@@GLIBC_2.2.5)
+libc.so.6                     /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o (__stpcpy_chk@@GLIBC_2.3.4)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libarsal.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libardiscovery.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libarcommands.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libarutils.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libardatatransfer.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libpuf.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libmux.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libpomp.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libjson-c.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000002a8                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.note.gnu.property
+                0x00000000000002a8       0x20
+ .note.gnu.property
+                0x00000000000002a8       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.note.gnu.build-id
+                0x00000000000002c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000002c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000002f0      0x100
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000002f0      0x100 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x00000000000003f0      0xd08
+ *(.dynsym)
+ .dynsym        0x00000000000003f0      0xd08 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x00000000000010f8      0xbf1
+ *(.dynstr)
+ .dynstr        0x00000000000010f8      0xbf1 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x0000000000001cea      0x116
+ *(.gnu.version)
+ .gnu.version   0x0000000000001cea      0x116 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x0000000000001e00        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000001e00        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x0000000000001e00       0x80
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000001e00       0x80 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x0000000000001e80       0xd8
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000001e80        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000001e80       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000001e98       0x90 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000001f28        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x0000000000001f28       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x0000000000001f40       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x0000000000001f58      0xac8
+ *(.rela.plt)
+ .rela.plt      0x0000000000001f58      0xac8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+                0x0000000000003000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000003000       0x1b
+ *(SORT_NONE(.init))
+ .init          0x0000000000003000       0x16 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000003000                _init
+ .init          0x0000000000003016        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000003020      0x740
+ *(.plt)
+ .plt           0x0000000000003020      0x740 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x0000000000003760       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000003760       0x10 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.plt.sec        0x0000000000003770      0x730
+ *(.plt.sec)
+ .plt.sec       0x0000000000003770      0x730 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.text           0x0000000000003ea0     0x5f2a
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000003ea0       0xb9 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x0000000000003f59        0x7 
+ .text.ARUPDATER_Downloader_Delete
+                0x0000000000003f60      0x1a0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x0000000000003f60                ARUPDATER_Downloader_Delete
+ .text.ARUPDATER_Downloader_New
+                0x0000000000004100      0x481 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x0000000000004100                ARUPDATER_Downloader_New
+ *fill*         0x0000000000004581        0xf 
+ .text.ARUPDATER_Downloader_SetVariant
+                0x0000000000004590       0x6d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x0000000000004590                ARUPDATER_Downloader_SetVariant
+ *fill*         0x00000000000045fd        0x3 
+ .text.ARUPDATER_Downloader_SetUpdatesProductList
+                0x0000000000004600       0xcb /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x0000000000004600                ARUPDATER_Downloader_SetUpdatesProductList
+ *fill*         0x00000000000046cb        0x5 
+ .text.ARUPDATER_Downloader_CancelThread
+                0x00000000000046d0       0xc8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x00000000000046d0                ARUPDATER_Downloader_CancelThread
+ *fill*         0x0000000000004798        0x8 
+ .text.ARUPDATER_Downloader_ThreadIsRunning
+                0x00000000000047a0       0x39 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x00000000000047a0                ARUPDATER_Downloader_ThreadIsRunning
+ *fill*         0x00000000000047d9        0x7 
+ .text.ARUPDATER_Downloader_GetPlatformName
+                0x00000000000047e0       0x23 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x00000000000047e0                ARUPDATER_Downloader_GetPlatformName
+ *fill*         0x0000000000004803        0xd 
+ .text.ARUPDATER_Downloader_CheckUpdatesSync
+                0x0000000000004810      0xaa4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x0000000000004810                ARUPDATER_Downloader_CheckUpdatesSync
+ *fill*         0x00000000000052b4        0xc 
+ .text.ARUPDATER_Downloader_CheckUpdatesAsync
+                0x00000000000052c0       0x8a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x00000000000052c0                ARUPDATER_Downloader_CheckUpdatesAsync
+ *fill*         0x000000000000534a        0x6 
+ .text.ARUPDATER_Downloader_ThreadRun
+                0x0000000000005350      0x583 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x0000000000005350                ARUPDATER_Downloader_ThreadRun
+ *fill*         0x00000000000058d3        0xd 
+ .text.ARUPDATER_Downloader_GetBlacklistedFirmwareVersionsSync
+                0x00000000000058e0      0x6b0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x00000000000058e0                ARUPDATER_Downloader_GetBlacklistedFirmwareVersionsSync
+ .text.ARUPDATER_Downloader_GetUpdatesInfoSync
+                0x0000000000005f90      0x871 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x0000000000005f90                ARUPDATER_Downloader_GetUpdatesInfoSync
+ *fill*         0x0000000000006801        0xf 
+ .text.ARUPDATER_DownloadInformation_Delete
+                0x0000000000006810       0x61 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+                0x0000000000006810                ARUPDATER_DownloadInformation_Delete
+ *fill*         0x0000000000006871        0xf 
+ .text.ARUPDATER_DownloadInformation_New
+                0x0000000000006880      0x1ae /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+                0x0000000000006880                ARUPDATER_DownloadInformation_New
+ *fill*         0x0000000000006a2e        0x2 
+ .text.ARUPDATER_Manager_Delete
+                0x0000000000006a30       0x74 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+                0x0000000000006a30                ARUPDATER_Manager_Delete
+ *fill*         0x0000000000006aa4        0xc 
+ .text.ARUPDATER_Manager_New
+                0x0000000000006ab0       0xa8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+                0x0000000000006ab0                ARUPDATER_Manager_New
+ *fill*         0x0000000000006b58        0x8 
+ .text.ARUPDATER_Manager_PlfVersionIsUpToDate
+                0x0000000000006b60      0x3b9 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+                0x0000000000006b60                ARUPDATER_Manager_PlfVersionIsUpToDate
+ *fill*         0x0000000000006f19        0x7 
+ .text.ARUPDATER_Uploader_ProgressCallback
+                0x0000000000006f20       0x21 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000006f20                ARUPDATER_Uploader_ProgressCallback
+ *fill*         0x0000000000006f41        0xf 
+ .text.ARUPDATER_Uploader_CompletionCallback
+                0x0000000000006f50       0x14 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000006f50                ARUPDATER_Uploader_CompletionCallback
+ *fill*         0x0000000000006f64        0xc 
+ .text.updater_mux_write_msg
+                0x0000000000006f70      0x197 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ *fill*         0x0000000000007107        0x9 
+ .text.updater_mux_send_next_chunk
+                0x0000000000007110      0x113 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ *fill*         0x0000000000007223        0xd 
+ .text.update_mux_notify_status.isra.0
+                0x0000000000007230       0x61 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ *fill*         0x0000000000007291        0xf 
+ .text.update_mux_channel_cb
+                0x00000000000072a0      0x4df /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ *fill*         0x000000000000777f        0x1 
+ .text.ARUPDATER_Uploader_Delete
+                0x0000000000007780       0xd8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000007780                ARUPDATER_Uploader_Delete
+ *fill*         0x0000000000007858        0x8 
+ .text.ARUPDATER_Uploader_New
+                0x0000000000007860      0x3eb /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000007860                ARUPDATER_Uploader_New
+ *fill*         0x0000000000007c4b        0x5 
+ .text.ARUPDATER_Uploader_SetSubfolder
+                0x0000000000007c50      0x11a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000007c50                ARUPDATER_Uploader_SetSubfolder
+ *fill*         0x0000000000007d6a        0x6 
+ .text.ARUPDATER_Uploader_ThreadRunAndroidDelos
+                0x0000000000007d70      0x490 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000007d70                ARUPDATER_Uploader_ThreadRunAndroidDelos
+ .text.ARUPDATER_Uploader_ThreadRunMux
+                0x0000000000008200      0x5e1 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000008200                ARUPDATER_Uploader_ThreadRunMux
+ *fill*         0x00000000000087e1        0xf 
+ .text.ARUPDATER_Uploader_ThreadRunNormal
+                0x00000000000087f0      0xd96 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x00000000000087f0                ARUPDATER_Uploader_ThreadRunNormal
+ *fill*         0x0000000000009586        0xa 
+ .text.ARUPDATER_Uploader_ThreadRun
+                0x0000000000009590       0x7c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000009590                ARUPDATER_Uploader_ThreadRun
+ *fill*         0x000000000000960c        0x4 
+ .text.ARUPDATER_Uploader_CancelThread
+                0x0000000000009610       0xb6 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x0000000000009610                ARUPDATER_Uploader_CancelThread
+ *fill*         0x00000000000096c6        0xa 
+ .text.ARUPDATER_Uploader_ThreadIsRunning
+                0x00000000000096d0       0x39 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                0x00000000000096d0                ARUPDATER_Uploader_ThreadIsRunning
+ *fill*         0x0000000000009709        0x7 
+ .text.ARUPDATER_Utils_ARUpdaterVersionToPufVersion
+                0x0000000000009710       0x70 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .text.ARUPDATER_Utils_PlfVersionFromString
+                0x0000000000009780       0x8c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+                0x0000000000009780                ARUPDATER_Utils_PlfVersionFromString
+ *fill*         0x000000000000980c        0x4 
+ .text.ARUPDATER_Utils_PlfVersionToString
+                0x0000000000009810       0x7c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+                0x0000000000009810                ARUPDATER_Utils_PlfVersionToString
+ *fill*         0x000000000000988c        0x4 
+ .text.ARUPDATER_Utils_ReadPlfVersion
+                0x0000000000009890       0xd5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+                0x0000000000009890                ARUPDATER_Utils_ReadPlfVersion
+ *fill*         0x0000000000009965        0xb 
+ .text.ARUPDATER_Utils_PlfVersionCompare
+                0x0000000000009970       0x6f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+                0x0000000000009970                ARUPDATER_Utils_PlfVersionCompare
+ *fill*         0x00000000000099df        0x1 
+ .text.ARUPDATER_Utils_GetPlfInFolder
+                0x00000000000099e0      0x125 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+                0x00000000000099e0                ARUPDATER_Utils_GetPlfInFolder
+ *fill*         0x0000000000009b05        0xb 
+ .text.ARUPDATER_Utils_ExtractUnixFileFromPlf
+                0x0000000000009b10       0xe5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+                0x0000000000009b10                ARUPDATER_Utils_ExtractUnixFileFromPlf
+ *fill*         0x0000000000009bf5        0xb 
+ .text.ARUPDATER_Error_ToString
+                0x0000000000009c00      0x1ca /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+                0x0000000000009c00                ARUPDATER_Error_ToString
+ *(.gnu.warning)
+
+.fini           0x0000000000009dcc        0xd
+ *(SORT_NONE(.fini))
+ .fini          0x0000000000009dcc        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000009dcc                _fini
+ .fini          0x0000000000009dd4        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x000000000000a000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x000000000000a000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x000000000000a000      0xb44
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x000000000000a000      0x10b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                                        0x124 (size before relaxing)
+ *fill*         0x000000000000a10b       0x15 
+ .rodata        0x000000000000a120       0xe9 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ *fill*         0x000000000000a209        0x7 
+ .rodata.cst16  0x000000000000a210       0x10 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .rodata.str1.1
+                0x000000000000a220       0x14 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+                                         0x1e (size before relaxing)
+ *fill*         0x000000000000a234        0xc 
+ .rodata        0x000000000000a240       0x22 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .rodata.str1.1
+                0x000000000000a262       0x18 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+                                         0x27 (size before relaxing)
+ *fill*         0x000000000000a27a        0x6 
+ .rodata.str1.8
+                0x000000000000a280       0x23 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ *fill*         0x000000000000a2a3       0x1d 
+ .rodata        0x000000000000a2c0       0x66 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .rodata.str1.1
+                0x000000000000a326      0x23c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                                        0x284 (size before relaxing)
+ *fill*         0x000000000000a562        0x6 
+ .rodata.str1.8
+                0x000000000000a568      0x12d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ *fill*         0x000000000000a695        0xb 
+ .rodata        0x000000000000a6a0      0x107 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ *fill*         0x000000000000a7a7        0x1 
+ .rodata.cst4   0x000000000000a7a8        0x4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ *fill*         0x000000000000a7ac        0x4 
+ .rodata.cst8   0x000000000000a7b0        0x8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .rodata.str1.1
+                0x000000000000a7b8       0x14 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ *fill*         0x000000000000a7cc        0x4 
+ .rodata        0x000000000000a7d0       0x24 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .rodata.str1.1
+                0x000000000000a7f4      0x16e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+ *fill*         0x000000000000a962        0x6 
+ .rodata.str1.8
+                0x000000000000a968      0x1a9 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+ *fill*         0x000000000000ab11        0x3 
+ .rodata        0x000000000000ab14       0x30 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000000ab44      0x164
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000000ab44      0x164 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                0x000000000000ab44                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000000aca8      0xaa0
+ *(.eh_frame)
+ .eh_frame      0x000000000000aca8       0x40 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x000000000000ace8       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000ad00       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000ad18      0x368 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                                        0x380 (size before relaxing)
+ .eh_frame      0x000000000000b080       0x78 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+                                         0x90 (size before relaxing)
+ .eh_frame      0x000000000000b0f8       0xb0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+                                         0xc8 (size before relaxing)
+ .eh_frame      0x000000000000b1a8      0x440 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                                        0x458 (size before relaxing)
+ .eh_frame      0x000000000000b5e8      0x148 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+                                        0x160 (size before relaxing)
+ .eh_frame      0x000000000000b730       0x14 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000b744        0x4 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x000000000000cd60                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x000000000000cd60        0x8
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000000cd60        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.fini_array     0x000000000000cd68        0x8
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000000cd68        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x000000000000cd70        0x0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000000cd70        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynamic        0x000000000000cd70      0x260
+ *(.dynamic)
+ .dynamic       0x000000000000cd70      0x260 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x000000000000cd70                _DYNAMIC
+
+.got            0x000000000000cfd0       0x30
+ *(.got)
+ .got           0x000000000000cfd0       0x30 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x000000000000dfe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x000000000000d000      0x3b0
+ *(.got.plt)
+ .got.plt       0x000000000000d000      0x3b0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x000000000000d000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000000d3b0        0x8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x000000000000d3b0        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                0x000000000000d3b0                __dso_handle
+
+.tm_clone_table
+                0x000000000000d3b8        0x0
+ .tm_clone_table
+                0x000000000000d3b8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .tm_clone_table
+                0x000000000000d3b8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.data1
+ *(.data1)
+                [!provide]                        PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                0x000000000000d3b8                . = .
+                [!provide]                        PROVIDE (__bss_start = .)
+
+.bss            0x000000000000d3b8        0x8
+ *(.dynbss)
+ .dynbss        0x000000000000d3b8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000d3b8        0x1 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *(COMMON)
+                0x000000000000d3c0                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x000000000000d3b9        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x000000000000d3c0                . = ALIGN (0x8)
+                0x000000000000d3c0                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x000000000000f3c0        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x000000000000f3c0                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x000000000000f3c0                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+                0x000000000000f3c0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+ .comment       0x000000000000002b       0x2c /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x340
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0xe0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .debug_aranges
+                0x00000000000000e0       0x40 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .debug_aranges
+                0x0000000000000120       0x50 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .debug_aranges
+                0x0000000000000170      0x110 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .debug_aranges
+                0x0000000000000280       0x90 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .debug_aranges
+                0x0000000000000310       0x30 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xe07b
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x532c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .debug_info    0x000000000000532c      0xab2 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .debug_info    0x0000000000005dde     0x1b7a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .debug_info    0x0000000000007958     0x56e6 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .debug_info    0x000000000000d03e      0xefa /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .debug_info    0x000000000000df38      0x143 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+
+.debug_abbrev   0x0000000000000000     0x13fe
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x4d8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .debug_abbrev  0x00000000000004d8      0x260 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .debug_abbrev  0x0000000000000738      0x324 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .debug_abbrev  0x0000000000000a5c      0x5e8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .debug_abbrev  0x0000000000001044      0x31a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .debug_abbrev  0x000000000000135e       0xa0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+
+.debug_line     0x0000000000000000     0x59f0
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000     0x24af /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .debug_line    0x00000000000024af      0x4c2 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .debug_line    0x0000000000002971      0x87a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .debug_line    0x00000000000031eb     0x2049 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .debug_line    0x0000000000005234      0x639 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .debug_line    0x000000000000586d      0x183 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x3424
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x234e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+                                       0x251f (size before relaxing)
+ .debug_str     0x000000000000234e       0x4e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+                                        0xce5 (size before relaxing)
+ .debug_str     0x000000000000239c      0x167 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+                                       0x1e3e (size before relaxing)
+ .debug_str     0x0000000000002503      0xc6f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+                                       0x2a7e (size before relaxing)
+ .debug_str     0x0000000000003172      0x27e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+                                        0xbe7 (size before relaxing)
+ .debug_str     0x00000000000033f0       0x34 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+                                        0x4cb (size before relaxing)
+
+.debug_loc      0x0000000000000000     0xbedc
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x5403 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .debug_loc     0x0000000000005403      0x429 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .debug_loc     0x000000000000582c      0xd22 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .debug_loc     0x000000000000654e     0x4bc3 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .debug_loc     0x000000000000b111      0xd07 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .debug_loc     0x000000000000be18       0xc4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x2170
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000     0x1380 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Downloader.c.o
+ .debug_ranges  0x0000000000001380       0xc0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_DownloadInformation.c.o
+ .debug_ranges  0x0000000000001440      0x250 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Manager.c.o
+ .debug_ranges  0x0000000000001690      0x920 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Uploader.c.o
+ .debug_ranges  0x0000000000001fb0      0x1a0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/Sources/ARUPDATER_Utils.c.o
+ .debug_ranges  0x0000000000002150       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUpdater/obj/gen/Sources/ARUPDATER_Error.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/arsdk-native/build/libARUpdater/libarupdater.so elf64-x86-64)

@@ -1,0 +1,13 @@
+--- /configure	2016-09-16 17:19:32.516527990 +0200
++++ /configure	2016-09-16 17:28:32.215896828 +0200
+@@ -20039,7 +20039,9 @@
+       yes)
+ 
+ cat >>confdefs.h <<_ACEOF
+-#define HAVE_CLOCK_GETTIME_MONOTONIC 1
++#ifdef HAVE_CLOCK_GETTIME_MONOTONIC
++#undef HAVE_CLOCK_GETTIME_MONOTONIC
++#endif
+ _ACEOF
+ 
+         ;;

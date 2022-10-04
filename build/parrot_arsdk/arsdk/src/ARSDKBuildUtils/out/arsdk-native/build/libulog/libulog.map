@@ -1,0 +1,848 @@
+
+Merging program properties
+
+
+As-needed library included to satisfy reference by file (symbol)
+
+libstdc++.so.6                /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o (std::basic_streambuf<char, std::char_traits<char> >::overflow(int)@@GLIBCXX_3.4)
+libgcc_s.so.1                 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o (_Unwind_Resume@@GCC_3.0)
+libpthread.so.0               /usr/lib/gcc/x86_64-linux-gnu/9/libstdc++.so (write@@GLIBC_2.2.5)
+libc.so.6                     /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o (__stack_chk_fail@@GLIBC_2.4)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .group         0x0000000000000000        0xc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .group         0x0000000000000000        0xc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .group         0x0000000000000000        0x8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .group         0x0000000000000000        0xc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .group         0x0000000000000000        0x8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .group         0x0000000000000000        0xc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .group         0x0000000000000000       0x1c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .group         0x0000000000000000        0xc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .group         0x0000000000000000        0xc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text._ZN4ulog8internal11OstreamUlogC2EPNS0_10UlogstreamE
+                0x0000000000000000       0x47 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text._ZN4ulog8internal10Ulogstream6setTagER11ulog_cookie
+                0x0000000000000000        0xf /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .text.ulog_writer_android
+                0x0000000000000000        0x5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000002a8                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.note.gnu.property
+                0x00000000000002a8       0x20
+ .note.gnu.property
+                0x00000000000002a8       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.note.gnu.build-id
+                0x00000000000002c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000002c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000002f0       0xec
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000002f0       0xec /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x00000000000003e0      0x870
+ *(.dynsym)
+ .dynsym        0x00000000000003e0      0x870 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000000c50      0x926
+ *(.dynstr)
+ .dynstr        0x0000000000000c50      0x926 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x0000000000001576       0xb4
+ *(.gnu.version)
+ .gnu.version   0x0000000000001576       0xb4 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x0000000000001630        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000001630        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x0000000000001630       0xe0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000001630       0xe0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x0000000000001710      0x6d8
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000001710        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text._ZN4ulog8internal11OstreamUlogD1Ev
+                0x0000000000001710        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text._ZN4ulog8internal11OstreamUlogD0Ev
+                0x0000000000001710        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text._ZN4ulog8internal10Ulogstream4syncEv
+                0x0000000000001710        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text._ZN4ulog8internal10Ulogstream8makeKeysEv
+                0x0000000000001710        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text._ZN4ulog8internal10Ulogstream6xsputnEPKcl
+                0x0000000000001710        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text._ZN4ulog8internal11OstreamUlogC1EPNS0_10UlogstreamE
+                0x0000000000001710        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text._ZN4ulog8internal11OstreamUlogclER11ulog_cookie
+                0x0000000000001710        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text._ZN4ulog8internal10UlogstreamC2Eii
+                0x0000000000001710        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.startup._GLOBAL__sub_I_ulog.cpp
+                0x0000000000001710        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000001710       0x30 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTIN4ulog8internal11OstreamUlogE
+                0x0000000000001740       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTIN4ulog8internal10UlogstreamE
+                0x0000000000001788       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTCN4ulog8internal11OstreamUlogE0_So
+                0x00000000000017d0       0x30 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro.local._ZTTN4ulog8internal11OstreamUlogE
+                0x0000000000001800       0x60 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro.local._ZTVN4ulog8internal11OstreamUlogE
+                0x0000000000001860       0x90 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTVN4ulog8internal10UlogstreamE
+                0x00000000000018f0      0x168 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro.local
+                0x0000000000001a58      0x198 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000001bf0       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel
+                0x0000000000001c08       0x30 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000001c38      0x168 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000001da0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x0000000000001da0       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x0000000000001db8       0x30 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.eh_frame
+                0x0000000000001de8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x0000000000001de8      0x408
+ *(.rela.plt)
+ .rela.plt      0x0000000000001de8      0x408 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+                0x0000000000003000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000003000       0x1b
+ *(SORT_NONE(.init))
+ .init          0x0000000000003000       0x16 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000003000                _init
+ .init          0x0000000000003016        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000003020      0x2c0
+ *(.plt)
+ .plt           0x0000000000003020      0x2c0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x00000000000032e0       0x10
+ *(.plt.got)
+ .plt.got       0x00000000000032e0       0x10 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.plt.sec        0x00000000000032f0      0x2b0
+ *(.plt.sec)
+ .plt.sec       0x00000000000032f0      0x2b0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.text           0x00000000000035a0     0x1a1d
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ .text.unlikely._ZN4ulog8internal11OstreamUlogC1EPNS0_10UlogstreamE
+                0x00000000000035a0       0x1f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ *fill*         0x00000000000035bf        0x1 
+ .text.unlikely._ZN4ulog8internal10UlogstreamC2Eii
+                0x00000000000035c0       0x17 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *fill*         0x00000000000035d7        0x9 
+ .text.startup._GLOBAL__sub_I_ulog.cpp
+                0x00000000000035e0      0x284 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ *fill*         0x0000000000003864        0xc 
+ .text          0x0000000000003870       0xb9 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x0000000000003929        0x7 
+ .text._ZN4ulog8internal11OstreamUlogD1Ev
+                0x0000000000003930       0x5c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000003930                ulog::internal::OstreamUlog::~OstreamUlog()
+                0x0000000000003960                virtual thunk to ulog::internal::OstreamUlog::~OstreamUlog()
+ *fill*         0x000000000000398c        0x4 
+ .text._ZN4ulog8internal11OstreamUlogD0Ev
+                0x0000000000003990       0x7e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000003990                ulog::internal::OstreamUlog::~OstreamUlog()
+                0x00000000000039d0                virtual thunk to ulog::internal::OstreamUlog::~OstreamUlog()
+ *fill*         0x0000000000003a0e        0x2 
+ .text._ZN4ulog8internal10UlogstreamD2Ev
+                0x0000000000003a10       0x29 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000003a10                ulog::internal::Ulogstream::~Ulogstream()
+                0x0000000000003a10                ulog::internal::Ulogstream::~Ulogstream()
+ *fill*         0x0000000000003a39        0x7 
+ .text._ZN4ulog8internal10UlogstreamD0Ev
+                0x0000000000003a40       0x37 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000003a40                ulog::internal::Ulogstream::~Ulogstream()
+ *fill*         0x0000000000003a77        0x9 
+ .text._ZN4ulog8internal10Ulogstream16keyBufDestructorEPv
+                0x0000000000003a80       0x31 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000003a80                ulog::internal::Ulogstream::keyBufDestructor(void*)
+ *fill*         0x0000000000003ab1        0xf 
+ .text._ZN4ulog8internal10Ulogstream4syncEv
+                0x0000000000003ac0       0x89 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000003ac0                ulog::internal::Ulogstream::sync()
+ *fill*         0x0000000000003b49        0x7 
+ .text._ZN4ulog8internal10Ulogstream8makeKeysEv
+                0x0000000000003b50       0x2d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000003b50                ulog::internal::Ulogstream::makeKeys()
+ *fill*         0x0000000000003b7d        0x3 
+ .text._ZN4ulog8internal10Ulogstream6xsputnEPKcl
+                0x0000000000003b80      0x153 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000003b80                ulog::internal::Ulogstream::xsputn(char const*, long)
+ *fill*         0x0000000000003cd3        0xd 
+ .text._ZN4ulog8internal11OstreamUlogC1EPNS0_10UlogstreamE
+                0x0000000000003ce0       0x9a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000003ce0                ulog::internal::OstreamUlog::OstreamUlog(ulog::internal::Ulogstream*)
+ *fill*         0x0000000000003d7a        0x6 
+ .text._ZN4ulog8internal11OstreamUlogclER11ulog_cookie
+                0x0000000000003d80       0x1a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000003d80                ulog::internal::OstreamUlog::operator()(ulog_cookie&)
+ *fill*         0x0000000000003d9a        0x6 
+ .text._ZN4ulog8internal10UlogstreamC2Eii
+                0x0000000000003da0       0xcc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000003da0                ulog::internal::Ulogstream::Ulogstream(int, int)
+                0x0000000000003da0                ulog::internal::Ulogstream::Ulogstream(int, int)
+ *fill*         0x0000000000003e6c        0x4 
+ .text.__writer_null
+                0x0000000000003e70        0x5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *fill*         0x0000000000003e75        0xb 
+ .text.__writer_kernel
+                0x0000000000003e80       0x95 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *fill*         0x0000000000003f15        0xb 
+ .text.__writer_init
+                0x0000000000003f20      0x1aa /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *fill*         0x00000000000040ca        0x6 
+ .text.parse_level
+                0x00000000000040d0       0x3f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *fill*         0x000000000000410f        0x1 
+ .text.__writer_stderr
+                0x0000000000004110       0x7b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *fill*         0x000000000000418b        0x5 
+ .text.__writer_stderr_wrapper_color
+                0x0000000000004190       0x1b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *fill*         0x00000000000041ab        0x5 
+ .text.__writer_stderr_wrapper
+                0x00000000000041b0       0x1b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *fill*         0x00000000000041cb        0x5 
+ .text.ulog_set_write_func
+                0x00000000000041d0       0x6f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x00000000000041d0                ulog_set_write_func
+ *fill*         0x000000000000423f        0x1 
+ .text.ulog_set_cookie_register_func
+                0x0000000000004240       0x36 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x0000000000004240                ulog_set_cookie_register_func
+ *fill*         0x0000000000004276        0xa 
+ .text.ulog_foreach
+                0x0000000000004280       0x75 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x0000000000004280                ulog_foreach
+ *fill*         0x00000000000042f5        0xb 
+ .text.ulog_init_cookie
+                0x0000000000004300      0x138 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x0000000000004300                ulog_init_cookie
+ *fill*         0x0000000000004438        0x8 
+ .text.ulog_vlog_write
+                0x0000000000004440       0x94 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x0000000000004440                ulog_vlog_write
+ *fill*         0x00000000000044d4        0xc 
+ .text.ulog_log_write
+                0x00000000000044e0       0xb0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x00000000000044e0                ulog_log_write
+ .text.ulog_log_str
+                0x0000000000004590       0x5d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x0000000000004590                ulog_log_str
+ *fill*         0x00000000000045ed        0x3 
+ .text.ulog_log_buf
+                0x00000000000045f0       0x5d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x00000000000045f0                ulog_log_buf
+ *fill*         0x000000000000464d        0x3 
+ .text.ulog_init
+                0x0000000000004650       0x15 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x0000000000004650                ulog_init
+ *fill*         0x0000000000004665        0xb 
+ .text.ulog_set_level
+                0x0000000000004670       0x31 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x0000000000004670                ulog_set_level
+ *fill*         0x00000000000046a1        0xf 
+ .text.ulog_get_level
+                0x00000000000046b0       0x12 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x00000000000046b0                ulog_get_level
+ *fill*         0x00000000000046c2        0xe 
+ .text.ulog_set_tag_level
+                0x00000000000046d0       0x8c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x00000000000046d0                ulog_set_tag_level
+ *fill*         0x000000000000475c        0x4 
+ .text.ulog_get_tag_names
+                0x0000000000004760       0x75 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x0000000000004760                ulog_get_tag_names
+ *fill*         0x00000000000047d5        0xb 
+ .text.get_token
+                0x00000000000047e0       0x61 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ *fill*         0x0000000000004841        0xf 
+ .text.ulog_parse_buf
+                0x0000000000004850      0x218 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+                0x0000000000004850                ulog_parse_buf
+ *fill*         0x0000000000004a68        0x8 
+ .text.ulog_bin_open
+                0x0000000000004a70       0xf4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+                0x0000000000004a70                ulog_bin_open
+ *fill*         0x0000000000004b64        0xc 
+ .text.ulog_bin_close
+                0x0000000000004b70       0x15 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+                0x0000000000004b70                ulog_bin_close
+ *fill*         0x0000000000004b85        0xb 
+ .text.ulog_bin_writev
+                0x0000000000004b90      0x140 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+                0x0000000000004b90                ulog_bin_writev
+ .text.ulog_bin_write
+                0x0000000000004cd0       0x49 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+                0x0000000000004cd0                ulog_bin_write
+ *fill*         0x0000000000004d19        0x7 
+ .text.ulog_raw_open
+                0x0000000000004d20      0x146 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+                0x0000000000004d20                ulog_raw_open
+ *fill*         0x0000000000004e66        0xa 
+ .text.ulog_raw_close
+                0x0000000000004e70       0x15 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+                0x0000000000004e70                ulog_raw_close
+ *fill*         0x0000000000004e85        0xb 
+ .text.ulog_raw_log
+                0x0000000000004e90      0x12d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+                0x0000000000004e90                ulog_raw_log
+ *(.gnu.warning)
+
+.fini           0x0000000000004fc0        0xd
+ *(SORT_NONE(.fini))
+ .fini          0x0000000000004fc0        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000004fc0                _fini
+ .fini          0x0000000000004fc8        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x0000000000005000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x0000000000005000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x0000000000005000      0x16c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000005000       0x15 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ *fill*         0x0000000000005015        0xb 
+ .rodata._ZTSN4ulog8internal11OstreamUlogE
+                0x0000000000005020       0x1e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000005020                typeinfo name for ulog::internal::OstreamUlog
+ *fill*         0x000000000000503e        0x2 
+ .rodata._ZTSN4ulog8internal10UlogstreamE
+                0x0000000000005040       0x1d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000005040                typeinfo name for ulog::internal::Ulogstream
+ .rodata.str1.1
+                0x000000000000505d       0xc5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                                         0xca (size before relaxing)
+ *fill*         0x0000000000005122        0xe 
+ .rodata        0x0000000000005130       0x1a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .rodata.str1.1
+                0x000000000000514a        0x1 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .rodata.str1.1
+                0x000000000000514a       0x22 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+                                         0x2f (size before relaxing)
+ .rodata.str1.1
+                0x000000000000516c       0x28 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000000516c      0x18c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000000516c      0x18c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x000000000000516c                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x00000000000052f8      0x7c8
+ *(.eh_frame)
+ .eh_frame      0x00000000000052f8       0x40 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x0000000000005338       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000005350       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000005368      0x288 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                                        0x2e0 (size before relaxing)
+ .eh_frame      0x00000000000055f0      0x348 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                                        0x360 (size before relaxing)
+ .eh_frame      0x0000000000005938       0x88 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+                                         0xa0 (size before relaxing)
+ .eh_frame      0x00000000000059c0        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x00000000000059c0       0x80 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+                                         0x98 (size before relaxing)
+ .eh_frame      0x0000000000005a40       0x7c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+                                         0x98 (size before relaxing)
+ .eh_frame      0x0000000000005abc        0x4 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+                0x0000000000005ac0       0x23
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table._ZN4ulog8internal11OstreamUlogC1EPNS0_10UlogstreamE
+                0x0000000000005ac0       0x11 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .gcc_except_table._ZN4ulog8internal10UlogstreamC2Eii
+                0x0000000000005ad1       0x12 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x0000000000006b68                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x0000000000006b68       0x10
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000006b68        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .init_array    0x0000000000006b70        0x8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+
+.fini_array     0x0000000000006b78        0x8
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000006b78        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000006b80      0x200
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local._ZTTN4ulog8internal11OstreamUlogE
+                0x0000000000006b80       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000006b80                VTT for ulog::internal::OstreamUlog
+ .data.rel.ro.local._ZTVN4ulog8internal11OstreamUlogE
+                0x0000000000006ba0       0x50 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000006ba0                vtable for ulog::internal::OstreamUlog
+ .data.rel.ro.local
+                0x0000000000006bf0        0x8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000006bf0                ulog::UlogstreamCerr
+ *fill*         0x0000000000006bf8        0x8 
+ .data.rel.ro.local
+                0x0000000000006c00       0x80 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000006c80        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data.rel.ro._ZTIN4ulog8internal11OstreamUlogE
+                0x0000000000006c80       0x18 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000006c80                typeinfo for ulog::internal::OstreamUlog
+ .data.rel.ro._ZTIN4ulog8internal10UlogstreamE
+                0x0000000000006c98       0x18 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000006c98                typeinfo for ulog::internal::Ulogstream
+ .data.rel.ro._ZTCN4ulog8internal11OstreamUlogE0_So
+                0x0000000000006cb0       0x50 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000006cb0                construction vtable for std::ostream-in-ulog::internal::OstreamUlog
+ .data.rel.ro._ZTVN4ulog8internal10UlogstreamE
+                0x0000000000006d00       0x80 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000006d00                vtable for ulog::internal::Ulogstream
+
+.dynamic        0x0000000000006d80      0x200
+ *(.dynamic)
+ .dynamic       0x0000000000006d80      0x200 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000006d80                _DYNAMIC
+
+.got            0x0000000000006f80       0x78
+ *(.got)
+ .got           0x0000000000006f80       0x78 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x0000000000007fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000007000      0x170
+ *(.got.plt)
+ .got.plt       0x0000000000007000      0x170 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000007000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000007180       0xa0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x0000000000007180        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                0x0000000000007180                __dso_handle
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000007188        0x8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000007188                DW.ref.__gxx_personality_v0
+ *fill*         0x0000000000007190       0x10 
+ .data.rel      0x00000000000071a0       0x50 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ *fill*         0x00000000000071f0       0x10 
+ .data.rel.local
+                0x0000000000007200       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                0x0000000000007200                __ulog_default_cookie
+
+.tm_clone_table
+                0x0000000000007220        0x0
+ .tm_clone_table
+                0x0000000000007220        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .tm_clone_table
+                0x0000000000007220        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.data1
+ *(.data1)
+                [!provide]                        PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000000007220                . = .
+                [!provide]                        PROVIDE (__bss_start = .)
+
+.bss            0x0000000000007220      0x9a0
+ *(.dynbss)
+ .dynbss        0x0000000000007220        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000007220        0x1 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x0000000000007221       0x1f 
+ .bss           0x0000000000007240      0x979 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                0x0000000000007240                ulog::internal::UlogCraw
+                0x0000000000007360                ulog::internal::UlogCrawStream
+                0x00000000000073c0                ulog::internal::UlogEraw
+                0x00000000000074e0                ulog::internal::UlogErawStream
+                0x0000000000007540                ulog::internal::UlogWraw
+                0x0000000000007660                ulog::internal::UlogWrawStream
+                0x00000000000076c0                ulog::internal::UlogNraw
+                0x00000000000077e0                ulog::internal::UlogNrawStream
+                0x0000000000007840                ulog::internal::UlogIraw
+                0x0000000000007960                ulog::internal::UlogIrawStream
+                0x00000000000079c0                ulog::internal::UlogDraw
+                0x0000000000007ae0                ulog::internal::UlogDrawStream
+                0x0000000000007b38                ulog::internal::Ulogstream::mTagKey
+                0x0000000000007b3c                ulog::internal::Ulogstream::mBufKey
+                0x0000000000007b40                ulog::internal::Ulogstream::mKeyOnce
+ *(COMMON)
+                0x0000000000007bc0                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x0000000000007bb9        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x0000000000007bc0                . = ALIGN (0x8)
+                0x0000000000007bc0                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000009bc0        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000009bc0                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000009bc0                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000009bc0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+ .comment       0x000000000000002b       0x2c /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x3a0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x120 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .debug_aranges
+                0x0000000000000120      0x160 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .debug_aranges
+                0x0000000000000280       0x40 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .debug_aranges
+                0x00000000000002c0       0x30 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .debug_aranges
+                0x00000000000002f0       0x60 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .debug_aranges
+                0x0000000000000350       0x50 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xcd16
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x8f66 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .debug_info    0x0000000000008f66     0x1cda /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .debug_info    0x000000000000ac40      0x5fb /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .debug_info    0x000000000000b23b      0x3d8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .debug_info    0x000000000000b613      0xb3e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .debug_info    0x000000000000c151      0xbc5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+
+.debug_abbrev   0x0000000000000000     0x1be3
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0xdc3 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .debug_abbrev  0x0000000000000dc3      0x516 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .debug_abbrev  0x00000000000012d9      0x258 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .debug_abbrev  0x0000000000001531      0x123 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .debug_abbrev  0x0000000000001654      0x2ca /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .debug_abbrev  0x000000000000191e      0x2c5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+
+.debug_line     0x0000000000000000     0x266c
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0xd6e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .debug_line    0x0000000000000d6e      0xaa4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .debug_line    0x0000000000001812      0x40f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .debug_line    0x0000000000001c21      0x16f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .debug_line    0x0000000000001d90      0x448 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .debug_line    0x00000000000021d8      0x494 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x8b46
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x821d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+                                       0x8810 (size before relaxing)
+ .debug_str     0x000000000000821d      0x740 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+                                        0xb9e (size before relaxing)
+ .debug_str     0x000000000000895d       0xa3 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+                                        0x382 (size before relaxing)
+ .debug_str     0x0000000000008a00       0x3f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+                                        0x42b (size before relaxing)
+ .debug_str     0x0000000000008a3f       0x72 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+                                        0x6ab (size before relaxing)
+ .debug_str     0x0000000000008ab1       0x95 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+                                        0x740 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x4807
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x1b05 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .debug_loc     0x0000000000001b05     0x1ab6 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .debug_loc     0x00000000000035bb      0x496 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .debug_loc     0x0000000000003a51      0x821 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .debug_loc     0x0000000000004272      0x595 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0xac0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x770 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog.cpp.o
+ .debug_ranges  0x0000000000000770      0x1d0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write.c.o
+ .debug_ranges  0x0000000000000940       0xd0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_read.c.o
+ .debug_ranges  0x0000000000000a10       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_android.c.o
+ .debug_ranges  0x0000000000000a30       0x50 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_bin.c.o
+ .debug_ranges  0x0000000000000a80       0x40 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libulog/obj/ulog_write_raw.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/arsdk-native/build/libulog/libulog.so elf64-x86-64)

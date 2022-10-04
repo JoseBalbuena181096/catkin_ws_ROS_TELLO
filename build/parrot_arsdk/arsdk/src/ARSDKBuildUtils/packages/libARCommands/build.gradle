@@ -1,0 +1,42 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+    sourceSets.main {
+        manifest.srcFile 'AndroidManifest.xml'
+        java.srcDirs = ['JNI/java', "${project.buildDir}/generated/arsdk/gen/JNI/java"]
+    }
+}
+
+
+dependencies {
+    compile project(':libARSAL')
+}
+
+/* Task to generate arsdk commands java code */
+task('generateCommands', type: Exec) {
+
+    def arsdkxmldir = "${projectDir}/../arsdk-xml/"
+    ext.srcFiles = file("${arsdkxmldir}/xml").listFiles().findAll {
+        it.name.endsWith('.xml')
+    }
+    ext.parser = new File(arsdkxmldir, 'arsdkgen.py')
+    ext.genrator = file("Tools/libARCommandsgen.py")
+    ext.destDir = file("${project.buildDir}/generated/arsdk/gen")
+    ext.srcFiles += ext.parser
+    ext.srcFiles += ext.genrator
+    inputs.files srcFiles
+    outputs.dir destDir
+    workingDir "."
+    def cmdline = [ext.parser.absolutePath, ext.genrator.absolutePath, "-o", ext.destDir.absolutePath, "java"]
+    commandLine cmdline
+}
+
+preBuild.dependsOn(generateCommands)

@@ -1,0 +1,21 @@
+TARGET_GLOBAL_C_INCLUDES := /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/include/x86_64-linux-gnu /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/include
+TARGET_GLOBAL_ASFLAGS := 
+TARGET_GLOBAL_OBJCFLAGS := -fobjc-arc
+TARGET_GLOBAL_VALAFLAGS := --vapidir=/home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging-host/usr/share/vala-0.20/vapi --vapidir=/home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/share/vala/vapi --target-glib=2.36
+TARGET_GLOBAL_PCHFLAGS := -x c++-header
+TARGET_GLOBAL_LDLIBS := -pthread -lrt
+PRIVATE_GLOBAL_CFLAGS := -std=gnu99 -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD -m64 -fPIC -msse -msse2 -mssse3
+PRIVATE_GLOBAL_CXXFLAGS := 
+PRIVATE_GLOBAL_LDFLAGS := -O2 -m64 -L/home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/lib/x86_64-linux-gnu -L/home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/lib -L/home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/x86_64-linux-gnu -L/home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib -Wl,-rpath-link=/home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/lib/x86_64-linux-gnu -Wl,-rpath-link=/home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/lib -Wl,-rpath-link=/home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/x86_64-linux-gnu -Wl,-rpath-link=/home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib
+PRIVATE_C_INCLUDES := /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARCommands /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/packages/libARCommands /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/packages/libARCommands/Includes /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARCommands/gen/Includes /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/packages/libARCommands/Sources /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARCommands/gen /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/packages/libARSAL/Config/linux
+PRIVATE_ASFLAGS := 
+PRIVATE_CFLAGS := -DHAVE_CONFIG_H -DBUILD_LIBARSAL
+PRIVATE_CXXFLAGS := 
+PRIVATE_OBJCFLAGS := 
+PRIVATE_VALAFLAGS := --define BUILD_LIBARSAL
+PRIVATE_PCH_INCLUDE := 
+PRIVATE_LDFLAGS := 
+PRIVATE_LDLIBS := 
+PRIVATE_WARNINGS_CFLAGS := -Wmissing-prototypes -Wno-strict-prototypes -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wunused-value -Wunused-variable -Wunused-label -Wpointer-arith -Wformat-nonliteral -Wformat-security -Winit-self -Wjump-misses-init -fdiagnostics-show-option -Wstrict-aliasing=3 -Wunreachable-code -Wlogical-op
+PRIVATE_WARNINGS_CXXFLAGS := -Wno-ctor-dtor-privacy -Wno-non-virtual-dtor -Wreorder -Woverloaded-virtual -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wunused-value -Wunused-variable -Wunused-label -Wpointer-arith -Wformat-nonliteral -Wformat-security -Winit-self -fdiagnostics-show-option -Wstrict-aliasing=3 -Wunreachable-code -Wlogical-op
+

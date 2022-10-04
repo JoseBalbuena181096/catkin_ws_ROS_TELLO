@@ -1,0 +1,148 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.5.0'
+
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.2'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+    // product name: must be the name of a product definition directory in product
+    ext.product = "arsdk"
+    // workspace root directory
+    ext.root_dir = gradle.ext.root_dir
+    // put all build files into workspace out
+    buildDir = "${ext.root_dir}/out/${ext.product}-android/gradle/${project.name}"
+}
+
+ext {
+    compileSdkVersion = 21
+    buildToolsVersion = "21.1.1"
+    androidSupportV4Version = 'com.android.support:support-v4:22.0.+'
+    jmdnsVersion = 'javax.jmdns:jmdns:3.4.1'
+    sanselanVersion = 'org.apache.sanselan:sanselan:0.97-incubator'
+    androidSupportAppcompatVersion = 'com.android.support:appcompat-v7:21.0.3'
+    minSdkVersion = 14
+    targetSdkVersion = 21
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+subprojects { proj ->
+
+    if (proj.name != "myapplication")
+    {
+        proj.afterEvaluate {
+
+            proj.apply plugin: 'com.github.dcendents.android-maven'
+            proj.apply plugin: 'com.jfrog.bintray'
+
+            proj.android {
+                lintOptions {
+                    abortOnError false
+                }
+            }
+
+            def gitUrl = ""
+            if (proj.name == "arsdk") {
+                gitUrl = 'https://github.com/Parrot-Developers/arsdk_manifests.git'
+            } else {
+                gitUrl = 'https://github.com/Parrot-Developers/' + proj.name + '.git'
+            }
+
+            proj.install {
+                repositories.mavenInstaller {
+                    // This generates POM.xml with proper parameters
+                    pom {
+                        project {
+                            packaging 'aar'
+
+                            // Add your description here
+                            name 'Parrot SDK for drones - ' + proj.name
+                            url siteUrl
+
+                            // Set your license
+                            licenses {
+                                license {
+                                    name 'BSD 3-Clause'
+                                    url 'https://github.com/Parrot-Developers/Docs/blob/master/LICENSE.md'
+                                }
+                            }
+                            developers {
+                                developer {
+                                    id 'Parrot'
+                                    name 'Parrot'
+                                    email 'developer@parrot.com'
+                                }
+                            }
+                            scm {
+                                connection gitUrl
+                                developerConnection gitUrl
+                                url siteUrl
+
+                            }
+                        }
+                    }
+                }
+            }
+
+            proj.bintray {
+                Properties properties = new Properties()
+                properties.load(project.rootProject.file('local.properties').newDataInputStream())
+                user = properties.getProperty('bintray.user')
+                key = properties.getProperty('bintray.apikey')
+                pkg {
+                    repo = 'maven'
+                    name = "com.parrot:$proj.name"
+
+                    licenses = ['BSD 3-Clause']
+                    vcsUrl = gitUrl
+                    version {
+                        name = rootProject.version
+                        desc = 'Parrot SDK for drones version ' + project.rootProject.version
+                        if (proj.name == "arsdk") {
+                            vcsTag = rootProject.releaseTag
+                        }
+
+                    }
+                }
+                configurations = ['archives']
+            }
+
+            task generateSourcesJar(type: Jar) {
+                from android.sourceSets.main.java.srcDirs
+                classifier 'sources'
+            }
+
+            task generateJavadocs(type: Javadoc) {
+                source = android.sourceSets.main.java.srcDirs
+                classpath += project.files(android.getBootClasspath()
+                        .join(File.pathSeparator))
+                failOnError false
+            }
+
+            task generateJavadocsJar(type: Jar, dependsOn: generateJavadocs) {
+                from generateJavadocs.destinationDir
+                classifier 'javadoc'
+            }
+
+            artifacts {
+                archives generateJavadocsJar
+                archives generateSourcesJar
+            }
+        }
+    }
+}

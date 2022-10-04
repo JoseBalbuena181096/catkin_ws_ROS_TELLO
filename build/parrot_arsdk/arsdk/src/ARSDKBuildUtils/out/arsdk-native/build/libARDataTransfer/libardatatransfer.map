@@ -1,0 +1,842 @@
+
+Merging program properties
+
+
+As-needed library included to satisfy reference by file (symbol)
+
+libarsal.so                   /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o (ARSAL_Sem_Wait)
+libardiscovery.so             /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o (ARDISCOVERY_getProductPathName)
+libarutils.so                 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o (ARUTILS_Manager_Ftp_Rename)
+libpthread.so.0               /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o (__errno_location@@GLIBC_2.2.5)
+libc.so.6                     /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o (readdir@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libarsal.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libardiscovery.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libarcommands.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libarutils.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000002a8                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.note.gnu.property
+                0x00000000000002a8       0x20
+ .note.gnu.property
+                0x00000000000002a8       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.note.gnu.build-id
+                0x00000000000002c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000002c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000002f0      0x1bc
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000002f0      0x1bc /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x00000000000004b0      0xa98
+ *(.dynsym)
+ .dynsym        0x00000000000004b0      0xa98 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000000f48      0xdf2
+ *(.dynstr)
+ .dynstr        0x0000000000000f48      0xdf2 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x0000000000001d3a       0xe2
+ *(.gnu.version)
+ .gnu.version   0x0000000000001d3a       0xe2 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x0000000000001e20        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000001e20        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x0000000000001e20       0x70
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000001e20       0x70 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x0000000000001e90       0xf0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000001e90        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000001e90       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000001ea8       0xa8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000001f50        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x0000000000001f50       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x0000000000001f68       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x0000000000001f80      0x768
+ *(.rela.plt)
+ .rela.plt      0x0000000000001f80      0x768 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+                0x0000000000003000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000003000       0x1b
+ *(SORT_NONE(.init))
+ .init          0x0000000000003000       0x16 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000003000                _init
+ .init          0x0000000000003016        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000003020      0x500
+ *(.plt)
+ .plt           0x0000000000003020      0x500 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x0000000000003520       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000003520       0x10 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.plt.sec        0x0000000000003530      0x4f0
+ *(.plt.sec)
+ .plt.sec       0x0000000000003530      0x4f0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.text           0x0000000000003a20     0x5d8d
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000003a20       0xb9 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x0000000000003ad9        0x7 
+ .text.ARDATATRANSFER_DataDownloader_UsedMemoryCallback
+                0x0000000000003ae0       0x25 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ *fill*         0x0000000000003b05        0xb 
+ .text.ARDATATRANSFER_DataDownloader_RemoveDataCallback
+                0x0000000000003b10       0x71 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ *fill*         0x0000000000003b81        0xf 
+ .text.ARDATATRANSFER_DataDownloader_CancelAvailableFiles
+                0x0000000000003b90       0x6e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                0x0000000000003b90                ARDATATRANSFER_DataDownloader_CancelAvailableFiles
+ *fill*         0x0000000000003bfe        0x2 
+ .text.ARDATATRANSFER_DataDownloader_CancelThread
+                0x0000000000003c00       0x84 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                0x0000000000003c00                ARDATATRANSFER_DataDownloader_CancelThread
+ *fill*         0x0000000000003c84        0xc 
+ .text.ARDATATRANSFER_DataDownloader_Initialize
+                0x0000000000003c90      0x24e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                0x0000000000003c90                ARDATATRANSFER_DataDownloader_Initialize
+ *fill*         0x0000000000003ede        0x2 
+ .text.ARDATATRANSFER_DataDownloader_Clear
+                0x0000000000003ee0       0x5e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                0x0000000000003ee0                ARDATATRANSFER_DataDownloader_Clear
+ *fill*         0x0000000000003f3e        0x2 
+ .text.ARDATATRANSFER_DataDownloader_Delete
+                0x0000000000003f40       0xa8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                0x0000000000003f40                ARDATATRANSFER_DataDownloader_Delete
+ *fill*         0x0000000000003fe8        0x8 
+ .text.ARDATATRANSFER_DataDownloader_New
+                0x0000000000003ff0      0x127 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                0x0000000000003ff0                ARDATATRANSFER_DataDownloader_New
+ *fill*         0x0000000000004117        0x9 
+ .text.ARDATATRANSFER_DataDownloader_CompareFileExtension
+                0x0000000000004120       0x75 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                0x0000000000004120                ARDATATRANSFER_DataDownloader_CompareFileExtension
+ *fill*         0x0000000000004195        0xb 
+ .text.ARDATATRANSFER_DataDownloader_GetAvailableFiles
+                0x00000000000041a0      0x3c7 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                0x00000000000041a0                ARDATATRANSFER_DataDownloader_GetAvailableFiles
+ *fill*         0x0000000000004567        0x9 
+ .text.ARDATATRANSFER_DataDownloader_DownloadPudFiles
+                0x0000000000004570      0xb54 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                0x0000000000004570                ARDATATRANSFER_DataDownloader_DownloadPudFiles
+ *fill*         0x00000000000050c4        0xc 
+ .text.ARDATATRANSFER_DataDownloader_CheckUsedMemory
+                0x00000000000050d0      0x18d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                0x00000000000050d0                ARDATATRANSFER_DataDownloader_CheckUsedMemory
+ *fill*         0x000000000000525d        0x3 
+ .text.ARDATATRANSFER_DataDownloader_GetCrashReportIndex
+                0x0000000000005260       0xcd /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                0x0000000000005260                ARDATATRANSFER_DataDownloader_GetCrashReportIndex
+ *fill*         0x000000000000532d        0x3 
+ .text.ARDATATRANSFER_DataDownloader_RemoveRemoteDir
+                0x0000000000005330      0x206 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                0x0000000000005330                ARDATATRANSFER_DataDownloader_RemoveRemoteDir
+ *fill*         0x0000000000005536        0xa 
+ .text.ARDATATRANSFER_DataDownloader_DownloadCrashReports
+                0x0000000000005540      0x899 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                0x0000000000005540                ARDATATRANSFER_DataDownloader_DownloadCrashReports
+ *fill*         0x0000000000005dd9        0x7 
+ .text.ARDATATRANSFER_DataDownloader_ThreadRun
+                0x0000000000005de0      0x1d7 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                0x0000000000005de0                ARDATATRANSFER_DataDownloader_ThreadRun
+ *fill*         0x0000000000005fb7        0x9 
+ .text.ARDATATRANSFER_Downloader_Ftp_ProgressCallback
+                0x0000000000005fc0       0x6e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+                0x0000000000005fc0                ARDATATRANSFER_Downloader_Ftp_ProgressCallback
+ *fill*         0x000000000000602e        0x2 
+ .text.ARDATATRANSFER_Downloader_New
+                0x0000000000006030      0x136 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+                0x0000000000006030                ARDATATRANSFER_Downloader_New
+ *fill*         0x0000000000006166        0xa 
+ .text.ARDATATRANSFER_Downloader_Delete
+                0x0000000000006170       0x66 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+                0x0000000000006170                ARDATATRANSFER_Downloader_Delete
+ *fill*         0x00000000000061d6        0xa 
+ .text.ARDATATRANSFER_Downloader_GetSize
+                0x00000000000061e0       0x77 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+                0x00000000000061e0                ARDATATRANSFER_Downloader_GetSize
+ *fill*         0x0000000000006257        0x9 
+ .text.ARDATATRANSFER_Downloader_ThreadRun
+                0x0000000000006260       0xb5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+                0x0000000000006260                ARDATATRANSFER_Downloader_ThreadRun
+ *fill*         0x0000000000006315        0xb 
+ .text.ARDATATRANSFER_Downloader_CancelThread
+                0x0000000000006320       0x6e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+                0x0000000000006320                ARDATATRANSFER_Downloader_CancelThread
+ *fill*         0x000000000000638e        0x2 
+ .text.ARDATATRANSFER_Manager_Delete
+                0x0000000000006390       0x50 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+                0x0000000000006390                ARDATATRANSFER_Manager_Delete
+ .text.ARDATATRANSFER_Manager_New
+                0x00000000000063e0       0x99 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+                0x00000000000063e0                ARDATATRANSFER_Manager_New
+ *fill*         0x0000000000006479        0x7 
+ .text.ARDATATRANSFER_MediasDownloader_FtpProgressCallback
+                0x0000000000006480       0x29 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x0000000000006480                ARDATATRANSFER_MediasDownloader_FtpProgressCallback
+ *fill*         0x00000000000064a9        0x7 
+ .text.ARDATATRANSFER_MediasDownloader_GetAvailableMediaAtIndex
+                0x00000000000064b0       0x97 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x00000000000064b0                ARDATATRANSFER_MediasDownloader_GetAvailableMediaAtIndex
+ *fill*         0x0000000000006547        0x9 
+ .text.ARDATATRANSFER_MediasDownloader_AddMediaToQueue
+                0x0000000000006550      0x1eb /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x0000000000006550                ARDATATRANSFER_MediasDownloader_AddMediaToQueue
+ *fill*         0x000000000000673b        0x5 
+ .text.ARDATATRANSFER_MediasDownloader_ResetQueueThread
+                0x0000000000006740       0x9c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x0000000000006740                ARDATATRANSFER_MediasDownloader_ResetQueueThread
+ *fill*         0x00000000000067dc        0x4 
+ .text.ARDATATRANSFER_MediasDownloader_CancelQueueThread
+                0x00000000000067e0       0xb7 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x00000000000067e0                ARDATATRANSFER_MediasDownloader_CancelQueueThread
+ *fill*         0x0000000000006897        0x9 
+ .text.ARDATATRANSFER_MediasDownloader_ResetGetAvailableMedias
+                0x00000000000068a0       0x6e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x00000000000068a0                ARDATATRANSFER_MediasDownloader_ResetGetAvailableMedias
+ *fill*         0x000000000000690e        0x2 
+ .text.ARDATATRANSFER_MediasDownloader_CancelGetAvailableMedias
+                0x0000000000006910       0x6e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x0000000000006910                ARDATATRANSFER_MediasDownloader_CancelGetAvailableMedias
+ *fill*         0x000000000000697e        0x2 
+ .text.ARDATATRANSFER_MediasDownloader_Initialize
+                0x0000000000006980      0x195 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x0000000000006980                ARDATATRANSFER_MediasDownloader_Initialize
+ *fill*         0x0000000000006b15        0xb 
+ .text.ARDATATRANSFER_MediasDownloader_Clear
+                0x0000000000006b20       0x4c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x0000000000006b20                ARDATATRANSFER_MediasDownloader_Clear
+ *fill*         0x0000000000006b6c        0x4 
+ .text.ARDATATRANSFER_MediasDownloader_GetThumbnail
+                0x0000000000006b70       0x97 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x0000000000006b70                ARDATATRANSFER_MediasDownloader_GetThumbnail
+ *fill*         0x0000000000006c07        0x9 
+ .text.ARDATATRANSFER_MediasDownloader_DownloadMedia
+                0x0000000000006c10      0x1e0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x0000000000006c10                ARDATATRANSFER_MediasDownloader_DownloadMedia
+ .text.ARDATATRANSFER_MediasDownloader_QueueThreadRun
+                0x0000000000006df0      0x196 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x0000000000006df0                ARDATATRANSFER_MediasDownloader_QueueThreadRun
+ *fill*         0x0000000000006f86        0xa 
+ .text.ARDATATRANSFER_MediasDownloader_RemoveMediaFromMediaList
+                0x0000000000006f90       0xf7 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x0000000000006f90                ARDATATRANSFER_MediasDownloader_RemoveMediaFromMediaList
+ *fill*         0x0000000000007087        0x9 
+ .text.ARDATATRANSFER_MediasDownloader_DeleteMedia
+                0x0000000000007090       0xde /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x0000000000007090                ARDATATRANSFER_MediasDownloader_DeleteMedia
+ *fill*         0x000000000000716e        0x2 
+ .text.ARDATATRANSFER_MediasDownloader_FreeMediaList
+                0x0000000000007170       0x9c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x0000000000007170                ARDATATRANSFER_MediasDownloader_FreeMediaList
+ *fill*         0x000000000000720c        0x4 
+ .text.ARDATATRANSFER_MediasDownloader_Delete
+                0x0000000000007210       0xe8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x0000000000007210                ARDATATRANSFER_MediasDownloader_Delete
+ *fill*         0x00000000000072f8        0x8 
+ .text.ARDATATRANSFER_MediasDownloader_New
+                0x0000000000007300      0x161 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x0000000000007300                ARDATATRANSFER_MediasDownloader_New
+ *fill*         0x0000000000007461        0xf 
+ .text.ARDATATRANSFER_MediasDownloader_GetAvailableMediasSync
+                0x0000000000007470     0x182e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x0000000000007470                ARDATATRANSFER_MediasDownloader_GetAvailableMediasSync
+ *fill*         0x0000000000008c9e        0x2 
+ .text.ARDATATRANSFER_MediasDownloader_GetAvailableMediasAsync
+                0x0000000000008ca0      0x22a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                0x0000000000008ca0                ARDATATRANSFER_MediasDownloader_GetAvailableMediasAsync
+ *fill*         0x0000000000008eca        0x6 
+ .text.ARDATATRANSFER_MediasQueue_Delete
+                0x0000000000008ed0       0xb0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+                0x0000000000008ed0                ARDATATRANSFER_MediasQueue_Delete
+ .text.ARDATATRANSFER_MediasQueue_New
+                0x0000000000008f80       0xc0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+                0x0000000000008f80                ARDATATRANSFER_MediasQueue_New
+ .text.ARDATATRANSFER_MediasQueue_RemoveAll
+                0x0000000000009040       0x99 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+                0x0000000000009040                ARDATATRANSFER_MediasQueue_RemoveAll
+ *fill*         0x00000000000090d9        0x7 
+ .text.ARDATATRANSFER_MediasQueue_Pop
+                0x00000000000090e0       0xe5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+                0x00000000000090e0                ARDATATRANSFER_MediasQueue_Pop
+ *fill*         0x00000000000091c5        0xb 
+ .text.ARDATATRANSFER_MediasQueue_GetFreeIndex
+                0x00000000000091d0       0xc8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+                0x00000000000091d0                ARDATATRANSFER_MediasQueue_GetFreeIndex
+ *fill*         0x0000000000009298        0x8 
+ .text.ARDATATRANSFER_MediasQueue_Add
+                0x00000000000092a0       0xcd /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+                0x00000000000092a0                ARDATATRANSFER_MediasQueue_Add
+ *fill*         0x000000000000936d        0x3 
+ .text.ARDATATRANSFER_Uploader_Ftp_ProgressCallback
+                0x0000000000009370       0x21 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+                0x0000000000009370                ARDATATRANSFER_Uploader_Ftp_ProgressCallback
+ *fill*         0x0000000000009391        0xf 
+ .text.ARDATATRANSFER_Uploader_New
+                0x00000000000093a0      0x136 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+                0x00000000000093a0                ARDATATRANSFER_Uploader_New
+ *fill*         0x00000000000094d6        0xa 
+ .text.ARDATATRANSFER_Uploader_Delete
+                0x00000000000094e0       0x66 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+                0x00000000000094e0                ARDATATRANSFER_Uploader_Delete
+ *fill*         0x0000000000009546        0xa 
+ .text.ARDATATRANSFER_Uploader_ThreadRun
+                0x0000000000009550       0xb7 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+                0x0000000000009550                ARDATATRANSFER_Uploader_ThreadRun
+ *fill*         0x0000000000009607        0x9 
+ .text.ARDATATRANSFER_Uploader_CancelThread
+                0x0000000000009610       0x6e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+                0x0000000000009610                ARDATATRANSFER_Uploader_CancelThread
+ *fill*         0x000000000000967e        0x2 
+ .text.ARDATATRANSFER_Uploader_Rename
+                0x0000000000009680       0x7e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+                0x0000000000009680                ARDATATRANSFER_Uploader_Rename
+ *fill*         0x00000000000096fe        0x2 
+ .text.ARDATATRANSFER_Error_ToString
+                0x0000000000009700       0xad /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+                0x0000000000009700                ARDATATRANSFER_Error_ToString
+ *(.gnu.warning)
+
+.fini           0x00000000000097b0        0xd
+ *(SORT_NONE(.fini))
+ .fini          0x00000000000097b0        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x00000000000097b0                _fini
+ .fini          0x00000000000097b8        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x000000000000a000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x000000000000a000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x000000000000a000      0xd08
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x000000000000a000       0xdb /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                                         0xf5 (size before relaxing)
+ *fill*         0x000000000000a0db        0x5 
+ .rodata.str1.8
+                0x000000000000a0e0       0x2a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ *fill*         0x000000000000a10a       0x16 
+ .rodata        0x000000000000a120      0x2a2 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ *fill*         0x000000000000a3c2        0x6 
+ .rodata.cst8   0x000000000000a3c8        0x8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ .rodata.cst4   0x000000000000a3d0        0x4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ .rodata.str1.1
+                0x000000000000a3d4        0xb /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+                                         0x1a (size before relaxing)
+ *fill*         0x000000000000a3df        0x1 
+ .rodata        0x000000000000a3e0      0x14e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+ .rodata.str1.1
+                0x000000000000a52e        0x8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+                                          0xc (size before relaxing)
+ *fill*         0x000000000000a536        0xa 
+ .rodata        0x000000000000a540       0x3b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+ .rodata.str1.1
+                0x000000000000a57b      0x110 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                                        0x148 (size before relaxing)
+ *fill*         0x000000000000a68b        0x5 
+ .rodata.str1.8
+                0x000000000000a690       0x23 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+ *fill*         0x000000000000a6b3        0xd 
+ .rodata        0x000000000000a6c0      0x364 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+ .rodata.str1.1
+                0x000000000000aa24       0x1a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+                                         0x1e (size before relaxing)
+ *fill*         0x000000000000aa3e        0x2 
+ .rodata        0x000000000000aa40       0xcf /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+ .rodata.str1.1
+                0x000000000000ab0f        0x9 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+                                         0x18 (size before relaxing)
+ *fill*         0x000000000000ab18        0x8 
+ .rodata        0x000000000000ab20       0xcc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+ .rodata.str1.1
+                0x000000000000abec       0xf3 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+ *fill*         0x000000000000acdf        0x1 
+ .rodata        0x000000000000ace0       0x28 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000000ad08      0x1e4
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000000ad08      0x1e4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                0x000000000000ad08                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000000aef0      0xd88
+ *(.eh_frame)
+ .eh_frame      0x000000000000aef0       0x40 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x000000000000af30       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000af48       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000af60      0x468 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                                        0x480 (size before relaxing)
+ .eh_frame      0x000000000000b3c8      0x128 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+                                        0x140 (size before relaxing)
+ .eh_frame      0x000000000000b4f0       0x40 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000000b530      0x4d0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                                        0x4e8 (size before relaxing)
+ .eh_frame      0x000000000000ba00      0x150 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+                                        0x168 (size before relaxing)
+ .eh_frame      0x000000000000bb50      0x110 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+                                        0x128 (size before relaxing)
+ .eh_frame      0x000000000000bc60       0x14 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000bc74        0x4 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x000000000000cda8                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x000000000000cda8        0x8
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000000cda8        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.fini_array     0x000000000000cdb0        0x8
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000000cdb0        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x000000000000cdb8        0x0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000000cdb8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynamic        0x000000000000cdb8      0x210
+ *(.dynamic)
+ .dynamic       0x000000000000cdb8      0x210 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x000000000000cdb8                _DYNAMIC
+
+.got            0x000000000000cfc8       0x38
+ *(.got)
+ .got           0x000000000000cfc8       0x38 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x000000000000dfe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x000000000000d000      0x290
+ *(.got.plt)
+ .got.plt       0x000000000000d000      0x290 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x000000000000d000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000000d290        0x8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x000000000000d290        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                0x000000000000d290                __dso_handle
+
+.tm_clone_table
+                0x000000000000d298        0x0
+ .tm_clone_table
+                0x000000000000d298        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .tm_clone_table
+                0x000000000000d298        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.data1
+ *(.data1)
+                [!provide]                        PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                0x000000000000d298                . = .
+                [!provide]                        PROVIDE (__bss_start = .)
+
+.bss            0x000000000000d2a0      0x130
+ *(.dynbss)
+ .dynbss        0x000000000000d2a0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000d2a0        0x1 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x000000000000d2a1       0x1f 
+ .bss           0x000000000000d2c0      0x110 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ *(COMMON)
+                0x000000000000d3d0                . = ALIGN ((. != 0x0)?0x8:0x1)
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x000000000000d3d0                . = ALIGN (0x8)
+                0x000000000000d3d0                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x000000000000f3d0        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x000000000000f3d0                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x000000000000f3d0                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+                0x000000000000f3d0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+ .comment       0x000000000000002b       0x2c /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x460
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x120 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ .debug_aranges
+                0x0000000000000120       0x80 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+ .debug_aranges
+                0x00000000000001a0       0x40 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+ .debug_aranges
+                0x00000000000001e0      0x150 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+ .debug_aranges
+                0x0000000000000330       0x80 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+ .debug_aranges
+                0x00000000000003b0       0x80 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+ .debug_aranges
+                0x0000000000000430       0x30 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xeb75
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x48ff /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ .debug_info    0x00000000000048ff     0x177a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+ .debug_info    0x0000000000006079     0x11fb /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+ .debug_info    0x0000000000007274     0x5129 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+ .debug_info    0x000000000000c39d      0xfe3 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+ .debug_info    0x000000000000d380     0x170d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+ .debug_info    0x000000000000ea8d       0xe8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+
+.debug_abbrev   0x0000000000000000     0x1581
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x4dc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ .debug_abbrev  0x00000000000004dc      0x309 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+ .debug_abbrev  0x00000000000007e5      0x281 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+ .debug_abbrev  0x0000000000000a66      0x483 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+ .debug_abbrev  0x0000000000000ee9      0x2ef /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+ .debug_abbrev  0x00000000000011d8      0x309 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+ .debug_abbrev  0x00000000000014e1       0xa0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+
+.debug_line     0x0000000000000000     0x6a94
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000     0x241c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ .debug_line    0x000000000000241c      0x806 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+ .debug_line    0x0000000000002c22      0x552 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+ .debug_line    0x0000000000003174     0x28c3 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+ .debug_line    0x0000000000005a37      0x73d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+ .debug_line    0x0000000000006174      0x7e5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+ .debug_line    0x0000000000006959      0x13b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x2b5b
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x1f23 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+                                       0x2022 (size before relaxing)
+ .debug_str     0x0000000000001f23      0x14f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+                                       0x173e (size before relaxing)
+ .debug_str     0x0000000000002072       0x8f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+                                       0x161f (size before relaxing)
+ .debug_str     0x0000000000002101      0x851 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+                                       0x2023 (size before relaxing)
+ .debug_str     0x0000000000002952       0x72 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+                                        0xd32 (size before relaxing)
+ .debug_str     0x00000000000029c4      0x13b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+                                       0x1740 (size before relaxing)
+ .debug_str     0x0000000000002aff       0x5c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+                                        0x302 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0xcac6
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x433a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ .debug_loc     0x000000000000433a      0xac5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+ .debug_loc     0x0000000000004dff      0x132 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+ .debug_loc     0x0000000000004f31     0x6622 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+ .debug_loc     0x000000000000b553      0xa08 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+ .debug_loc     0x000000000000bf5b      0xb01 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+ .debug_loc     0x000000000000ca5c       0x6a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x2600
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000     0x1160 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_DataDownloader.c.o
+ .debug_ranges  0x0000000000001160       0xd0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Downloader.c.o
+ .debug_ranges  0x0000000000001230       0x30 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Manager.c.o
+ .debug_ranges  0x0000000000001260     0x1200 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasDownloader.c.o
+ .debug_ranges  0x0000000000002460       0xb0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_MediasQueue.c.o
+ .debug_ranges  0x0000000000002510       0xd0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/Sources/ARDATATRANSFER_Uploader.c.o
+ .debug_ranges  0x00000000000025e0       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARDataTransfer/obj/gen/Sources/ARDATATRANSFER_Error.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/arsdk-native/build/libARDataTransfer/libardatatransfer.so elf64-x86-64)

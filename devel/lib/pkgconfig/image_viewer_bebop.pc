@@ -1,0 +1,8 @@
+prefix=/home/jose/catkin_ws/devel
+
+Name: image_viewer_bebop
+Description: Description of image_viewer_bebop
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

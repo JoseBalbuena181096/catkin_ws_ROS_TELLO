@@ -1,0 +1,8 @@
+prefix=/home/jose/catkin_ws/install
+
+Name: rotors_description
+Description: Description of rotors_description
+Version: 2.1.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

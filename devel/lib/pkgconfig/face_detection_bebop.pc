@@ -1,0 +1,8 @@
+prefix=/home/jose/catkin_ws/devel
+
+Name: face_detection_bebop
+Description: Description of face_detection_bebop
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

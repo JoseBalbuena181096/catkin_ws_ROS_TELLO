@@ -1,0 +1,134 @@
+/**
+ * @mainpage libARNetwork Documentation
+ *
+ * @section NET_intro_sec Introduction
+ *
+ * The ARNetwork library provides a simple way to send and receive data over
+ * a network. The ARNetwork library uses the ARNetworkAL library as its
+ * network abstraction layer.
+ *
+ * The library uses @ref ARNETWORK_Manager_t object as its main entry point
+ *
+ * @section NET_flow_sec ARNetwork usage
+ *
+ * The typical use flow of the ARNetwork library is the following:
+ *
+ * @subsection NET_arnetal_subsec 1> Provide an initialized ARNetworkAL instance
+ *
+ * Before actually creating the @ref ARNETWORK_Manager_t, the application
+ * must create and initialize an @ref ARNETWORKAL_Manager_t.
+ *
+ * @note Providing an uninitialized @ref ARNETWORKAL_Manager_t, which
+ * will be initialized by the application BEFORE the ARNetwork threads are
+ * started will also work, but is not the advised behavior.
+ *
+ * @see <a href="../../libARNetworkAL/html/index.html" target="_blank">ARNetworkAL Documentation</a>
+ *
+ * @subsection NET_iobuffers_subsec 2> Create the list of inputs/outputs
+ *
+ * Ths list of inputs and outputs of the @ref ARNETWORK_Manager_t are
+ * provided through two arrays of @ref ARNETWORK_IOBufferParam_t.
+ *
+ * Each @ref ARNETWORK_IOBufferParam_t represent an input or output buffer,
+ * with its specific settings
+ *
+ * @see @ref ARNETWORK_IOBufferParam.h
+ *
+ * @subsection NET_create_subsec 3> Create the manager
+ *
+ * The @ref ARNETWORK_Manager_t can now be properly created, using the
+ * @ref ARNETWORK_Manager_New function.
+ *
+ * @subsection NET_start_th_subsec 4> Start the managers threads
+ *
+ * The @ref ARNETWORK_Manager_t uses two internal threads to perform the
+ * network operations. The application can use any threading framework to
+ * launch the internal threads, but in any case each one must be started
+ * once and only once.
+ *
+ * The threads entry point are @ref ARNETWORK_Manager_SendingThreadRun and
+ * @ref ARNETWORK_Manager_ReceivingThreadRun.
+ *
+ * If your application does not require any special threading framework, it
+ * can use the libARSAL Thread module.
+ *
+ * @note To ease the closing process, the threads should not be created in
+ * detached mode.
+ *
+ * @subsection NET_use_subsec 5> Use the manager
+ *
+ * At this point the @ref ARNETWORK_Manager_t is ready for use. All send and
+ * read functions are thread safe, so multiple threads can use the
+ * @ref ARNETWORK_Manager_t at the same time without any external
+ * synchronization procedures.
+ *
+ * @subsubsection NET_send_subsubsec Send data
+ *
+ * To send data, the application will use the @ref ARNETWORK_Manager_SendData
+ * function. This function will queue the data into the
+ * @ref ARNETWORK_Manager_t internal buffers. The
+ * @ref ARNETWORK_Manager_Callback_t will be called multiple times during the
+ * processing of the data.
+ * @see @ref eARNETWORK_MANAGER_CALLBACK_STATUS : Status code for callback calls
+ *
+ * The @ref ARNETWORK_Manager_SendData function can either copy the data into
+ * internal buffers (thus leaving the data pointer free for reuse), or use a
+ * 'no copy' policy, in which case it will only keep the pointer and its size
+ * (so the data will only be copied in the acutal network buffers).
+ *
+ * @subsubsection NET_read_subsubsec Read data
+ *
+ * Three read functions are available for an @ref ARNETWORK_Manager_t.
+ *
+ * The simple one is @ref ARNETWORK_Manager_ReadData. This is a blocking
+ * function, which will not return until a data is actually read. Typical
+ * applications should not use this function.
+ *
+ * The most common function is @ref ARNETWORK_Manager_ReadDataWithTimeout.
+ * This is a 'with timeout' version of the previous function, and should work
+ * for most uses where each output buffer has one dedicated thread for reading
+ * + processing.
+ *
+ * The third function is @ref ARNETWORK_Manager_TryReadData. This function is
+ * somehow equivalent of @ref ARNETWORK_Manager_ReadDataWithTimeout with a zero
+ * timeout. This function is useful if a thread reads from multiple output
+ * buffers, but lacks the clocking feature (i.e. thread is waiting on an
+ * internal semaphore) of the previous one.
+ *
+ * @subsection NET_stop_th_subsec 6> Stop the managers threads
+ *
+ * To stop the @ref ARNETWORK_Manager_t threads, use the
+ * @ref ARNETWORK_Manager_Stop function. This function causes the threads to
+ * return as soon as possible. Thread returns may be delayed by ARNetworkAL
+ * calls for a time up to the network timeout (typically 3 seconds).
+ *
+ * To ensure that the threads are correctly stopped, the application should
+ * join them (any order works).
+ *
+ * @subsection NET_clean_sec 7> Close the manager
+ *
+ * The @ref ARNETWORK_Manager_t object can the be destroyed using
+ * @ref ARNETWORK_Manager_Delete function.
+ *
+ * This call is mandatory, as it reclaims all allocated memory.
+ *
+ * @section NET_util_sec Utility functions
+ *
+ * The API also provides some utility functions.
+ *
+ * @subsection NET_flush_subsec Flush functions
+ *
+ * The @ref ARNETWORK_Manager_Flush funtion will flush all the
+ * @ref ARNETWORK_Manager_t buffers.
+ *
+ * The @ref ARNETWORK_Manager_FlushInputBuffer and
+ * @ref ARNETWORK_Manager_FlushOutputBuffer functions are used to flush a
+ * single specific buffer.
+ *
+ * @subsection NET_latency_subsec Latency estimation
+ *
+ * If the ping was not disabled during the @ref ARNETWORK_Manager_t creation,
+ * a coarse latency estimation will be available using
+ * @ref ARNETWORK_Manager_GetEstimatedLatency.
+ *
+ */

@@ -1,0 +1,1639 @@
+
+Merging program properties
+
+
+As-needed library included to satisfy reference by file (symbol)
+
+libulog.so                    /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o (ulog_log_write)
+librt.so.1                    /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o (timer_create@@GLIBC_2.3.3)
+libpthread.so.0               /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o (write@@GLIBC_2.2.5)
+libc.so.6                     /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o (epoll_create@@GLIBC_2.3.2)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text.pomp_buffer_clear
+                0x0000000000000000       0x24 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text.pomp_ctx_notify_event
+                0x0000000000000000       0x40 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.pomp_loop_set_ops
+                0x0000000000000000       0x13 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.pomp_loop_find_pfd
+                0x0000000000000000       0x1e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text.pomp_timer_set_ops
+                0x0000000000000000       0x13 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libulog.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000002a8                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.note.gnu.property
+                0x00000000000002a8       0x20
+ .note.gnu.property
+                0x00000000000002a8       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.note.gnu.build-id
+                0x00000000000002c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000002c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000002f0      0x4b4
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000002f0      0x4b4 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x00000000000007a8     0x12f0
+ *(.dynsym)
+ .dynsym        0x00000000000007a8     0x12f0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000001a98      0xd73
+ *(.dynstr)
+ .dynstr        0x0000000000001a98      0xd73 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x000000000000280c      0x194
+ *(.gnu.version)
+ .gnu.version   0x000000000000280c      0x194 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x00000000000029a0        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000000029a0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x00000000000029a0       0xc0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000029a0       0xc0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x0000000000002a60      0x330
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_addr_parse_inet
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_buffer_clear.part.0
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_buffer_register_fd
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_buffer_new_copy
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_buffer_write_fd
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_buffer_read_fd
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_idle_cb
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.clear_pending_callbacks
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_conn_fixup_rx_fds_cb
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_conn_clear_rx_fds.isra.0.part.0
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_io_buffer_write
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_conn_send_buf_internal
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_conn_cb
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_conn_new
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_conn_close
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_conn_disconnect
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.fd_socket_setup_keepalive
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.client_complete_conn
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.server_start
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.server_cb
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.client_start
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.dgram_start
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_ctx_remove_conn
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.dump_append
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.decoder_dump_cb
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.decoder_read_varint
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.decoder_read_data
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_decoder_read_cstr
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_decoder_read_cbuf
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_decoder_read_fd
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_decoder_readv
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_decoder_walk
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_encoder_write_str
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.encoder_writev_internal.part.0
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_loop_epoll_do_wakeup
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_loop_poll_do_wakeup
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_loop_epoll_do_wait_and_process
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_loop_poll_do_wait_and_process
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_loop_epoll_ctl.isra.0
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_loop_poll_do_new
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_loop_epoll_do_new
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_loop_remove_pfd
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_loop_destroy
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_loop_add
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_loop_update
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_loop_update2
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_loop_remove
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_msg_new_with_buffer
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_prot_check_magic.part.0
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_prot_decode_msg
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_timer_fd_new
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_timer_fd_set
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_timer_posix_set
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.pomp_timer_posix_new
+                0x0000000000002a60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000002a60       0x60 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro.local
+                0x0000000000002ac0      0x240 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000002d00       0x60 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000002d60        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x0000000000002d60       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x0000000000002d78       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x0000000000002d90      0xcc0
+ *(.rela.plt)
+ .rela.plt      0x0000000000002d90      0xcc0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+                0x0000000000004000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000004000       0x1b
+ *(SORT_NONE(.init))
+ .init          0x0000000000004000       0x16 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000004000                _init
+ .init          0x0000000000004016        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000004020      0x890
+ *(.plt)
+ .plt           0x0000000000004020      0x890 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x00000000000048b0       0x10
+ *(.plt.got)
+ .plt.got       0x00000000000048b0       0x10 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.plt.sec        0x00000000000048c0      0x880
+ *(.plt.sec)
+ .plt.sec       0x00000000000048c0      0x880 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.text           0x0000000000005140     0xc13e
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000005140       0xb9 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x00000000000051f9        0x7 
+ .text.pomp_addr_parse_inet
+                0x0000000000005200      0x16a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ *fill*         0x000000000000536a        0x6 
+ .text.pomp_addr_parse
+                0x0000000000005370      0x150 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+                0x0000000000005370                pomp_addr_parse
+ .text.pomp_addr_format
+                0x00000000000054c0      0x1f0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+                0x00000000000054c0                pomp_addr_format
+ .text.pomp_addr_is_unix
+                0x00000000000056b0       0x23 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+                0x00000000000056b0                pomp_addr_is_unix
+ *fill*         0x00000000000056d3        0xd 
+ .text.pomp_buffer_clear.part.0
+                0x00000000000056e0      0x157 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ *fill*         0x0000000000005837        0x9 
+ .text.pomp_buffer_get_fd
+                0x0000000000005840       0x26 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005840                pomp_buffer_get_fd
+ *fill*         0x0000000000005866        0xa 
+ .text.pomp_buffer_register_fd
+                0x0000000000005870       0xa5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005870                pomp_buffer_register_fd
+ *fill*         0x0000000000005915        0xb 
+ .text.pomp_buffer_new_copy
+                0x0000000000005920      0x181 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005920                pomp_buffer_new_copy
+ *fill*         0x0000000000005aa1        0xf 
+ .text.pomp_buffer_ref
+                0x0000000000005ab0        0x9 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005ab0                pomp_buffer_ref
+ *fill*         0x0000000000005ab9        0x7 
+ .text.pomp_buffer_unref
+                0x0000000000005ac0       0x31 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005ac0                pomp_buffer_unref
+ *fill*         0x0000000000005af1        0xf 
+ .text.pomp_buffer_is_shared
+                0x0000000000005b00       0x14 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005b00                pomp_buffer_is_shared
+ *fill*         0x0000000000005b14        0xc 
+ .text.pomp_buffer_set_capacity
+                0x0000000000005b20       0x64 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005b20                pomp_buffer_set_capacity
+ *fill*         0x0000000000005b84        0xc 
+ .text.pomp_buffer_new
+                0x0000000000005b90       0x5c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005b90                pomp_buffer_new
+ *fill*         0x0000000000005bec        0x4 
+ .text.pomp_buffer_new_with_data
+                0x0000000000005bf0       0x3a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005bf0                pomp_buffer_new_with_data
+ *fill*         0x0000000000005c2a        0x6 
+ .text.pomp_buffer_new_get_data
+                0x0000000000005c30       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005c30                pomp_buffer_new_get_data
+ .text.pomp_buffer_set_len
+                0x0000000000005c50       0x36 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005c50                pomp_buffer_set_len
+ *fill*         0x0000000000005c86        0xa 
+ .text.pomp_buffer_get_data
+                0x0000000000005c90       0x44 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005c90                pomp_buffer_get_data
+ *fill*         0x0000000000005cd4        0xc 
+ .text.pomp_buffer_get_cdata
+                0x0000000000005ce0       0x36 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005ce0                pomp_buffer_get_cdata
+ *fill*         0x0000000000005d16        0xa 
+ .text.pomp_buffer_ensure_capacity
+                0x0000000000005d20       0x44 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005d20                pomp_buffer_ensure_capacity
+ *fill*         0x0000000000005d64        0xc 
+ .text.pomp_buffer_write
+                0x0000000000005d70       0x87 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005d70                pomp_buffer_write
+ *fill*         0x0000000000005df7        0x9 
+ .text.pomp_buffer_append_data
+                0x0000000000005e00       0x5c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005e00                pomp_buffer_append_data
+ *fill*         0x0000000000005e5c        0x4 
+ .text.pomp_buffer_writeb
+                0x0000000000005e60       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005e60                pomp_buffer_writeb
+ .text.pomp_buffer_write_fd
+                0x0000000000005e80      0x160 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005e80                pomp_buffer_write_fd
+ .text.pomp_buffer_read
+                0x0000000000005fe0       0x66 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000005fe0                pomp_buffer_read
+ *fill*         0x0000000000006046        0xa 
+ .text.pomp_buffer_cread
+                0x0000000000006050       0x3e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000006050                pomp_buffer_cread
+ *fill*         0x000000000000608e        0x2 
+ .text.pomp_buffer_readb
+                0x0000000000006090        0xe /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x0000000000006090                pomp_buffer_readb
+ *fill*         0x000000000000609e        0x2 
+ .text.pomp_buffer_read_fd
+                0x00000000000060a0       0xba /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                0x00000000000060a0                pomp_buffer_read_fd
+ *fill*         0x000000000000615a        0x6 
+ .text.pomp_idle_cb
+                0x0000000000006160      0x121 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ *fill*         0x0000000000006281        0xf 
+ .text.pomp_conn_add_idle_cb
+                0x0000000000006290       0xfe /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ *fill*         0x000000000000638e        0x2 
+ .text.clear_pending_callbacks
+                0x0000000000006390      0x180 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .text.pomp_conn_fixup_rx_fds_cb
+                0x0000000000006510      0x188 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ *fill*         0x0000000000006698        0x8 
+ .text.pomp_conn_clear_rx_fds.isra.0.part.0
+                0x00000000000066a0       0xe9 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ *fill*         0x0000000000006789        0x7 
+ .text.pomp_io_buffer_write
+                0x0000000000006790      0x39e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ *fill*         0x0000000000006b2e        0x2 
+ .text.pomp_conn_send_buf_internal
+                0x0000000000006b30      0x39d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ *fill*         0x0000000000006ecd        0x3 
+ .text.pomp_conn_cb
+                0x0000000000006ed0      0x86b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ *fill*         0x000000000000773b        0x5 
+ .text.pomp_conn_new
+                0x0000000000007740      0x378 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007740                pomp_conn_new
+ *fill*         0x0000000000007ab8        0x8 
+ .text.pomp_conn_destroy
+                0x0000000000007ac0       0x4d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007ac0                pomp_conn_destroy
+ *fill*         0x0000000000007b0d        0x3 
+ .text.pomp_conn_close
+                0x0000000000007b10      0x18e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007b10                pomp_conn_close
+ *fill*         0x0000000000007c9e        0x2 
+ .text.pomp_conn_get_next
+                0x0000000000007ca0       0x13 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007ca0                pomp_conn_get_next
+ *fill*         0x0000000000007cb3        0xd 
+ .text.pomp_conn_set_next
+                0x0000000000007cc0       0x16 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007cc0                pomp_conn_set_next
+ *fill*         0x0000000000007cd6        0xa 
+ .text.pomp_conn_disconnect
+                0x0000000000007ce0       0xd9 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007ce0                pomp_conn_disconnect
+ *fill*         0x0000000000007db9        0x7 
+ .text.pomp_conn_get_local_addr
+                0x0000000000007dc0       0x23 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007dc0                pomp_conn_get_local_addr
+ *fill*         0x0000000000007de3        0xd 
+ .text.pomp_conn_get_peer_addr
+                0x0000000000007df0       0x23 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007df0                pomp_conn_get_peer_addr
+ *fill*         0x0000000000007e13        0xd 
+ .text.pomp_conn_get_peer_cred
+                0x0000000000007e20       0x21 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007e20                pomp_conn_get_peer_cred
+ *fill*         0x0000000000007e41        0xf 
+ .text.pomp_conn_get_fd
+                0x0000000000007e50       0x13 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007e50                pomp_conn_get_fd
+ *fill*         0x0000000000007e63        0xd 
+ .text.pomp_conn_suspend_read
+                0x0000000000007e70       0x36 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007e70                pomp_conn_suspend_read
+ *fill*         0x0000000000007ea6        0xa 
+ .text.pomp_conn_resume_read
+                0x0000000000007eb0       0x36 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007eb0                pomp_conn_resume_read
+ *fill*         0x0000000000007ee6        0xa 
+ .text.pomp_conn_send_msg_to
+                0x0000000000007ef0       0x18 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007ef0                pomp_conn_send_msg_to
+ *fill*         0x0000000000007f08        0x8 
+ .text.pomp_conn_send_msg
+                0x0000000000007f10       0x1c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007f10                pomp_conn_send_msg
+ *fill*         0x0000000000007f2c        0x4 
+ .text.pomp_conn_sendv
+                0x0000000000007f30       0x85 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007f30                pomp_conn_sendv
+ *fill*         0x0000000000007fb5        0xb 
+ .text.pomp_conn_send
+                0x0000000000007fc0       0xb0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000007fc0                pomp_conn_send
+ .text.pomp_conn_send_raw_buf_to
+                0x0000000000008070        0x9 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000008070                pomp_conn_send_raw_buf_to
+ *fill*         0x0000000000008079        0x7 
+ .text.pomp_conn_send_raw_buf
+                0x0000000000008080        0xd /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                0x0000000000008080                pomp_conn_send_raw_buf
+ *fill*         0x000000000000808d        0x3 
+ .text.fd_socket_setup_keepalive
+                0x0000000000008090      0x28d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ *fill*         0x000000000000831d        0x3 
+ .text.client_complete_conn
+                0x0000000000008320      0x216 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ *fill*         0x0000000000008536        0xa 
+ .text.client_cb
+                0x0000000000008540        0xc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ *fill*         0x000000000000854c        0x4 
+ .text.server_start
+                0x0000000000008550      0x677 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ *fill*         0x0000000000008bc7        0x9 
+ .text.server_cb
+                0x0000000000008bd0      0x403 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ *fill*         0x0000000000008fd3        0xd 
+ .text.client_start
+                0x0000000000008fe0      0x45b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ *fill*         0x000000000000943b        0x5 
+ .text.dgram_start
+                0x0000000000009440      0x609 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ *fill*         0x0000000000009a49        0x7 
+ .text.timer_cb
+                0x0000000000009a50       0x51 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ *fill*         0x0000000000009aa1        0xf 
+ .text.pomp_ctx_start
+                0x0000000000009ab0      0x162 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ *fill*         0x0000000000009c12        0xe 
+ .text.pomp_event_str
+                0x0000000000009c20       0x31 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009c20                pomp_event_str
+ *fill*         0x0000000000009c51        0xf 
+ .text.pomp_socket_kind_str
+                0x0000000000009c60       0x46 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009c60                pomp_socket_kind_str
+ *fill*         0x0000000000009ca6        0xa 
+ .text.pomp_ctx_set_raw
+                0x0000000000009cb0       0x34 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009cb0                pomp_ctx_set_raw
+ *fill*         0x0000000000009ce4        0xc 
+ .text.pomp_ctx_set_socket_cb
+                0x0000000000009cf0       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009cf0                pomp_ctx_set_socket_cb
+ *fill*         0x0000000000009d1c        0x4 
+ .text.pomp_ctx_set_send_cb
+                0x0000000000009d20       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009d20                pomp_ctx_set_send_cb
+ *fill*         0x0000000000009d4c        0x4 
+ .text.pomp_ctx_setup_keepalive
+                0x0000000000009d50       0x1f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009d50                pomp_ctx_setup_keepalive
+ *fill*         0x0000000000009d6f        0x1 
+ .text.pomp_ctx_destroy
+                0x0000000000009d70       0x65 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009d70                pomp_ctx_destroy
+ *fill*         0x0000000000009dd5        0xb 
+ .text.pomp_ctx_new_with_loop
+                0x0000000000009de0       0xb1 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009de0                pomp_ctx_new_with_loop
+ *fill*         0x0000000000009e91        0xf 
+ .text.pomp_ctx_new
+                0x0000000000009ea0       0x6f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009ea0                pomp_ctx_new
+ *fill*         0x0000000000009f0f        0x1 
+ .text.pomp_ctx_listen
+                0x0000000000009f10       0x10 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009f10                pomp_ctx_listen
+ .text.pomp_ctx_connect
+                0x0000000000009f20       0x13 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009f20                pomp_ctx_connect
+ *fill*         0x0000000000009f33        0xd 
+ .text.pomp_ctx_bind
+                0x0000000000009f40       0x13 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009f40                pomp_ctx_bind
+ *fill*         0x0000000000009f53        0xd 
+ .text.pomp_ctx_get_fd
+                0x0000000000009f60       0x1a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009f60                pomp_ctx_get_fd
+ *fill*         0x0000000000009f7a        0x6 
+ .text.pomp_ctx_process_fd
+                0x0000000000009f80       0x1a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009f80                pomp_ctx_process_fd
+ *fill*         0x0000000000009f9a        0x6 
+ .text.pomp_ctx_wait_and_process
+                0x0000000000009fa0       0x18 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009fa0                pomp_ctx_wait_and_process
+ *fill*         0x0000000000009fb8        0x8 
+ .text.pomp_ctx_wakeup
+                0x0000000000009fc0       0x18 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009fc0                pomp_ctx_wakeup
+ *fill*         0x0000000000009fd8        0x8 
+ .text.pomp_ctx_get_loop
+                0x0000000000009fe0       0x13 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x0000000000009fe0                pomp_ctx_get_loop
+ *fill*         0x0000000000009ff3        0xd 
+ .text.pomp_ctx_get_next_conn
+                0x000000000000a000       0x2b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x000000000000a000                pomp_ctx_get_next_conn
+ *fill*         0x000000000000a02b        0x5 
+ .text.pomp_ctx_get_conn
+                0x000000000000a030       0x19 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x000000000000a030                pomp_ctx_get_conn
+ *fill*         0x000000000000a049        0x7 
+ .text.pomp_ctx_get_local_addr
+                0x000000000000a050       0x48 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x000000000000a050                pomp_ctx_get_local_addr
+ *fill*         0x000000000000a098        0x8 
+ .text.pomp_ctx_send_msg
+                0x000000000000a0a0       0xab /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x000000000000a0a0                pomp_ctx_send_msg
+ *fill*         0x000000000000a14b        0x5 
+ .text.pomp_ctx_send_msg_to
+                0x000000000000a150       0x36 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x000000000000a150                pomp_ctx_send_msg_to
+ *fill*         0x000000000000a186        0xa 
+ .text.pomp_ctx_sendv
+                0x000000000000a190       0x85 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x000000000000a190                pomp_ctx_sendv
+ *fill*         0x000000000000a215        0xb 
+ .text.pomp_ctx_send
+                0x000000000000a220       0xb0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x000000000000a220                pomp_ctx_send
+ .text.pomp_ctx_send_raw_buf
+                0x000000000000a2d0       0xb3 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x000000000000a2d0                pomp_ctx_send_raw_buf
+ *fill*         0x000000000000a383        0xd 
+ .text.pomp_ctx_send_raw_buf_to
+                0x000000000000a390       0x3e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x000000000000a390                pomp_ctx_send_raw_buf_to
+ *fill*         0x000000000000a3ce        0x2 
+ .text.pomp_ctx_remove_conn
+                0x000000000000a3d0      0x1d8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x000000000000a3d0                pomp_ctx_remove_conn
+ *fill*         0x000000000000a5a8        0x8 
+ .text.pomp_ctx_stop
+                0x000000000000a5b0      0x1ba /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x000000000000a5b0                pomp_ctx_stop
+ *fill*         0x000000000000a76a        0x6 
+ .text.pomp_ctx_notify_msg
+                0x000000000000a770       0x48 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x000000000000a770                pomp_ctx_notify_msg
+ *fill*         0x000000000000a7b8        0x8 
+ .text.pomp_ctx_notify_raw_buf
+                0x000000000000a7c0       0x3e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x000000000000a7c0                pomp_ctx_notify_raw_buf
+ *fill*         0x000000000000a7fe        0x2 
+ .text.pomp_ctx_notify_send
+                0x000000000000a800       0x48 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x000000000000a800                pomp_ctx_notify_send
+ *fill*         0x000000000000a848        0x8 
+ .text.pomp_ctx_sendcb_is_set
+                0x000000000000a850       0x1b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                0x000000000000a850                pomp_ctx_sendcb_is_set
+ *fill*         0x000000000000a86b        0x5 
+ .text.dump_append
+                0x000000000000a870      0x1af /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ *fill*         0x000000000000aa1f        0x1 
+ .text.decoder_dump_cb
+                0x000000000000aa20      0x27f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ *fill*         0x000000000000ac9f        0x1 
+ .text.decoder_read_varint
+                0x000000000000aca0      0x12d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ *fill*         0x000000000000adcd        0x3 
+ .text.decoder_read_data
+                0x000000000000add0       0xe6 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ *fill*         0x000000000000aeb6        0xa 
+ .text.pomp_decoder_new
+                0x000000000000aec0       0x13 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000aec0                pomp_decoder_new
+ *fill*         0x000000000000aed3        0xd 
+ .text.pomp_decoder_destroy
+                0x000000000000aee0       0x1f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000aee0                pomp_decoder_destroy
+ *fill*         0x000000000000aeff        0x1 
+ .text.pomp_decoder_init
+                0x000000000000af00       0x22 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000af00                pomp_decoder_init
+ *fill*         0x000000000000af22        0xe 
+ .text.pomp_decoder_clear
+                0x000000000000af30       0x21 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000af30                pomp_decoder_clear
+ *fill*         0x000000000000af51        0xf 
+ .text.pomp_decoder_read_i8
+                0x000000000000af60       0x74 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000af60                pomp_decoder_read_i8
+ *fill*         0x000000000000afd4        0xc 
+ .text.pomp_decoder_read_u8
+                0x000000000000afe0       0x74 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000afe0                pomp_decoder_read_u8
+ *fill*         0x000000000000b054        0xc 
+ .text.pomp_decoder_read_i16
+                0x000000000000b060       0x74 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b060                pomp_decoder_read_i16
+ *fill*         0x000000000000b0d4        0xc 
+ .text.pomp_decoder_read_u16
+                0x000000000000b0e0       0x74 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b0e0                pomp_decoder_read_u16
+ *fill*         0x000000000000b154        0xc 
+ .text.pomp_decoder_read_i32
+                0x000000000000b160       0x7c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b160                pomp_decoder_read_i32
+ *fill*         0x000000000000b1dc        0x4 
+ .text.pomp_decoder_read_u32
+                0x000000000000b1e0       0x6c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b1e0                pomp_decoder_read_u32
+ *fill*         0x000000000000b24c        0x4 
+ .text.pomp_decoder_read_i64
+                0x000000000000b250       0x7c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b250                pomp_decoder_read_i64
+ *fill*         0x000000000000b2cc        0x4 
+ .text.pomp_decoder_read_u64
+                0x000000000000b2d0       0x6c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b2d0                pomp_decoder_read_u64
+ *fill*         0x000000000000b33c        0x4 
+ .text.pomp_decoder_read_cstr
+                0x000000000000b340      0x1d4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b340                pomp_decoder_read_cstr
+ *fill*         0x000000000000b514        0xc 
+ .text.pomp_decoder_read_str
+                0x000000000000b520       0x7c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b520                pomp_decoder_read_str
+ *fill*         0x000000000000b59c        0x4 
+ .text.pomp_decoder_read_cbuf
+                0x000000000000b5a0      0x150 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b5a0                pomp_decoder_read_cbuf
+ .text.pomp_decoder_read_buf
+                0x000000000000b6f0       0xab /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b6f0                pomp_decoder_read_buf
+ *fill*         0x000000000000b79b        0x5 
+ .text.pomp_decoder_read_f32
+                0x000000000000b7a0       0x6c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b7a0                pomp_decoder_read_f32
+ *fill*         0x000000000000b80c        0x4 
+ .text.pomp_decoder_read_f64
+                0x000000000000b810       0x6c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b810                pomp_decoder_read_f64
+ *fill*         0x000000000000b87c        0x4 
+ .text.pomp_decoder_read_fd
+                0x000000000000b880       0xf0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b880                pomp_decoder_read_fd
+ .text.pomp_decoder_readv
+                0x000000000000b970      0x7cf /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000b970                pomp_decoder_readv
+ *fill*         0x000000000000c13f        0x1 
+ .text.pomp_decoder_read
+                0x000000000000c140       0xb5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000c140                pomp_decoder_read
+ *fill*         0x000000000000c1f5        0xb 
+ .text.pomp_decoder_walk
+                0x000000000000c200      0x2d3 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000c200                pomp_decoder_walk
+ *fill*         0x000000000000c4d3        0xd 
+ .text.decoder_dump.constprop.0
+                0x000000000000c4e0       0xca /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ *fill*         0x000000000000c5aa        0x6 
+ .text.pomp_decoder_adump
+                0x000000000000c5b0       0xb4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000c5b0                pomp_decoder_adump
+ *fill*         0x000000000000c664        0xc 
+ .text.pomp_decoder_dump
+                0x000000000000c670       0x7c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                0x000000000000c670                pomp_decoder_dump
+ *fill*         0x000000000000c6ec        0x4 
+ .text.encoder_write_data
+                0x000000000000c6f0       0x58 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ *fill*         0x000000000000c748        0x8 
+ .text.encoder_write_varint
+                0x000000000000c750       0xac /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ *fill*         0x000000000000c7fc        0x4 
+ .text.pomp_encoder_new
+                0x000000000000c800       0x13 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000c800                pomp_encoder_new
+ *fill*         0x000000000000c813        0xd 
+ .text.pomp_encoder_destroy
+                0x000000000000c820       0x1f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000c820                pomp_encoder_destroy
+ *fill*         0x000000000000c83f        0x1 
+ .text.pomp_encoder_init
+                0x000000000000c840       0x22 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000c840                pomp_encoder_init
+ *fill*         0x000000000000c862        0xe 
+ .text.pomp_encoder_clear
+                0x000000000000c870       0x21 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000c870                pomp_encoder_clear
+ *fill*         0x000000000000c891        0xf 
+ .text.pomp_encoder_write_i8
+                0x000000000000c8a0       0x73 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000c8a0                pomp_encoder_write_i8
+ *fill*         0x000000000000c913        0xd 
+ .text.pomp_encoder_write_u8
+                0x000000000000c920       0x73 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000c920                pomp_encoder_write_u8
+ *fill*         0x000000000000c993        0xd 
+ .text.pomp_encoder_write_i16
+                0x000000000000c9a0       0x73 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000c9a0                pomp_encoder_write_i16
+ *fill*         0x000000000000ca13        0xd 
+ .text.pomp_encoder_write_u16
+                0x000000000000ca20       0x73 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000ca20                pomp_encoder_write_u16
+ *fill*         0x000000000000ca93        0xd 
+ .text.pomp_encoder_write_i32
+                0x000000000000caa0       0x3c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000caa0                pomp_encoder_write_i32
+ *fill*         0x000000000000cadc        0x4 
+ .text.pomp_encoder_write_u32
+                0x000000000000cae0       0x34 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000cae0                pomp_encoder_write_u32
+ *fill*         0x000000000000cb14        0xc 
+ .text.pomp_encoder_write_i64
+                0x000000000000cb20       0x3c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000cb20                pomp_encoder_write_i64
+ *fill*         0x000000000000cb5c        0x4 
+ .text.pomp_encoder_write_u64
+                0x000000000000cb60       0x34 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000cb60                pomp_encoder_write_u64
+ *fill*         0x000000000000cb94        0xc 
+ .text.pomp_encoder_write_str
+                0x000000000000cba0       0xf6 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000cba0                pomp_encoder_write_str
+ *fill*         0x000000000000cc96        0xa 
+ .text.pomp_encoder_write_buf
+                0x000000000000cca0       0xa5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000cca0                pomp_encoder_write_buf
+ *fill*         0x000000000000cd45        0xb 
+ .text.pomp_encoder_write_f32
+                0x000000000000cd50       0x73 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000cd50                pomp_encoder_write_f32
+ *fill*         0x000000000000cdc3        0xd 
+ .text.pomp_encoder_write_f64
+                0x000000000000cdd0       0x73 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000cdd0                pomp_encoder_write_f64
+ *fill*         0x000000000000ce43        0xd 
+ .text.pomp_encoder_write_fd
+                0x000000000000ce50       0x6f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000ce50                pomp_encoder_write_fd
+ *fill*         0x000000000000cebf        0x1 
+ .text.encoder_writev_internal.part.0
+                0x000000000000cec0      0xd50 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.pomp_encoder_write
+                0x000000000000dc10       0xd0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000dc10                pomp_encoder_write
+ .text.pomp_encoder_writev
+                0x000000000000dce0       0x29 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000dce0                pomp_encoder_writev
+ *fill*         0x000000000000dd09        0x7 
+ .text.encoder_write_internal
+                0x000000000000dd10       0xc0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .text.pomp_encoder_write_argv
+                0x000000000000ddd0       0x21 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                0x000000000000ddd0                pomp_encoder_write_argv
+ *fill*         0x000000000000ddf1        0xf 
+ .text.pomp_loop_epoll_do_get_fd
+                0x000000000000de00        0x9 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000de09        0x7 
+ .text.pomp_loop_poll_do_add
+                0x000000000000de10        0x7 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000de17        0x9 
+ .text.pomp_loop_poll_do_get_fd
+                0x000000000000de20        0xc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000de2c        0x4 
+ .text.pomp_loop_epoll_do_wakeup
+                0x000000000000de30       0xd8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000df08        0x8 
+ .text.pomp_loop_poll_do_wakeup
+                0x000000000000df10       0xd8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000dfe8        0x8 
+ .text.pomp_loop_poll_do_destroy
+                0x000000000000dff0       0x4f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000e03f        0x1 
+ .text.pomp_loop_idle_check
+                0x000000000000e040       0x67 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000e0a7        0x9 
+ .text.pomp_loop_epoll_do_wait_and_process
+                0x000000000000e0b0      0x230 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.pomp_loop_poll_do_wait_and_process
+                0x000000000000e2e0      0x3c3 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000e6a3        0xd 
+ .text.pomp_loop_epoll_ctl.isra.0
+                0x000000000000e6b0       0xc2 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000e772        0xe 
+ .text.pomp_loop_epoll_do_remove
+                0x000000000000e780       0x16 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000e796        0xa 
+ .text.pomp_loop_epoll_do_update
+                0x000000000000e7a0       0x16 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000e7b6        0xa 
+ .text.pomp_loop_epoll_do_add
+                0x000000000000e7c0       0x16 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000e7d6        0xa 
+ .text.pomp_loop_epoll_do_destroy
+                0x000000000000e7e0       0x50 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .text.pomp_loop_poll_do_new
+                0x000000000000e830       0xa5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000e8d5        0xb 
+ .text.pomp_loop_poll_do_update
+                0x000000000000e8e0        0x7 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000e8e7        0x9 
+ .text.pomp_loop_epoll_do_new
+                0x000000000000e8f0      0x451 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000ed41        0xf 
+ .text.pomp_loop_poll_do_remove
+                0x000000000000ed50        0x7 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ *fill*         0x000000000000ed57        0x9 
+ .text.pomp_loop_add_pfd
+                0x000000000000ed60       0x63 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000ed60                pomp_loop_add_pfd
+ *fill*         0x000000000000edc3        0xd 
+ .text.pomp_loop_remove_pfd
+                0x000000000000edd0       0xfb /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000edd0                pomp_loop_remove_pfd
+ *fill*         0x000000000000eecb        0x5 
+ .text.pomp_loop_new
+                0x000000000000eed0       0x45 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000eed0                pomp_loop_new
+ *fill*         0x000000000000ef15        0xb 
+ .text.pomp_loop_destroy
+                0x000000000000ef20       0xc3 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000ef20                pomp_loop_destroy
+ *fill*         0x000000000000efe3        0xd 
+ .text.pomp_loop_add
+                0x000000000000eff0      0x11b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000eff0                pomp_loop_add
+ *fill*         0x000000000000f10b        0x5 
+ .text.pomp_loop_update
+                0x000000000000f110       0xbb /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000f110                pomp_loop_update
+ *fill*         0x000000000000f1cb        0x5 
+ .text.pomp_loop_update2
+                0x000000000000f1d0       0xc3 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000f1d0                pomp_loop_update2
+ *fill*         0x000000000000f293        0xd 
+ .text.pomp_loop_remove
+                0x000000000000f2a0       0xd3 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000f2a0                pomp_loop_remove
+ *fill*         0x000000000000f373        0xd 
+ .text.pomp_loop_has_fd
+                0x000000000000f380       0x47 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000f380                pomp_loop_has_fd
+ *fill*         0x000000000000f3c7        0x9 
+ .text.pomp_loop_get_fd
+                0x000000000000f3d0       0x1b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000f3d0                pomp_loop_get_fd
+ *fill*         0x000000000000f3eb        0x5 
+ .text.pomp_loop_wait_and_process
+                0x000000000000f3f0       0x3b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000f3f0                pomp_loop_wait_and_process
+ *fill*         0x000000000000f42b        0x5 
+ .text.pomp_loop_process_fd
+                0x000000000000f430        0xb /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000f430                pomp_loop_process_fd
+ *fill*         0x000000000000f43b        0x5 
+ .text.pomp_loop_wakeup
+                0x000000000000f440       0x19 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000f440                pomp_loop_wakeup
+ *fill*         0x000000000000f459        0x7 
+ .text.pomp_loop_idle_add
+                0x000000000000f460       0xb8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000f460                pomp_loop_idle_add
+ *fill*         0x000000000000f518        0x8 
+ .text.pomp_loop_idle_remove
+                0x000000000000f520       0x57 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x000000000000f520                pomp_loop_idle_remove
+ *fill*         0x000000000000f577        0x9 
+ .text.pomp_msg_new
+                0x000000000000f580       0x13 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000f580                pomp_msg_new
+ *fill*         0x000000000000f593        0xd 
+ .text.pomp_msg_new_copy
+                0x000000000000f5a0       0x6e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000f5a0                pomp_msg_new_copy
+ *fill*         0x000000000000f60e        0x2 
+ .text.pomp_msg_new_with_buffer
+                0x000000000000f610      0x222 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000f610                pomp_msg_new_with_buffer
+ *fill*         0x000000000000f832        0xe 
+ .text.pomp_msg_init
+                0x000000000000f840       0x45 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000f840                pomp_msg_init
+ *fill*         0x000000000000f885        0xb 
+ .text.pomp_msg_finish
+                0x000000000000f890      0x124 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000f890                pomp_msg_finish
+ *fill*         0x000000000000f9b4        0xc 
+ .text.pomp_msg_clear
+                0x000000000000f9c0       0x34 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000f9c0                pomp_msg_clear
+ *fill*         0x000000000000f9f4        0xc 
+ .text.pomp_msg_destroy
+                0x000000000000fa00       0x24 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000fa00                pomp_msg_destroy
+ *fill*         0x000000000000fa24        0xc 
+ .text.pomp_msg_get_id
+                0x000000000000fa30       0x13 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000fa30                pomp_msg_get_id
+ *fill*         0x000000000000fa43        0xd 
+ .text.pomp_msg_get_buffer
+                0x000000000000fa50       0x13 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000fa50                pomp_msg_get_buffer
+ *fill*         0x000000000000fa63        0xd 
+ .text.pomp_msg_writev
+                0x000000000000fa70       0xbe /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000fa70                pomp_msg_writev
+ *fill*         0x000000000000fb2e        0x2 
+ .text.pomp_msg_write
+                0x000000000000fb30       0xb0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000fb30                pomp_msg_write
+ .text.pomp_msg_write_argv
+                0x000000000000fbe0       0xc7 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000fbe0                pomp_msg_write_argv
+ *fill*         0x000000000000fca7        0x9 
+ .text.pomp_msg_readv
+                0x000000000000fcb0       0xa0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000fcb0                pomp_msg_readv
+ .text.pomp_msg_read
+                0x000000000000fd50       0xb5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000fd50                pomp_msg_read
+ *fill*         0x000000000000fe05        0xb 
+ .text.pomp_msg_dump
+                0x000000000000fe10       0xa0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000fe10                pomp_msg_dump
+ .text.pomp_msg_adump
+                0x000000000000feb0       0x9d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                0x000000000000feb0                pomp_msg_adump
+ *fill*         0x000000000000ff4d        0x3 
+ .text.pomp_prot_reset_state
+                0x000000000000ff50       0x35 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ *fill*         0x000000000000ff85        0xb 
+ .text.pomp_prot_check_magic.part.0
+                0x000000000000ff90       0x85 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ *fill*         0x0000000000010015        0xb 
+ .text.copy.constprop.0
+                0x0000000000010020       0x42 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ *fill*         0x0000000000010062        0xe 
+ .text.pomp_prot_new
+                0x0000000000010070       0x29 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+                0x0000000000010070                pomp_prot_new
+ *fill*         0x0000000000010099        0x7 
+ .text.pomp_prot_destroy
+                0x00000000000100a0       0x32 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+                0x00000000000100a0                pomp_prot_destroy
+ *fill*         0x00000000000100d2        0xe 
+ .text.pomp_prot_decode_msg
+                0x00000000000100e0      0x449 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+                0x00000000000100e0                pomp_prot_decode_msg
+ *fill*         0x0000000000010529        0x7 
+ .text.pomp_prot_release_msg
+                0x0000000000010530       0x49 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+                0x0000000000010530                pomp_prot_release_msg
+ *fill*         0x0000000000010579        0x7 
+ .text.pomp_timer_fd_destroy
+                0x0000000000010580       0x36 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x00000000000105b6        0xa 
+ .text.pomp_timer_fd_new
+                0x00000000000105c0      0x115 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x00000000000106d5        0xb 
+ .text.pomp_timer_fd_cb
+                0x00000000000106e0       0x75 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x0000000000010755        0xb 
+ .text.pomp_timer_posix_cb
+                0x0000000000010760       0x75 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x00000000000107d5        0xb 
+ .text.pomp_timer_posix_destroy
+                0x00000000000107e0       0x51 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x0000000000010831        0xf 
+ .text.pomp_timer_posix_sighandler
+                0x0000000000010840       0x73 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x00000000000108b3        0xd 
+ .text.pomp_timer_fd_set
+                0x00000000000108c0      0x11d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x00000000000109dd        0x3 
+ .text.pomp_timer_fd_clear
+                0x00000000000109e0       0x18 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x00000000000109f8        0x8 
+ .text.pomp_timer_posix_set
+                0x0000000000010a00      0x11d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x0000000000010b1d        0x3 
+ .text.pomp_timer_posix_clear
+                0x0000000000010b20       0x18 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x0000000000010b38        0x8 
+ .text.pomp_timer_posix_new
+                0x0000000000010b40      0x6d4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ *fill*         0x0000000000011214        0xc 
+ .text.pomp_timer_new
+                0x0000000000011220        0xd /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                0x0000000000011220                pomp_timer_new
+ *fill*         0x000000000001122d        0x3 
+ .text.pomp_timer_destroy
+                0x0000000000011230        0xe /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                0x0000000000011230                pomp_timer_destroy
+ *fill*         0x000000000001123e        0x2 
+ .text.pomp_timer_set
+                0x0000000000011240       0x13 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                0x0000000000011240                pomp_timer_set
+ *fill*         0x0000000000011253        0xd 
+ .text.pomp_timer_set_periodic
+                0x0000000000011260        0xe /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                0x0000000000011260                pomp_timer_set_periodic
+ *fill*         0x000000000001126e        0x2 
+ .text.pomp_timer_clear
+                0x0000000000011270        0xe /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                0x0000000000011270                pomp_timer_clear
+ *(.gnu.warning)
+
+.fini           0x0000000000011280        0xd
+ *(SORT_NONE(.fini))
+ .fini          0x0000000000011280        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000011280                _fini
+ .fini          0x0000000000011288        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x0000000000012000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x0000000000012000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x0000000000012000      0xb24
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.8
+                0x0000000000012000       0x1f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .rodata.str1.1
+                0x000000000001201f       0x4a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .rodata.str1.1
+                0x0000000000012069       0x37 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .rodata.str1.8
+                0x00000000000120a0       0x4d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ *fill*         0x00000000000120ed        0x3 
+ .rodata.str1.8
+                0x00000000000120f0      0x113 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .rodata.str1.1
+                0x0000000000012203       0x81 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                                         0x9c (size before relaxing)
+ .rodata.str1.1
+                0x0000000000012284      0x13a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                                        0x165 (size before relaxing)
+ *fill*         0x00000000000123be        0x2 
+ .rodata.str1.8
+                0x00000000000123c0       0x4e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .rodata.str1.1
+                0x000000000001240e       0xd0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ *fill*         0x00000000000124de        0x2 
+ .rodata        0x00000000000124e0      0x140 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .rodata.str1.8
+                0x0000000000012620      0x138 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .rodata.str1.8
+                0x0000000000012758       0xc8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .rodata.str1.1
+                0x0000000000012820       0x5a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                                         0x5d (size before relaxing)
+ *fill*         0x000000000001287a        0x2 
+ .rodata        0x000000000001287c       0xd0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .rodata.str1.1
+                0x000000000001294c        0x5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .rodata.str1.1
+                0x0000000000012951       0x89 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                                         0xe7 (size before relaxing)
+ *fill*         0x00000000000129da        0x6 
+ .rodata.str1.8
+                0x00000000000129e0       0x43 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .rodata.str1.1
+                0x0000000000012a23       0x4e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ *fill*         0x0000000000012a71        0x7 
+ .rodata.str1.8
+                0x0000000000012a78       0x25 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .rodata.str1.1
+                0x0000000000012a9d       0x26 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ *fill*         0x0000000000012ac3        0x1 
+ .rodata        0x0000000000012ac4       0x1c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .rodata.str1.1
+                0x0000000000012ae0       0x44 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                                         0x9c (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000012b24      0x6fc
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000012b24      0x6fc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+                0x0000000000012b24                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000013220     0x2714
+ *(.eh_frame)
+ .eh_frame      0x0000000000013220       0x40 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x0000000000013260       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000013278       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000013290      0x140 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+                                        0x158 (size before relaxing)
+ .eh_frame      0x00000000000133d0      0x370 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                                        0x3a0 (size before relaxing)
+ .eh_frame      0x0000000000013740      0x578 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                                        0x590 (size before relaxing)
+ .eh_frame      0x0000000000013cb8      0x7d0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                                        0x808 (size before relaxing)
+ .eh_frame      0x0000000000014488      0x4d8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                                        0x4f0 (size before relaxing)
+ .eh_frame      0x0000000000014960      0x360 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                                        0x378 (size before relaxing)
+ .eh_frame      0x0000000000014cc0      0x5f0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                                        0x630 (size before relaxing)
+ .eh_frame      0x00000000000152b0      0x2b0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                                        0x2c8 (size before relaxing)
+ .eh_frame      0x0000000000015560      0x118 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+                                        0x130 (size before relaxing)
+ .eh_frame      0x0000000000015678      0x2b8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                                        0x2e8 (size before relaxing)
+ .eh_frame      0x0000000000015930        0x4 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x0000000000016d10                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x0000000000016d10        0x8
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000016d10        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.fini_array     0x0000000000016d18        0x8
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000016d18        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000016d20       0xc0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000016d20       0x80 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                0x0000000000016d20                pomp_loop_poll_ops
+                0x0000000000016d60                pomp_loop_epoll_ops
+ .data.rel.ro.local
+                0x0000000000016da0       0x40 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                0x0000000000016da0                pomp_timer_posix_ops
+                0x0000000000016dc0                pomp_timer_fd_ops
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000016de0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynamic        0x0000000000016de0      0x200
+ *(.dynamic)
+ .dynamic       0x0000000000016de0      0x200 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000016de0                _DYNAMIC
+
+.got            0x0000000000016fe0       0x20
+ *(.got)
+ .got           0x0000000000016fe0       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x0000000000017fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000017000      0x458
+ *(.got.plt)
+ .got.plt       0x0000000000017000      0x458 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000017000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000017460       0x50
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x0000000000017460        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                0x0000000000017460                __dso_handle
+ *fill*         0x0000000000017468       0x18 
+ .data.rel.local
+                0x0000000000017480       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+                0x0000000000017480                __ulog_cookie_pomp
+ .data.rel.local
+                0x00000000000174a0        0x8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .data.rel.local
+                0x00000000000174a8        0x8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+
+.tm_clone_table
+                0x00000000000174b0        0x0
+ .tm_clone_table
+                0x00000000000174b0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .tm_clone_table
+                0x00000000000174b0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.data1
+ *(.data1)
+                [!provide]                        PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                0x00000000000174b0                . = .
+                [!provide]                        PROVIDE (__bss_start = .)
+
+.bss            0x00000000000174b0        0x8
+ *(.dynbss)
+ .dynbss        0x00000000000174b0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000000174b0        0x1 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *(COMMON)
+                0x00000000000174b8                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x00000000000174b1        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x00000000000174b8                . = ALIGN (0x8)
+                0x00000000000174b8                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x00000000000194b8        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x00000000000194b8                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x00000000000194b8                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+                0x00000000000194b8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+ .comment       0x000000000000002b       0x2c /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0xf40
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x60 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .debug_aranges
+                0x0000000000000060      0x1a0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .debug_aranges
+                0x0000000000000200      0x1c0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .debug_aranges
+                0x00000000000003c0      0x2c0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .debug_aranges
+                0x0000000000000680      0x1f0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .debug_aranges
+                0x0000000000000870      0x1a0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .debug_aranges
+                0x0000000000000a10       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .debug_aranges
+                0x0000000000000a30      0x230 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .debug_aranges
+                0x0000000000000c60      0x120 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .debug_aranges
+                0x0000000000000d80       0x90 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .debug_aranges
+                0x0000000000000e10      0x130 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x1ccea
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x157e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .debug_info    0x000000000000157e     0x21e5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .debug_info    0x0000000000003763     0x446d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .debug_info    0x0000000000007bd0     0x4a8c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .debug_info    0x000000000000c65c     0x3432 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .debug_info    0x000000000000fa8e     0x2b71 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .debug_info    0x00000000000125ff      0xc69 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .debug_info    0x0000000000013268     0x37e5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .debug_info    0x0000000000016a4d     0x1b9e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .debug_info    0x00000000000185eb     0x1c4e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .debug_info    0x000000000001a239     0x2ab1 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+
+.debug_abbrev   0x0000000000000000     0x314b
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x34d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .debug_abbrev  0x000000000000034d      0x51d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .debug_abbrev  0x000000000000086a      0x579 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .debug_abbrev  0x0000000000000de3      0x597 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .debug_abbrev  0x000000000000137a      0x552 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .debug_abbrev  0x00000000000018cc      0x4cc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .debug_abbrev  0x0000000000001d98      0x15d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .debug_abbrev  0x0000000000001ef5      0x645 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .debug_abbrev  0x000000000000253a      0x332 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .debug_abbrev  0x000000000000286c      0x413 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .debug_abbrev  0x0000000000002c7f      0x4cc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+
+.debug_line     0x0000000000000000     0xc449
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x6b2 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .debug_line    0x00000000000006b2      0xf7a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .debug_line    0x000000000000162c     0x1cd4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .debug_line    0x0000000000003300     0x236c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .debug_line    0x000000000000566c     0x1cb5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .debug_line    0x0000000000007321     0x1295 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .debug_line    0x00000000000085b6      0x250 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+ .debug_line    0x0000000000008806     0x19fa /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .debug_line    0x000000000000a200      0xacc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .debug_line    0x000000000000accc      0x838 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .debug_line    0x000000000000b504      0xf45 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x2e5a
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x868 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+                                        0xa7b (size before relaxing)
+ .debug_str     0x0000000000000868      0x25f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+                                        0xb7f (size before relaxing)
+ .debug_str     0x0000000000000ac7      0xa22 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+                                       0x14b9 (size before relaxing)
+ .debug_str     0x00000000000014e9      0x637 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+                                       0x12dd (size before relaxing)
+ .debug_str     0x0000000000001b20      0x313 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+                                        0xe0f (size before relaxing)
+ .debug_str     0x0000000000001e33      0x2e0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+                                        0xd25 (size before relaxing)
+ .debug_str     0x0000000000002113       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_log.c.o
+                                        0x89a (size before relaxing)
+ .debug_str     0x0000000000002133      0x55a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+                                       0x1050 (size before relaxing)
+ .debug_str     0x000000000000268d      0x10f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+                                        0xc17 (size before relaxing)
+ .debug_str     0x000000000000279c      0x1d7 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+                                        0xc01 (size before relaxing)
+ .debug_str     0x0000000000002973      0x4e7 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+                                        0xf84 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x1e82b
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0xc06 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .debug_loc     0x0000000000000c06     0x21c2 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .debug_loc     0x0000000000002dc8     0x4e61 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .debug_loc     0x0000000000007c29     0x55b6 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .debug_loc     0x000000000000d1df     0x4867 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .debug_loc     0x0000000000011a46     0x3f23 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .debug_loc     0x0000000000015969     0x415a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .debug_loc     0x0000000000019ac3     0x12f2 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .debug_loc     0x000000000001adb5     0x15a2 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .debug_loc     0x000000000001c357     0x24d4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x4fc0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x230 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_addr.c.o
+ .debug_ranges  0x0000000000000230      0x450 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_buffer.c.o
+ .debug_ranges  0x0000000000000680      0xd80 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_conn.c.o
+ .debug_ranges  0x0000000000001400     0x1680 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_ctx.c.o
+ .debug_ranges  0x0000000000002a80      0x640 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_decoder.c.o
+ .debug_ranges  0x00000000000030c0      0x640 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_encoder.c.o
+ .debug_ranges  0x0000000000003700      0xb30 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_loop.c.o
+ .debug_ranges  0x0000000000004230      0x1b0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_msg.c.o
+ .debug_ranges  0x00000000000043e0      0x340 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_prot.c.o
+ .debug_ranges  0x0000000000004720      0x8a0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libpomp/obj/src/pomp_timer.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/arsdk-native/build/libpomp/libpomp.so elf64-x86-64)

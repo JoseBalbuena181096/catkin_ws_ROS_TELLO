@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (C) 2014 Parrot SA
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions
+    are met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in
+      the documentation and/or other materials provided with the 
+      distribution.
+    * Neither the name of Parrot nor the names
+      of its contributors may be used to endorse or promote products
+      derived from this software without specific prior written
+      permission.
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+    "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+    FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+    COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+    INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+    BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+    OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED 
+    AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+    OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+    OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+    SUCH DAMAGE.
+-->
+
+<deviceControllers>
+    list of all ARController_Device
+    <ARController_Device name="BebopDrone" product="ARDRONE" flags="can_be_extension">
+        Bebop Drone project
+        <feature name="common"/>
+        <feature name="ardrone3"/>
+        <feature name="generic"/>
+    </ARController_Device>
+
+    <ARController_Device name="JumpingSumo" product="JS">
+        Jumping Sumo project
+        <feature name="common"/>
+        <feature name="jpsumo"/>
+    </ARController_Device>
+
+    <ARController_Device name="JumpingSumoEvoLight" product="JS_EVO_LIGHT">
+        Jumping Sumo Evo light project
+        <feature name="common"/>
+        <feature name="jpsumo"/>
+    </ARController_Device>
+
+    <ARController_Device name="JumpingSumoEvoRace" product="JS_EVO_RACE">
+        Jumping Sumo Evo race project
+        <feature name="common"/>
+        <feature name="jpsumo"/>
+    </ARController_Device>
+
+    <ARController_Device name="RollingSpider" product="MINIDRONE">
+        Rolling Spider project
+        <feature name="common"/>
+        <feature name="minidrone"/>
+    </ARController_Device>
+
+    <ARController_Device name="AirborneNight" product="MINIDRONE_EVO_LIGHT">
+        Airborne night project
+        <feature name="common"/>
+        <feature name="minidrone"/>
+    </ARController_Device>
+
+    <ARController_Device name="AirborneCargo" product="MINIDRONE_EVO_BRICK">
+        Airborne brick project
+        <feature name="common"/>
+        <feature name="minidrone"/>
+    </ARController_Device>
+
+    <ARController_Device name="Swing" product="MINIDRONE_WINGX">
+        WingX project
+        <feature name="common"/>
+        <feature name="minidrone"/>
+    </ARController_Device>
+
+    <ARController_Device name="Mambo" product="MINIDRONE_DELOS3">
+        Delos3 project
+        <feature name="common"/>
+        <feature name="minidrone"/>
+        <feature name="mapper_mini"/>
+    </ARController_Device>
+
+    <ARController_Device name="Hydrofoil" product="MINIDRONE_EVO_HYDROFOIL">
+        Hydrofoil project
+        <feature name="common"/>
+        <feature name="minidrone"/>
+    </ARController_Device>
+
+    <ARController_Device name="SkyController" product="SKYCONTROLLER" flags="can_have_extension">
+        Sky Controller project
+        <feature name="common"/>
+        <feature name="skyctrl"/>
+    </ARController_Device>
+
+    <ARController_Device name="SkyController2" product="SKYCONTROLLER_2" flags="can_have_extension">
+        Sky Controller 2 project
+        <feature name="common"/>
+        <feature name="skyctrl"/>
+        <feature name="mapper"/>
+        <feature name="drone_manager"/>
+    </ARController_Device>
+
+    <ARController_Device name="SkyControllerNG" product="SKYCONTROLLER_NG" flags="can_have_extension">
+        Sky Controller NG project
+        <feature name="common"/>
+        <feature name="skyctrl"/>
+        <feature name="mapper"/>
+        <feature name="drone_manager"/>
+    </ARController_Device>
+
+    <ARController_Device name="SkyController2P" product="SKYCONTROLLER_2P" flags="can_have_extension">
+        Sky Controller 2P project
+        <feature name="common"/>
+        <feature name="skyctrl"/>
+        <feature name="mapper"/>
+        <feature name="drone_manager"/>
+    </ARController_Device>
+
+    <ARController_Device name="PowerUP" product="POWER_UP">
+        Power Up project
+        <feature name="common"/>
+        <feature name="powerup"/>
+    </ARController_Device>
+
+    <ARController_Device name="Bebop2" product="BEBOP_2" flags="can_be_extension">
+        Bebop 2 project
+        <feature name="common"/>
+        <feature name="ardrone3"/>
+        <feature name="generic"/>
+        <feature name="follow_me"/>
+        <feature name="controller_info"/>
+        <feature name="animation"/>
+        <feature name="thermal_cam"/>
+    </ARController_Device>
+
+    <ARController_Device name="Chimera" product="CHIMERA" flags="can_be_extension">
+        Chimera project
+        <feature name="common"/>
+        <feature name="ardrone3"/>
+        <feature name="generic"/>
+        <feature name="follow_me"/>
+        <feature name="controller_info"/>
+        <feature name="sequoia_cam"/>
+    </ARController_Device>
+
+    <ARController_Device name="Disco" product="EVINRUDE" flags="can_be_extension">
+        Disco project
+        <feature name="common"/>
+        <feature name="ardrone3"/>
+        <feature name="rc"/>
+        <feature name="sequoia_cam"/>
+    </ARController_Device>
+
+</deviceControllers>

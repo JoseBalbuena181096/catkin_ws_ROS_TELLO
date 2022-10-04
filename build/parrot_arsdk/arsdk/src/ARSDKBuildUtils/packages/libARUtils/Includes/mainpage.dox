@@ -1,0 +1,28 @@
+/**
+ * @mainpage libARUtils Documentation
+ *
+ * @section DT_intro_sec Introduction
+ *
+ * The ARUtils library provides an FTP, HTTP library and a FileSystem library.
+ *
+ * @section DT_modules_sec Submodules
+ *
+ * Here is a short description of the two libARUtils submodules: 
+ * Ftp and FileSystem.
+ *
+ * @subsection DT_utils_subsec Ftp
+ * @link ARUTILS_Ftp.h Header file @endlink
+ *
+ * This submodule implements a set of functions to deal with an FTP file server.
+ *
+ * @subsection DT_utils_subsec Http
+ * @link ARUTILS_Http.h Header file @endlink
+ *
+ * This submodule implements a set of functions to deal with an HTTP server.
+ * 
+ * @subsection DT_utils_subsec File System
+ * @link ARUTILS_FileSystem.h Header file @endlink
+ *
+ * This submodule implements basics functions to deal with the File System.
+ *
+ */

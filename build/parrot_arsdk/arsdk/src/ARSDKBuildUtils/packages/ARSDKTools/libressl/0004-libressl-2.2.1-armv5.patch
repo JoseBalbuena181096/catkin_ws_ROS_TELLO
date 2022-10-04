@@ -1,0 +1,11 @@
+--- libressl-2.2.1-orig/crypto/modes/modes_lcl.h	2016-03-31 14:03:52.869475092 +0200
++++ libressl-2.2.1/crypto/modes/modes_lcl.h	2016-03-31 14:02:12.684847298 +0200
+@@ -42,7 +42,7 @@
+ #  define BSWAP4(x) ({	u32 ret=(x);			\
+ 			asm ("bswapl %0"		\
+ 			: "+r"(ret));	ret;		})
+-# elif (defined(__arm__) || defined(__arm)) && !defined(__STRICT_ALIGNMENT)
++# elif (defined(__arm__) || defined(__arm)) && !defined(__STRICT_ALIGNMENT) && defined(__ARM_ARCH) && (__ARM_ARCH >= 6)
+ #  define BSWAP8(x) ({	u32 lo=(u64)(x)>>32,hi=(x);	\
+ 			asm ("rev %0,%0; rev %1,%1"	\
+ 			: "+r"(hi),"+r"(lo));		\

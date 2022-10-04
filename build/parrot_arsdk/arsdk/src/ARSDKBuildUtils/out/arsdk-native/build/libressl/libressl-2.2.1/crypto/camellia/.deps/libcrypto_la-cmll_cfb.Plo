@@ -1,0 +1,17 @@
+camellia/libcrypto_la-cmll_cfb.lo: camellia/cmll_cfb.c \
+ /usr/include/stdc-predef.h ../include/openssl/camellia.h \
+ ../include/openssl/opensslconf.h ../include/openssl/opensslfeatures.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
+ ../include/openssl/modes.h
+
+/usr/include/stdc-predef.h:
+
+../include/openssl/camellia.h:
+
+../include/openssl/opensslconf.h:
+
+../include/openssl/opensslfeatures.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
+
+../include/openssl/modes.h:

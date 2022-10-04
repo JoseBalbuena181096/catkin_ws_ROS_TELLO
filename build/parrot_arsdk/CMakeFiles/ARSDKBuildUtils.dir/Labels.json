@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jose/catkin_ws/build/parrot_arsdk/CMakeFiles/ARSDKBuildUtils"
+		},
+		{
+			"file" : "/home/jose/catkin_ws/build/parrot_arsdk/CMakeFiles/ARSDKBuildUtils.rule"
+		},
+		{
+			"file" : "/home/jose/catkin_ws/build/parrot_arsdk/CMakeFiles/ARSDKBuildUtils-complete.rule"
+		},
+		{
+			"file" : "/home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils-stamp/ARSDKBuildUtils-install.rule"
+		},
+		{
+			"file" : "/home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils-stamp/ARSDKBuildUtils-mkdir.rule"
+		},
+		{
+			"file" : "/home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils-stamp/ARSDKBuildUtils-download.rule"
+		},
+		{
+			"file" : "/home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils-stamp/ARSDKBuildUtils-update.rule"
+		},
+		{
+			"file" : "/home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils-stamp/ARSDKBuildUtils-patch.rule"
+		},
+		{
+			"file" : "/home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils-stamp/ARSDKBuildUtils-configure.rule"
+		},
+		{
+			"file" : "/home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils-stamp/ARSDKBuildUtils-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ARSDKBuildUtils"
+		],
+		"name" : "ARSDKBuildUtils"
+	}
+}

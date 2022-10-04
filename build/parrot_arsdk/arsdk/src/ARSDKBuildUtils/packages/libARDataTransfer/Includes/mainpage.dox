@@ -1,0 +1,33 @@
+/**
+ * @mainpage libARDataTransfer Documentation
+ *
+ * @section DT_intro_sec Introduction
+ *
+ * The ARDataTransfer library provides a way to retrieve device data and medias files stored 
+ * in a device.
+ *
+ * @subsection DT_manager_subsec Manager
+ * @link ARDATATRANSFER_Manager.h Header file @endlink
+ *
+ * The ARDataTransfer Manager is the main interface to that allows to initialize the 
+ * library an get access to the two others sub-modules: DataDownloader and MediasDownloader.
+ *
+ * @section DT_modules_sec Submodules
+ *
+ * Here is a short description of the two libARDataTransfer submodules: 
+ * DataDownloader and MediasDownloader.
+ *
+ * @subsection DT_datadownloader_subsec Data Downloader
+ * @link ARDATATRANSFER_DataDownloader.h Header file @endlink
+ *
+ * This submodule implements a mechanism to download automatically the devive data (flights or rides) 
+ * through an FTP device server.
+ * 
+ * @subsection DT_mediasdownloader_subsec Medias Downloader
+ * @link ARDATATRANSFER_MediasDownloader.h Header file @endlink
+ *
+ * This submodule implements firstly a mechanism to retrieve the available Medias (Photos 
+ * and Videos) list on a device through an FTP device server. It implements also a queue 
+ * process to download user chosen medias via FTP.
+ *
+ */

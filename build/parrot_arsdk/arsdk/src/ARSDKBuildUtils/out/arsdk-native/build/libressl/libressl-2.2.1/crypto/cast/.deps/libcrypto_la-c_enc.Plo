@@ -1,0 +1,13 @@
+cast/libcrypto_la-c_enc.lo: cast/c_enc.c /usr/include/stdc-predef.h \
+ ../include/openssl/cast.h ../include/openssl/opensslconf.h \
+ ../include/openssl/opensslfeatures.h cast/cast_lcl.h
+
+/usr/include/stdc-predef.h:
+
+../include/openssl/cast.h:
+
+../include/openssl/opensslconf.h:
+
+../include/openssl/opensslfeatures.h:
+
+cast/cast_lcl.h:

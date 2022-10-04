@@ -1,0 +1,715 @@
+
+Merging program properties
+
+
+As-needed library included to satisfy reference by file (symbol)
+
+libarsal.so                   /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o (ARSAL_Print_PrintRawEx)
+libardiscovery.so             /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o (ARDISCOVERY_getProductID)
+libjson-c.so                  /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o (json_object_put)
+libpthread.so.0               /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o (fsync@@GLIBC_2.2.5)
+libc.so.6                     /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o (fflush@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libarsal.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libardiscovery.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libjson-c.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000002a8                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.note.gnu.property
+                0x00000000000002a8       0x20
+ .note.gnu.property
+                0x00000000000002a8       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.note.gnu.build-id
+                0x00000000000002c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000002c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000002f0      0x1a8
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000002f0      0x1a8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x0000000000000498      0x930
+ *(.dynsym)
+ .dynsym        0x0000000000000498      0x930 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000000dc8      0x782
+ *(.dynstr)
+ .dynstr        0x0000000000000dc8      0x782 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x000000000000154a       0xc4
+ *(.gnu.version)
+ .gnu.version   0x000000000000154a       0xc4 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x0000000000001610        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000001610        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x0000000000001610       0x80
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000001610       0x80 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x0000000000001690       0xc0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000001690        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000001690       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x00000000000016a8       0x78 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000001720        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x0000000000001720       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x0000000000001738       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x0000000000001750      0x720
+ *(.rela.plt)
+ .rela.plt      0x0000000000001750      0x720 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+                0x0000000000002000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000002000       0x1b
+ *(SORT_NONE(.init))
+ .init          0x0000000000002000       0x16 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000002000                _init
+ .init          0x0000000000002016        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000002020      0x4d0
+ *(.plt)
+ .plt           0x0000000000002020      0x4d0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x00000000000024f0       0x10
+ *(.plt.got)
+ .plt.got       0x00000000000024f0       0x10 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.plt.sec        0x0000000000002500      0x4c0
+ *(.plt.sec)
+ .plt.sec       0x0000000000002500      0x4c0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.text           0x00000000000029c0     0x838c
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00000000000029c0       0xb9 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x0000000000002a79        0x7 
+ .text.ARMEDIA_Error_ToString
+                0x0000000000002a80       0xe6 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+                0x0000000000002a80                ARMEDIA_Error_ToString
+ *fill*         0x0000000000002b66        0xa 
+ .text.ARMEDIA_VideoEncapsuler_New
+                0x0000000000002b70      0x3ee /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+                0x0000000000002b70                ARMEDIA_VideoEncapsuler_New
+ *fill*         0x0000000000002f5e        0x2 
+ .text.ARMEDIA_VideoEncapsuler_SetAvcParameterSets
+                0x0000000000002f60      0x1a1 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+                0x0000000000002f60                ARMEDIA_VideoEncapsuler_SetAvcParameterSets
+ *fill*         0x0000000000003101        0xf 
+ .text.ARMEDIA_VideoEncapsuler_SetMetadataInfo
+                0x0000000000003110       0xbf /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+                0x0000000000003110                ARMEDIA_VideoEncapsuler_SetMetadataInfo
+ *fill*         0x00000000000031cf        0x1 
+ .text.ARMEDIA_VideoEncapsuler_SetUntimedMetadata
+                0x00000000000031d0      0x418 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+                0x00000000000031d0                ARMEDIA_VideoEncapsuler_SetUntimedMetadata
+ *fill*         0x00000000000035e8        0x8 
+ .text.ARMEDIA_VideoEncapsuler_SetVideoThumbnail
+                0x00000000000035f0       0x46 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+                0x00000000000035f0                ARMEDIA_VideoEncapsuler_SetVideoThumbnail
+ *fill*         0x0000000000003636        0xa 
+ .text.ARMEDIA_VideoEncapsuler_AddFrame
+                0x0000000000003640     0x1243 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+                0x0000000000003640                ARMEDIA_VideoEncapsuler_AddFrame
+ *fill*         0x0000000000004883        0xd 
+ .text.ARMEDIA_VideoEncapsuler_AddSample
+                0x0000000000004890      0x7dc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+                0x0000000000004890                ARMEDIA_VideoEncapsuler_AddSample
+ *fill*         0x000000000000506c        0x4 
+ .text.ARMEDIA_VideoEncapsuler_Finish
+                0x0000000000005070     0x2bd2 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+                0x0000000000005070                ARMEDIA_VideoEncapsuler_Finish
+ *fill*         0x0000000000007c42        0xe 
+ .text.ARMEDIA_VideoEncapsuler_SetGPSInfos
+                0x0000000000007c50       0x29 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+                0x0000000000007c50                ARMEDIA_VideoEncapsuler_SetGPSInfos
+ *fill*         0x0000000000007c79        0x7 
+ .text.ARMEDIA_VideoEncapsuler_TryFixMediaFile
+                0x0000000000007c80      0xb10 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+                0x0000000000007c80                ARMEDIA_VideoEncapsuler_TryFixMediaFile
+ .text.ARMEDIA_VideoEncapsuler_changePVATAtomDate
+                0x0000000000008790      0x168 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+                0x0000000000008790                ARMEDIA_VideoEncapsuler_changePVATAtomDate
+ *fill*         0x00000000000088f8        0x8 
+ .text.ARMEDIA_VideoEncapsuler_addPVATAtom
+                0x0000000000008900      0x148 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+                0x0000000000008900                ARMEDIA_VideoEncapsuler_addPVATAtom
+ *fill*         0x0000000000008a48        0x8 
+ .text.atomFromData
+                0x0000000000008a50       0x92 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000008a50                atomFromData
+ *fill*         0x0000000000008ae2        0xe 
+ .text.insertAtomIntoAtom
+                0x0000000000008af0       0xc3 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000008af0                insertAtomIntoAtom
+ *fill*         0x0000000000008bb3        0xd 
+ .text.writeAtomToFile
+                0x0000000000008bc0       0xfc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000008bc0                writeAtomToFile
+ *fill*         0x0000000000008cbc        0x4 
+ .text.freeAtom
+                0x0000000000008cc0       0x41 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000008cc0                freeAtom
+ *fill*         0x0000000000008d01        0xf 
+ .text.ftypAtomForFormatAndCodecWithOffset
+                0x0000000000008d10       0xfb /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000008d10                ftypAtomForFormatAndCodecWithOffset
+ *fill*         0x0000000000008e0b        0x5 
+ .text.mdatAtomForFormatWithVideoSize
+                0x0000000000008e10       0xad /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000008e10                mdatAtomForFormatWithVideoSize
+ *fill*         0x0000000000008ebd        0x3 
+ .text.mvhdAtomFromFpsNumFramesAndDate
+                0x0000000000008ec0       0xdb /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000008ec0                mvhdAtomFromFpsNumFramesAndDate
+ *fill*         0x0000000000008f9b        0x5 
+ .text.tkhdAtomWithResolutionNumFramesFpsAndDate
+                0x0000000000008fa0      0x138 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000008fa0                tkhdAtomWithResolutionNumFramesFpsAndDate
+ *fill*         0x00000000000090d8        0x8 
+ .text.cdscAtomGen
+                0x00000000000090e0       0xa5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x00000000000090e0                cdscAtomGen
+ *fill*         0x0000000000009185        0xb 
+ .text.mdhdAtomFromFpsNumFramesAndDate
+                0x0000000000009190       0x82 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000009190                mdhdAtomFromFpsNumFramesAndDate
+ *fill*         0x0000000000009212        0xe 
+ .text.hdlrAtomForMdia
+                0x0000000000009220       0x87 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000009220                hdlrAtomForMdia
+ *fill*         0x00000000000092a7        0x9 
+ .text.hdlrAtomForMetadata
+                0x00000000000092b0       0x60 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x00000000000092b0                hdlrAtomForMetadata
+ .text.hdlrAtomForUdtaMetadata
+                0x0000000000009310       0x60 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000009310                hdlrAtomForUdtaMetadata
+ .text.smhdAtomGen
+                0x0000000000009370       0x4e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000009370                smhdAtomGen
+ *fill*         0x00000000000093be        0x2 
+ .text.vmhdAtomGen
+                0x00000000000093c0       0x59 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x00000000000093c0                vmhdAtomGen
+ *fill*         0x0000000000009419        0x7 
+ .text.nmhdAtomGen
+                0x0000000000009420       0x50 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000009420                nmhdAtomGen
+ .text.hdlrAtomForMinf
+                0x0000000000009470       0x60 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000009470                hdlrAtomForMinf
+ .text.drefAtomGen
+                0x00000000000094d0       0x5a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x00000000000094d0                drefAtomGen
+ *fill*         0x000000000000952a        0x6 
+ .text.stsdAtomWithResolutionAndCodec
+                0x0000000000009530      0x376 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000009530                stsdAtomWithResolutionAndCodec
+ *fill*         0x00000000000098a6        0xa 
+ .text.stsdAtomWithAudioCodec
+                0x00000000000098b0       0xd3 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x00000000000098b0                stsdAtomWithAudioCodec
+ *fill*         0x0000000000009983        0xd 
+ .text.stsdAtomForMetadata
+                0x0000000000009990      0x203 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000009990                stsdAtomForMetadata
+ *fill*         0x0000000000009b93        0xd 
+ .text.stsdAtomWithResolutionCodecSpsAndPps
+                0x0000000000009ba0      0x1bc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000009ba0                stsdAtomWithResolutionCodecSpsAndPps
+ *fill*         0x0000000000009d5c        0x4 
+ .text.stscAtomGen
+                0x0000000000009d60       0xea /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000009d60                stscAtomGen
+ *fill*         0x0000000000009e4a        0x6 
+ .text.stszAtomGen
+                0x0000000000009e50       0xb9 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000009e50                stszAtomGen
+ *fill*         0x0000000000009f09        0x7 
+ .text.metadataKeysAtom
+                0x0000000000009f10      0x185 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x0000000000009f10                metadataKeysAtom
+ *fill*         0x000000000000a095        0xb 
+ .text.metadataAtomFromTagAndValue
+                0x000000000000a0a0      0x15d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x000000000000a0a0                metadataAtomFromTagAndValue
+ *fill*         0x000000000000a1fd        0x3 
+ .text.metadataAtomFromTagAndFile
+                0x000000000000a200      0x246 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x000000000000a200                metadataAtomFromTagAndFile
+ *fill*         0x000000000000a446        0xa 
+ .text.pvatAtomGen
+                0x000000000000a450       0x22 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x000000000000a450                pvatAtomGen
+ *fill*         0x000000000000a472        0xe 
+ .text.createDataFromAtom
+                0x000000000000a480       0x57 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x000000000000a480                createDataFromAtom
+ *fill*         0x000000000000a4d7        0x9 
+ .text.getVideoFpsFromAtom
+                0x000000000000a4e0       0x1b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x000000000000a4e0                getVideoFpsFromAtom
+ *fill*         0x000000000000a4fb        0x5 
+ .text.swap_uint64
+                0x000000000000a500       0x1b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x000000000000a500                swap_uint64
+ *fill*         0x000000000000a51b        0x5 
+ .text.seekMediaFileToAtom
+                0x000000000000a520      0x225 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x000000000000a520                seekMediaFileToAtom
+ *fill*         0x000000000000a745        0xb 
+ .text.createDataFromFile
+                0x000000000000a750      0x29d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x000000000000a750                createDataFromFile
+ *fill*         0x000000000000a9ed        0x3 
+ .text.getVideoFpsFromFile
+                0x000000000000a9f0      0x11a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x000000000000a9f0                getVideoFpsFromFile
+ *fill*         0x000000000000ab0a        0x6 
+ .text.seekMediaBufferToAtom
+                0x000000000000ab10       0x9b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x000000000000ab10                seekMediaBufferToAtom
+ *fill*         0x000000000000abab        0x5 
+ .text.ARMEDIA_VideoAtom_GetPVATString
+                0x000000000000abb0      0x19c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                0x000000000000abb0                ARMEDIA_VideoAtom_GetPVATString
+ *(.gnu.warning)
+
+.fini           0x000000000000ad4c        0xd
+ *(SORT_NONE(.fini))
+ .fini          0x000000000000ad4c        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x000000000000ad4c                _fini
+ .fini          0x000000000000ad54        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x000000000000b000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x000000000000b000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x000000000000b000     0x1780
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x000000000000b000       0xd6 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+ *fill*         0x000000000000b0d6        0x2 
+ .rodata.str1.8
+                0x000000000000b0d8       0xb4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+ .rodata        0x000000000000b18c       0x1c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+ .rodata.str1.8
+                0x000000000000b1a8      0xde5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+ .rodata.str1.1
+                0x000000000000bf8d      0x32d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+                                        0x330 (size before relaxing)
+ *fill*         0x000000000000c2ba        0x6 
+ .rodata        0x000000000000c2c0      0x20c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+ *fill*         0x000000000000c4cc        0x4 
+ .rodata.cst8   0x000000000000c4d0        0x8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+ .rodata.str1.8
+                0x000000000000c4d8       0xea /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+ .rodata.str1.1
+                0x000000000000c5c2      0x106 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                                        0x145 (size before relaxing)
+ *fill*         0x000000000000c6c8        0x8 
+ .rodata        0x000000000000c6d0       0x5b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+ *fill*         0x000000000000c72b        0x5 
+ .rodata.cst16  0x000000000000c730       0x50 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000000c780      0x1ac
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000000c780      0x1ac /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+                0x000000000000c780                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000000c930      0xb58
+ *(.eh_frame)
+ .eh_frame      0x000000000000c930       0x40 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x000000000000c970       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000c988       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000c9a0       0x18 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000c9b8      0x318 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+                                        0x330 (size before relaxing)
+ .eh_frame      0x000000000000ccd0      0x7b4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                                        0x7d0 (size before relaxing)
+ .eh_frame      0x000000000000d484        0x4 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x000000000000edb8                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x000000000000edb8        0x8
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000000edb8        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.fini_array     0x000000000000edc0        0x8
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000000edc0        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x000000000000edc8        0x0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000000edc8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynamic        0x000000000000edc8      0x210
+ *(.dynamic)
+ .dynamic       0x000000000000edc8      0x210 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x000000000000edc8                _DYNAMIC
+
+.got            0x000000000000efd8       0x28
+ *(.got)
+ .got           0x000000000000efd8       0x28 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x000000000000ffe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x000000000000f000      0x278
+ *(.got.plt)
+ .got.plt       0x000000000000f000      0x278 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x000000000000f000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000000f278        0x8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x000000000000f278        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                0x000000000000f278                __dso_handle
+
+.tm_clone_table
+                0x000000000000f280        0x0
+ .tm_clone_table
+                0x000000000000f280        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .tm_clone_table
+                0x000000000000f280        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.data1
+ *(.data1)
+                [!provide]                        PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                0x000000000000f280                . = .
+                [!provide]                        PROVIDE (__bss_start = .)
+
+.bss            0x000000000000f280        0x8
+ *(.dynbss)
+ .dynbss        0x000000000000f280        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000f280        0x1 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *(COMMON)
+                0x000000000000f288                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x000000000000f281        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x000000000000f288                . = ALIGN (0x8)
+                0x000000000000f288                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000011288        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000011288                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000011288                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000011288                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+ .comment       0x000000000000002b       0x2c /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x370
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+ .debug_aranges
+                0x0000000000000030       0xe0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+ .debug_aranges
+                0x0000000000000110      0x260 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xdb74
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0xf6 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+ .debug_info    0x00000000000000f6     0x8ebf /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+ .debug_info    0x0000000000008fb5     0x4bbf /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+
+.debug_abbrev   0x0000000000000000      0xa36
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0xa0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+ .debug_abbrev  0x00000000000000a0      0x4be /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+ .debug_abbrev  0x000000000000055e      0x4d8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+
+.debug_line     0x0000000000000000     0x6ee0
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x11c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+ .debug_line    0x000000000000011c     0x41ec /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+ .debug_line    0x0000000000004308     0x2bd8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x2645
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x319 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+                                        0x332 (size before relaxing)
+ .debug_str     0x0000000000000319     0x1eff /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+                                       0x2388 (size before relaxing)
+ .debug_str     0x0000000000002218      0x42d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+                                       0x1333 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x1636b
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x97 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+ .debug_loc     0x0000000000000097     0xad61 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+ .debug_loc     0x000000000000adf8     0xb573 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x2ac0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/gen/Sources/ARMEDIA_Error.c.o
+ .debug_ranges  0x0000000000000020     0x15f0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoEncapsuler.c.o
+ .debug_ranges  0x0000000000001610     0x14b0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARMedia/obj/Sources/ARMEDIA_VideoAtoms.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/arsdk-native/build/libARMedia/libarmedia.so elf64-x86-64)

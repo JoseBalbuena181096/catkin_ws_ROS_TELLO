@@ -1,0 +1,811 @@
+
+Merging program properties
+
+
+As-needed library included to satisfy reference by file (symbol)
+
+libpomp.so                    /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o (pomp_loop_remove)
+libulog.so                    /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o (ulog_log_write)
+libpthread.so.0               /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o (write@@GLIBC_2.2.5)
+libc.so.6                     /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o (strncmp@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_log.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_log.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_log.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_log.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_log.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_log.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libpomp.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libulog.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000002a8                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.note.gnu.property
+                0x00000000000002a8       0x20
+ .note.gnu.property
+                0x00000000000002a8       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.note.gnu.build-id
+                0x00000000000002c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000002c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000002f0       0xb0
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000002f0       0xb0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x00000000000003a0      0x8d0
+ *(.dynsym)
+ .dynsym        0x00000000000003a0      0x8d0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000000c70      0x635
+ *(.dynstr)
+ .dynstr        0x0000000000000c70      0x635 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x00000000000012a6       0xbc
+ *(.gnu.version)
+ .gnu.version   0x00000000000012a6       0xbc /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x0000000000001368        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000001368        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x0000000000001368       0x90
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000001368       0x90 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x00000000000013f8       0xc0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.do_fd_read
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.check_magic.part.0
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.do_fd_write_buf.isra.0
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.mux_destroy
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.do_tx
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.mux_loop_release.part.0
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.mux_new
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.mux_ref
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.mux_unref
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.mux_stop
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.mux_decode
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.fd_cb
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.mux_reset
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.mux_notify_buf
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.slave_raw_cb
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.mux_channel_disconnect_tcp_slave
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.slave_disconnect_idle_cb
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.tcp_slave_queue_timer_cb
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.master_raw_cb
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.slave_event_cb
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.slave_send_cb
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.mux_channel_open_internal
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.mux_channel_close_internal
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.mux_channel_open_tcp
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.master_event_cb
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.mux_channel_put_buf
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.mux_channel_recv_ctrl_msg
+                0x00000000000013f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x00000000000013f8       0x30 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000001428       0x60 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000001488        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x0000000000001488       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x00000000000014a0       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x00000000000014b8      0x768
+ *(.rela.plt)
+ .rela.plt      0x00000000000014b8      0x768 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+                0x0000000000002000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000002000       0x1b
+ *(SORT_NONE(.init))
+ .init          0x0000000000002000       0x16 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000002000                _init
+ .init          0x0000000000002016        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000002020      0x500
+ *(.plt)
+ .plt           0x0000000000002020      0x500 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x0000000000002520       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000002520       0x10 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.plt.sec        0x0000000000002530      0x4f0
+ *(.plt.sec)
+ .plt.sec       0x0000000000002530      0x4f0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.text           0x0000000000002a20     0x5404
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000002a20       0xb9 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x0000000000002ad9        0x7 
+ .text.reset_decode
+                0x0000000000002ae0       0x77 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x0000000000002b57        0x9 
+ .text.xwrite   0x0000000000002b60       0x46 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x0000000000002ba6        0xa 
+ .text.xread    0x0000000000002bb0       0x46 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x0000000000002bf6        0xa 
+ .text.do_fd_read
+                0x0000000000002c00      0x1b6 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x0000000000002db6        0xa 
+ .text.rx_thread
+                0x0000000000002dc0       0x9e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x0000000000002e5e        0x2 
+ .text.check_magic.part.0
+                0x0000000000002e60       0x7d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x0000000000002edd        0x3 
+ .text.do_fd_write_buf.isra.0
+                0x0000000000002ee0      0x133 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x0000000000003013        0xd 
+ .text.do_fd_write
+                0x0000000000003020       0xe3 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x0000000000003103        0xd 
+ .text.tx_thread
+                0x0000000000003110       0xb4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x00000000000031c4        0xc 
+ .text.do_fdeof.part.0
+                0x00000000000031d0       0x41 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x0000000000003211        0xf 
+ .text.mux_destroy
+                0x0000000000003220      0x2d9 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x00000000000034f9        0x7 
+ .text.do_tx    0x0000000000003500      0x13f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x000000000000363f        0x1 
+ .text.mux_loop_acquire.part.0
+                0x0000000000003640       0xdb /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x000000000000371b        0x5 
+ .text.mux_loop_release.part.0
+                0x0000000000003720       0xa6 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x00000000000037c6        0xa 
+ .text.copy.constprop.0
+                0x00000000000037d0       0x42 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x0000000000003812        0xe 
+ .text.mux_new  0x0000000000003820      0x46b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000003820                mux_new
+ *fill*         0x0000000000003c8b        0x5 
+ .text.mux_ref  0x0000000000003c90       0x75 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000003c90                mux_ref
+ *fill*         0x0000000000003d05        0xb 
+ .text.mux_unref
+                0x0000000000003d10       0x87 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000003d10                mux_unref
+ *fill*         0x0000000000003d97        0x9 
+ .text.mux_get_loop
+                0x0000000000003da0       0x13 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000003da0                mux_get_loop
+ *fill*         0x0000000000003db3        0xd 
+ .text.mux_stop
+                0x0000000000003dc0      0x1ef /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000003dc0                mux_stop
+ *fill*         0x0000000000003faf        0x1 
+ .text.mux_run  0x0000000000003fb0       0xa8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000003fb0                mux_run
+ *fill*         0x0000000000004058        0x8 
+ .text.mux_get_host_address
+                0x0000000000004060       0xa0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000004060                mux_get_host_address
+ .text.mux_remove_host
+                0x0000000000004100       0xc6 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000004100                mux_remove_host
+ *fill*         0x00000000000041c6        0xa 
+ .text.mux_add_host
+                0x00000000000041d0      0x130 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x00000000000041d0                mux_add_host
+ .text.mux_find_channel
+                0x0000000000004300       0x63 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000004300                mux_find_channel
+ *fill*         0x0000000000004363        0xd 
+ .text.mux_decode
+                0x0000000000004370      0x8b0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000004370                mux_decode
+ .text.rx_pipe_cb
+                0x0000000000004c20       0xc0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ .text.fd_cb    0x0000000000004ce0       0xdf /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x0000000000004dbf        0x1 
+ .text.mux_encode
+                0x0000000000004dc0      0x17d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000004dc0                mux_encode
+ *fill*         0x0000000000004f3d        0x3 
+ .text.mux_add_channel
+                0x0000000000004f40       0xa2 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000004f40                mux_add_channel
+ *fill*         0x0000000000004fe2        0xe 
+ .text.mux_remove_channel
+                0x0000000000004ff0       0xc7 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000004ff0                mux_remove_channel
+ *fill*         0x00000000000050b7        0x9 
+ .text.mux_remove_channels
+                0x00000000000050c0       0x5b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x00000000000050c0                mux_remove_channels
+ *fill*         0x000000000000511b        0x5 
+ .text.mux_loop_acquire
+                0x0000000000005120       0x23 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000005120                mux_loop_acquire
+ *fill*         0x0000000000005143        0xd 
+ .text.mux_loop_release
+                0x0000000000005150       0x23 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000005150                mux_loop_release
+ *fill*         0x0000000000005173        0xd 
+ .text.mux_send_ctrl_msg_with_payload
+                0x0000000000005180      0x157 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000005180                mux_send_ctrl_msg_with_payload
+ *fill*         0x00000000000052d7        0x9 
+ .text.mux_send_ctrl_msg
+                0x00000000000052e0        0xd /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x00000000000052e0                mux_send_ctrl_msg
+ *fill*         0x00000000000052ed        0x3 
+ .text.mux_reset
+                0x00000000000052f0      0x11a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x00000000000052f0                mux_reset
+ *fill*         0x000000000000540a        0x6 
+ .text.mux_notify_buf
+                0x0000000000005410       0x90 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000005410                mux_notify_buf
+ .text.slave_tcp_socket_cb
+                0x00000000000054a0        0x8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ *fill*         0x00000000000054a8        0x8 
+ .text.mux_channel_destroy
+                0x00000000000054b0       0x6d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ *fill*         0x000000000000551d        0x3 
+ .text.slave_raw_cb
+                0x0000000000005520       0x85 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ *fill*         0x00000000000055a5        0xb 
+ .text.mux_channel_disconnect_tcp_slave
+                0x00000000000055b0      0x118 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ *fill*         0x00000000000056c8        0x8 
+ .text.slave_disconnect_idle_cb
+                0x00000000000056d0       0x6d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ *fill*         0x000000000000573d        0x3 
+ .text.tcp_slave_queue_timer_cb
+                0x0000000000005740      0x162 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ *fill*         0x00000000000058a2        0xe 
+ .text.master_raw_cb
+                0x00000000000058b0      0x23f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ *fill*         0x0000000000005aef        0x1 
+ .text.slave_event_cb
+                0x0000000000005af0      0x2a1 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ *fill*         0x0000000000005d91        0xf 
+ .text.slave_send_cb
+                0x0000000000005da0       0xd7 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ *fill*         0x0000000000005e77        0x9 
+ .text.mux_channel_alloc_queue
+                0x0000000000005e80       0x75 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+                0x0000000000005e80                mux_channel_alloc_queue
+ *fill*         0x0000000000005ef5        0xb 
+ .text.mux_channel_stop
+                0x0000000000005f00       0xcf /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+                0x0000000000005f00                mux_channel_stop
+ *fill*         0x0000000000005fcf        0x1 
+ .text.mux_channel_open_internal
+                0x0000000000005fd0      0x250 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ .text.mux_channel_open
+                0x0000000000006220       0x7d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+                0x0000000000006220                mux_channel_open
+ *fill*         0x000000000000629d        0x3 
+ .text.mux_channel_close_internal
+                0x00000000000062a0      0x147 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ *fill*         0x00000000000063e7        0x9 
+ .text.mux_channel_close
+                0x00000000000063f0       0x68 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+                0x00000000000063f0                mux_channel_close
+ *fill*         0x0000000000006458        0x8 
+ .text.mux_channel_open_tcp
+                0x0000000000006460      0x37c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+                0x0000000000006460                mux_channel_open_tcp
+ *fill*         0x00000000000067dc        0x4 
+ .text.mux_channel_open_ftp
+                0x00000000000067e0       0x7c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+                0x00000000000067e0                mux_channel_open_ftp
+ *fill*         0x000000000000685c        0x4 
+ .text.master_event_cb
+                0x0000000000006860      0x313 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ *fill*         0x0000000000006b73        0xd 
+ .text.mux_channel_put_buf
+                0x0000000000006b80      0x406 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+                0x0000000000006b80                mux_channel_put_buf
+ *fill*         0x0000000000006f86        0xa 
+ .text.mux_channel_recv_ctrl_msg
+                0x0000000000006f90      0x95d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+                0x0000000000006f90                mux_channel_recv_ctrl_msg
+ *fill*         0x00000000000078ed        0x3 
+ .text.mux_queue_get_buf_internal
+                0x00000000000078f0      0x185 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+ *fill*         0x0000000000007a75        0xb 
+ .text.mux_queue_new
+                0x0000000000007a80       0x99 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+                0x0000000000007a80                mux_queue_new
+ *fill*         0x0000000000007b19        0x7 
+ .text.mux_queue_stop
+                0x0000000000007b20       0x34 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+                0x0000000000007b20                mux_queue_stop
+ *fill*         0x0000000000007b54        0xc 
+ .text.mux_queue_destroy
+                0x0000000000007b60       0x8b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+                0x0000000000007b60                mux_queue_destroy
+ *fill*         0x0000000000007beb        0x5 
+ .text.mux_queue_put_buf
+                0x0000000000007bf0      0x16b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+                0x0000000000007bf0                mux_queue_put_buf
+ *fill*         0x0000000000007d5b        0x5 
+ .text.mux_queue_get_buf
+                0x0000000000007d60        0xb /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+                0x0000000000007d60                mux_queue_get_buf
+ *fill*         0x0000000000007d6b        0x5 
+ .text.mux_queue_try_get_buf
+                0x0000000000007d70       0x98 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+                0x0000000000007d70                mux_queue_try_get_buf
+ *fill*         0x0000000000007e08        0x8 
+ .text.mux_queue_timed_get_buf
+                0x0000000000007e10       0x14 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+                0x0000000000007e10                mux_queue_timed_get_buf
+ *(.gnu.warning)
+
+.fini           0x0000000000007e24        0xd
+ *(SORT_NONE(.fini))
+ .fini          0x0000000000007e24        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000007e24                _fini
+ .fini          0x0000000000007e2c        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x0000000000008000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x0000000000008000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x0000000000008000      0x765
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000008000      0x1c1 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x00000000000081c1        0x7 
+ .rodata.str1.8
+                0x00000000000081c8       0x4f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ *fill*         0x0000000000008217        0x1 
+ .rodata        0x0000000000008218       0x1c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ .rodata.str1.1
+                0x0000000000008234      0x1ff /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+                                        0x210 (size before relaxing)
+ *fill*         0x0000000000008433        0x5 
+ .rodata.str1.8
+                0x0000000000008438      0x2ea /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ *fill*         0x0000000000008722        0x6 
+ .rodata        0x0000000000008728       0x3d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ .rodata.str1.1
+                0x0000000000008765      0x1ff /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_log.c.o
+                                          0x4 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000008768      0x234
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000008768      0x234 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                0x0000000000008768                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x00000000000089a0      0xe80
+ *(.eh_frame)
+ .eh_frame      0x00000000000089a0       0x40 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x00000000000089e0       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x00000000000089f8       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000008a10      0x860 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                                        0x878 (size before relaxing)
+ .eh_frame      0x0000000000009270      0x450 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+                                        0x468 (size before relaxing)
+ .eh_frame      0x00000000000096c0      0x15c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+                                        0x178 (size before relaxing)
+ .eh_frame      0x000000000000981c        0x4 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x000000000000add0                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x000000000000add0        0x8
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000000add0        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.fini_array     0x000000000000add8        0x8
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000000add8        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x000000000000ade0        0x0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000000ade0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynamic        0x000000000000ade0      0x200
+ *(.dynamic)
+ .dynamic       0x000000000000ade0      0x200 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x000000000000ade0                _DYNAMIC
+
+.got            0x000000000000afe0       0x20
+ *(.got)
+ .got           0x000000000000afe0       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x000000000000bfe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x000000000000b000      0x290
+ *(.got.plt)
+ .got.plt       0x000000000000b000      0x290 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x000000000000b000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000000b2a0       0x40
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x000000000000b2a0        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                0x000000000000b2a0                __dso_handle
+ *fill*         0x000000000000b2a8       0x18 
+ .data.rel.local
+                0x000000000000b2c0       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_log.c.o
+                0x000000000000b2c0                __ulog_cookie_mux
+
+.tm_clone_table
+                0x000000000000b2e0        0x0
+ .tm_clone_table
+                0x000000000000b2e0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .tm_clone_table
+                0x000000000000b2e0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.data1
+ *(.data1)
+                [!provide]                        PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                0x000000000000b2e0                . = .
+                [!provide]                        PROVIDE (__bss_start = .)
+
+.bss            0x000000000000b2e0        0x8
+ *(.dynbss)
+ .dynbss        0x000000000000b2e0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000b2e0        0x1 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *(COMMON)
+                0x000000000000b2e8                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x000000000000b2e1        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x000000000000b2e8                . = ALIGN (0x8)
+                0x000000000000b2e8                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x000000000000d2e8        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x000000000000d2e8                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x000000000000d2e8                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+                0x000000000000d2e8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_log.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+ .comment       0x000000000000002b       0x2c /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x4a0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x280 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ .debug_aranges
+                0x0000000000000280      0x160 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ .debug_aranges
+                0x00000000000003e0       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_log.c.o
+ .debug_aranges
+                0x0000000000000400       0xa0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xab0a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x5138 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ .debug_info    0x0000000000005138     0x447d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ .debug_info    0x00000000000095b5      0x4e0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_log.c.o
+ .debug_info    0x0000000000009a95     0x1075 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+
+.debug_abbrev   0x0000000000000000      0xfda
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x618 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ .debug_abbrev  0x0000000000000618      0x59d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ .debug_abbrev  0x0000000000000bb5      0x10e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_log.c.o
+ .debug_abbrev  0x0000000000000cc3      0x317 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+
+.debug_line     0x0000000000000000     0x4b77
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000     0x2125 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ .debug_line    0x0000000000002125     0x216a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ .debug_line    0x000000000000428f      0x18b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_log.c.o
+ .debug_line    0x000000000000441a      0x75d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x1937
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x1137 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+                                       0x1298 (size before relaxing)
+ .debug_str     0x0000000000001137      0x6dd /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+                                       0x11dc (size before relaxing)
+ .debug_str     0x0000000000001814       0x1e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_log.c.o
+                                        0x4ce (size before relaxing)
+ .debug_str     0x0000000000001832      0x105 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+                                        0x89f (size before relaxing)
+
+.debug_loc      0x0000000000000000     0xce86
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x6116 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ .debug_loc     0x0000000000006116     0x6061 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ .debug_loc     0x000000000000c177      0xd0f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x2490
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000     0x1240 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux.c.o
+ .debug_ranges  0x0000000000001240     0x10d0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_channel.c.o
+ .debug_ranges  0x0000000000002310      0x180 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libmux/obj/src/mux_queue.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/arsdk-native/build/libmux/libmux.so elf64-x86-64)

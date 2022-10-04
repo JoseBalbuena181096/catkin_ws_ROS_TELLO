@@ -1,0 +1,29 @@
+diff --git a/json_object.c b/json_object.c
+index 6cc73bc..0abe3b9 100644
+--- a/json_object.c
++++ b/json_object.c
+@@ -573,14 +573,24 @@ static int json_object_double_to_json_string(struct json_object* jso,
+      how to handle these cases as strings */
+   if(isnan(jso->o.c_double))
+     size = snprintf(buf, sizeof(buf), "NaN");
++  /*
+   else if(isinf(jso->o.c_double))
+     if(jso->o.c_double > 0)
+       size = snprintf(buf, sizeof(buf), "Infinity");
+     else
+       size = snprintf(buf, sizeof(buf), "-Infinity");
++  */
+   else
+     size = snprintf(buf, sizeof(buf), "%.17g", jso->o.c_double);
+ 
++  if (strncmp(buf, "inf", sizeof(buf)) == 0 ||
++      strncmp(buf, "Inf", sizeof(buf)) == 0) {
++    snprintf(buf, sizeof(buf), "Infinity");
++  } else if (strncmp(buf, "-inf", sizeof(buf)) == 0 ||
++             strncmp(buf, "-Inf", sizeof(buf)) == 0) {
++    snprintf(buf, sizeof(buf), "-Infinity");
++  }
++
+   p = strchr(buf, ',');
+   if (p) {
+     *p = '.';

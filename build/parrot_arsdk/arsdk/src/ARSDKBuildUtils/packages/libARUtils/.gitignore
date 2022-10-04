@@ -1,0 +1,7 @@
+/TestBench/Android/TestARUtils/bin/
+/TestBench/Android/TestBLEFtp/bin/
+/TestBench/Android/TestBLEFtp/gen/
+/TestBench/Android/TestBLEFtp/libs/
+/Build/
+/build/
+libARUtils.iml

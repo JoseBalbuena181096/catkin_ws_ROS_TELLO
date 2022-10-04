@@ -1,0 +1,937 @@
+
+Merging program properties
+
+
+As-needed library included to satisfy reference by file (symbol)
+
+libarsal.so                   /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o (ARSAL_Sem_Post)
+libardiscovery.so             /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o (ARDISCOVERY_Device_BLEGetDevice)
+libmux.so                     /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o (mux_channel_open_ftp)
+libcurl.so                    /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o (curl_easy_init)
+libpthread.so.0               /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o (write@@GLIBC_2.2.5)
+libc.so.6                     /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o (socket@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+ .text          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_BLEFtp_stub.c.o
+ .data          0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_BLEFtp_stub.c.o
+ .bss           0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_BLEFtp_stub.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_BLEFtp_stub.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_BLEFtp_stub.c.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_BLEFtp_stub.c.o
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libarsal.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libardiscovery.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libarcommands.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libmux.so
+LOAD /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libcurl.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000002a8                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.note.gnu.property
+                0x00000000000002a8       0x20
+ .note.gnu.property
+                0x00000000000002a8       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.note.gnu.build-id
+                0x00000000000002c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000002c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000002f0      0x2b0
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000002f0      0x2b0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x00000000000005a0      0xdc8
+ *(.dynsym)
+ .dynsym        0x00000000000005a0      0xdc8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000001368      0xd47
+ *(.dynstr)
+ .dynstr        0x0000000000001368      0xd47 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x00000000000020b0      0x126
+ *(.gnu.version)
+ .gnu.version   0x00000000000020b0      0x126 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x00000000000021d8        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000000021d8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x00000000000021d8       0x80
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000021d8       0x80 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x0000000000002258      0x2d0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000002258        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000002258       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000002270      0x288 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x00000000000024f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x00000000000024f8       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x0000000000002510       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x0000000000002528      0x840
+ *(.rela.plt)
+ .rela.plt      0x0000000000002528      0x840 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+                0x0000000000003000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000003000       0x1b
+ *(SORT_NONE(.init))
+ .init          0x0000000000003000       0x16 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000003000                _init
+ .init          0x0000000000003016        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000003020      0x590
+ *(.plt)
+ .plt           0x0000000000003020      0x590 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x00000000000035b0       0x10
+ *(.plt.got)
+ .plt.got       0x00000000000035b0       0x10 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.plt.sec        0x00000000000035c0      0x580
+ *(.plt.sec)
+ .plt.sec       0x00000000000035c0      0x580 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.text           0x0000000000003b40     0x5545
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000003b40       0xb9 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x0000000000003bf9        0x7 
+ .text.ARUTILS_FileSystem_IsExist
+                0x0000000000003c00       0x83 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+                0x0000000000003c00                ARUTILS_FileSystem_IsExist
+ *fill*         0x0000000000003c83        0xd 
+ .text.ARUTILS_FileSystem_GetFileSize
+                0x0000000000003c90      0x119 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+                0x0000000000003c90                ARUTILS_FileSystem_GetFileSize
+ *fill*         0x0000000000003da9        0x7 
+ .text.ARUTILS_FileSystem_Rename
+                0x0000000000003db0       0x77 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+                0x0000000000003db0                ARUTILS_FileSystem_Rename
+ *fill*         0x0000000000003e27        0x9 
+ .text.ARUTILS_FileSystem_RemoveFile
+                0x0000000000003e30       0x57 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+                0x0000000000003e30                ARUTILS_FileSystem_RemoveFile
+ *fill*         0x0000000000003e87        0x9 
+ .text.ARUTILS_FileSystem_RemoveDir
+                0x0000000000003e90       0x8e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+                0x0000000000003e90                ARUTILS_FileSystem_RemoveDir
+ *fill*         0x0000000000003f1e        0x2 
+ .text.ARUTILS_FileSystem_RemoveDirCallback
+                0x0000000000003f20       0x7c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+ *fill*         0x0000000000003f9c        0x4 
+ .text.ARUTILS_FileSystem_GetFreeSpace
+                0x0000000000003fa0       0xd8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+                0x0000000000003fa0                ARUTILS_FileSystem_GetFreeSpace
+ *fill*         0x0000000000004078        0x8 
+ .text.ARUTILS_Http_ProgressCallback
+                0x0000000000004080       0x94 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x0000000000004080                ARUTILS_Http_ProgressCallback
+ *fill*         0x0000000000004114        0xc 
+ .text.ARUTILS_Http_ClosesocketCallback
+                0x0000000000004120       0x1d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x0000000000004120                ARUTILS_Http_ClosesocketCallback
+ *fill*         0x000000000000413d        0x3 
+ .text.ARUTILS_Http_OpensocketCallback
+                0x0000000000004140       0x2e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x0000000000004140                ARUTILS_Http_OpensocketCallback
+ *fill*         0x000000000000416e        0x2 
+ .text.ARUTILS_Http_Connection_Cancel
+                0x0000000000004170       0x86 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x0000000000004170                ARUTILS_Http_Connection_Cancel
+ *fill*         0x00000000000041f6        0xa 
+ .text.ARUTILS_Http_SetSeverCertificate
+                0x0000000000004200       0x57 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x0000000000004200                ARUTILS_Http_SetSeverCertificate
+ *fill*         0x0000000000004257        0x9 
+ .text.ARUTILS_Http_FreeCallbackData
+                0x0000000000004260       0x71 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x0000000000004260                ARUTILS_Http_FreeCallbackData
+ *fill*         0x00000000000042d1        0xf 
+ .text.ARUTILS_Http_Connection_Delete
+                0x00000000000042e0       0x77 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x00000000000042e0                ARUTILS_Http_Connection_Delete
+ *fill*         0x0000000000004357        0x9 
+ .text.ARUTILS_Http_Connection_New
+                0x0000000000004360      0x213 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x0000000000004360                ARUTILS_Http_Connection_New
+ *fill*         0x0000000000004573        0xd 
+ .text.ARUTILS_Http_ResetOptions
+                0x0000000000004580      0x1ec /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x0000000000004580                ARUTILS_Http_ResetOptions
+ *fill*         0x000000000000476c        0x4 
+ .text.ARUTILS_Http_IsCanceled
+                0x0000000000004770       0x56 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x0000000000004770                ARUTILS_Http_IsCanceled
+ *fill*         0x00000000000047c6        0xa 
+ .text.ARUTILS_Http_ReadDataCallback
+                0x00000000000047d0      0x10e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x00000000000047d0                ARUTILS_Http_ReadDataCallback
+ *fill*         0x00000000000048de        0x2 
+ .text.ARUTILS_Http_WriteDataCallback
+                0x00000000000048e0      0x147 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x00000000000048e0                ARUTILS_Http_WriteDataCallback
+ *fill*         0x0000000000004a27        0x9 
+ .text.ARUTILS_Http_GetErrorFromCode
+                0x0000000000004a30       0x29 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x0000000000004a30                ARUTILS_Http_GetErrorFromCode
+ *fill*         0x0000000000004a59        0x7 
+ .text.ARUTILS_Http_Get_Internal
+                0x0000000000004a60      0x4f9 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x0000000000004a60                ARUTILS_Http_Get_Internal
+ *fill*         0x0000000000004f59        0x7 
+ .text.ARUTILS_Http_Get
+                0x0000000000004f60       0x1c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x0000000000004f60                ARUTILS_Http_Get
+ *fill*         0x0000000000004f7c        0x4 
+ .text.ARUTILS_Http_Get_WithBuffer
+                0x0000000000004f80       0x1f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x0000000000004f80                ARUTILS_Http_Get_WithBuffer
+ *fill*         0x0000000000004f9f        0x1 
+ .text.ARUTILS_Http_Post_WithFiles
+                0x0000000000004fa0      0x41a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x0000000000004fa0                ARUTILS_Http_Post_WithFiles
+ *fill*         0x00000000000053ba        0x6 
+ .text.ARUTILS_Http_Post_WithRange
+                0x00000000000053c0      0x659 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                0x00000000000053c0                ARUTILS_Http_Post_WithRange
+ *fill*         0x0000000000005a19        0x7 
+ .text.ARUTILS_Manager_New
+                0x0000000000005a20       0x5d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                0x0000000000005a20                ARUTILS_Manager_New
+ *fill*         0x0000000000005a7d        0x3 
+ .text.ARUTILS_Manager_Delete
+                0x0000000000005a80       0x50 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                0x0000000000005a80                ARUTILS_Manager_Delete
+ .text.ARUTILS_Manager_InitFtp
+                0x0000000000005ad0      0x240 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                0x0000000000005ad0                ARUTILS_Manager_InitFtp
+ .text.ARUTILS_Manager_CloseFtp
+                0x0000000000005d10       0x2d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                0x0000000000005d10                ARUTILS_Manager_CloseFtp
+ *fill*         0x0000000000005d3d        0x3 
+ .text.ARUTILS_Manager_Ftp_Connection_Disconnect
+                0x0000000000005d40       0x1e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                0x0000000000005d40                ARUTILS_Manager_Ftp_Connection_Disconnect
+ *fill*         0x0000000000005d5e        0x2 
+ .text.ARUTILS_Manager_Ftp_Connection_Reconnect
+                0x0000000000005d60       0x1e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                0x0000000000005d60                ARUTILS_Manager_Ftp_Connection_Reconnect
+ *fill*         0x0000000000005d7e        0x2 
+ .text.ARUTILS_Manager_Ftp_Connection_Cancel
+                0x0000000000005d80       0x1e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                0x0000000000005d80                ARUTILS_Manager_Ftp_Connection_Cancel
+ *fill*         0x0000000000005d9e        0x2 
+ .text.ARUTILS_Manager_Ftp_Connection_IsCanceled
+                0x0000000000005da0       0x1e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                0x0000000000005da0                ARUTILS_Manager_Ftp_Connection_IsCanceled
+ *fill*         0x0000000000005dbe        0x2 
+ .text.ARUTILS_Manager_Ftp_Connection_Reset
+                0x0000000000005dc0       0x1e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                0x0000000000005dc0                ARUTILS_Manager_Ftp_Connection_Reset
+ *fill*         0x0000000000005dde        0x2 
+ .text.ARUTILS_Manager_Ftp_List
+                0x0000000000005de0       0x1e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                0x0000000000005de0                ARUTILS_Manager_Ftp_List
+ *fill*         0x0000000000005dfe        0x2 
+ .text.ARUTILS_Manager_Ftp_Size
+                0x0000000000005e00       0x1e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                0x0000000000005e00                ARUTILS_Manager_Ftp_Size
+ *fill*         0x0000000000005e1e        0x2 
+ .text.ARUTILS_Manager_Ftp_Get_WithBuffer
+                0x0000000000005e20       0x1e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                0x0000000000005e20                ARUTILS_Manager_Ftp_Get_WithBuffer
+ *fill*         0x0000000000005e3e        0x2 
+ .text.ARUTILS_Manager_Ftp_Get
+                0x0000000000005e40       0x1e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                0x0000000000005e40                ARUTILS_Manager_Ftp_Get
+ *fill*         0x0000000000005e5e        0x2 
+ .text.ARUTILS_Manager_Ftp_Put
+                0x0000000000005e60       0x1e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                0x0000000000005e60                ARUTILS_Manager_Ftp_Put
+ *fill*         0x0000000000005e7e        0x2 
+ .text.ARUTILS_Manager_Ftp_Delete
+                0x0000000000005e80       0x1e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                0x0000000000005e80                ARUTILS_Manager_Ftp_Delete
+ *fill*         0x0000000000005e9e        0x2 
+ .text.ARUTILS_Manager_Ftp_RemoveDir
+                0x0000000000005ea0       0x1e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                0x0000000000005ea0                ARUTILS_Manager_Ftp_RemoveDir
+ *fill*         0x0000000000005ebe        0x2 
+ .text.ARUTILS_Manager_Ftp_Rename
+                0x0000000000005ec0       0x1e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                0x0000000000005ec0                ARUTILS_Manager_Ftp_Rename
+ *fill*         0x0000000000005ede        0x2 
+ .text.ARUTILS_WifiFtpAL_Connection_Reconnect
+                0x0000000000005ee0       0x37 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000005ee0                ARUTILS_WifiFtpAL_Connection_Reconnect
+ *fill*         0x0000000000005f17        0x9 
+ .text.ARUTILS_WifiFtpAL_Connection_Disconnect
+                0x0000000000005f20       0x37 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000005f20                ARUTILS_WifiFtpAL_Connection_Disconnect
+ *fill*         0x0000000000005f57        0x9 
+ .text.ARUTILS_WifiFtp_ClosesocketCallback
+                0x0000000000005f60       0x47 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000005f60                ARUTILS_WifiFtp_ClosesocketCallback
+ *fill*         0x0000000000005fa7        0x9 
+ .text.ARUTILS_WifiFtp_OpensocketCallback
+                0x0000000000005fb0       0x46 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000005fb0                ARUTILS_WifiFtp_OpensocketCallback
+ *fill*         0x0000000000005ff6        0xa 
+ .text.ARUTILS_WifiFtp_Connection_Cancel
+                0x0000000000006000       0x8a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000006000                ARUTILS_WifiFtp_Connection_Cancel
+ *fill*         0x000000000000608a        0x6 
+ .text.ARUTILS_WifiFtpAL_Connection_Cancel
+                0x0000000000006090        0xd /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000006090                ARUTILS_WifiFtpAL_Connection_Cancel
+ *fill*         0x000000000000609d        0x3 
+ .text.ARUTILS_WifiFtp_Connection_Reset
+                0x00000000000060a0       0x5f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x00000000000060a0                ARUTILS_WifiFtp_Connection_Reset
+ *fill*         0x00000000000060ff        0x1 
+ .text.ARUTILS_WifiFtpAL_Connection_Reset
+                0x0000000000006100        0xd /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000006100                ARUTILS_WifiFtpAL_Connection_Reset
+ *fill*         0x000000000000610d        0x3 
+ .text.ARUTILS_Ftp_List_GetNextItem
+                0x0000000000006110      0x1e0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000006110                ARUTILS_Ftp_List_GetNextItem
+ .text.ARUTILS_Ftp_List_GetItemSize
+                0x00000000000062f0       0xd5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x00000000000062f0                ARUTILS_Ftp_List_GetItemSize
+ *fill*         0x00000000000063c5        0xb 
+ .text.ARUTILS_WifiFtp_FreeCallbackData
+                0x00000000000063d0       0x51 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x00000000000063d0                ARUTILS_WifiFtp_FreeCallbackData
+ *fill*         0x0000000000006421        0xf 
+ .text.ARUTILS_WifiFtp_Connection_Delete
+                0x0000000000006430       0x97 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000006430                ARUTILS_WifiFtp_Connection_Delete
+ *fill*         0x00000000000064c7        0x9 
+ .text.ARUTILS_WifiFtp_Connection_New
+                0x00000000000064d0      0x369 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x00000000000064d0                ARUTILS_WifiFtp_Connection_New
+ *fill*         0x0000000000006839        0x7 
+ .text.ARUTILS_WifiFtp_ResetOptions
+                0x0000000000006840      0x1a1 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000006840                ARUTILS_WifiFtp_ResetOptions
+ *fill*         0x00000000000069e1        0xf 
+ .text.ARUTILS_WifiFtp_IsCanceled
+                0x00000000000069f0       0x56 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x00000000000069f0                ARUTILS_WifiFtp_IsCanceled
+ *fill*         0x0000000000006a46        0xa 
+ .text.ARUTILS_WifiFtp_ReadDataCallback
+                0x0000000000006a50       0x92 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000006a50                ARUTILS_WifiFtp_ReadDataCallback
+ *fill*         0x0000000000006ae2        0xe 
+ .text.ARUTILS_WifiFtp_WriteDataCallback
+                0x0000000000006af0      0x17d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000006af0                ARUTILS_WifiFtp_WriteDataCallback
+ *fill*         0x0000000000006c6d        0x3 
+ .text.ARUTILS_WifiFtp_ProgressCallback
+                0x0000000000006c70       0xbe /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000006c70                ARUTILS_WifiFtp_ProgressCallback
+ *fill*         0x0000000000006d2e        0x2 
+ .text.ARUTILS_WifiFtpAL_Connection_IsCanceled
+                0x0000000000006d30        0xd /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000006d30                ARUTILS_WifiFtpAL_Connection_IsCanceled
+ *fill*         0x0000000000006d3d        0x3 
+ .text.ARUTILS_WifiFtp_GetErrorFromCode
+                0x0000000000006d40       0x9c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000006d40                ARUTILS_WifiFtp_GetErrorFromCode
+ *fill*         0x0000000000006ddc        0x4 
+ .text.ARUTILS_WifiFtp_Rename
+                0x0000000000006de0      0x434 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000006de0                ARUTILS_WifiFtp_Rename
+ *fill*         0x0000000000007214        0xc 
+ .text.ARUTILS_WifiFtpAL_Rename
+                0x0000000000007220        0xd /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000007220                ARUTILS_WifiFtpAL_Rename
+ *fill*         0x000000000000722d        0x3 
+ .text.ARUTILS_WifiFtp_Size
+                0x0000000000007230      0x46f /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000007230                ARUTILS_WifiFtp_Size
+ *fill*         0x000000000000769f        0x1 
+ .text.ARUTILS_WifiFtpAL_Size
+                0x00000000000076a0        0xd /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x00000000000076a0                ARUTILS_WifiFtpAL_Size
+ *fill*         0x00000000000076ad        0x3 
+ .text.ARUTILS_WifiFtp_Command
+                0x00000000000076b0      0x2bc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x00000000000076b0                ARUTILS_WifiFtp_Command
+ *fill*         0x000000000000796c        0x4 
+ .text.ARUTILS_WifiFtp_Delete
+                0x0000000000007970       0xa1 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000007970                ARUTILS_WifiFtp_Delete
+ *fill*         0x0000000000007a11        0xf 
+ .text.ARUTILS_WifiFtpAL_Delete
+                0x0000000000007a20        0xd /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000007a20                ARUTILS_WifiFtpAL_Delete
+ *fill*         0x0000000000007a2d        0x3 
+ .text.ARUTILS_WifiFtp_Cd
+                0x0000000000007a30       0xd1 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000007a30                ARUTILS_WifiFtp_Cd
+ *fill*         0x0000000000007b01        0xf 
+ .text.ARUTILS_WifiFtpAL_RemoveDir
+                0x0000000000007b10       0xa2 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000007b10                ARUTILS_WifiFtpAL_RemoveDir
+ *fill*         0x0000000000007bb2        0xe 
+ .text.ARUTILS_WifiFtp_List
+                0x0000000000007bc0      0x4d4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000007bc0                ARUTILS_WifiFtp_List
+ *fill*         0x0000000000008094        0xc 
+ .text.ARUTILS_WifiFtpAL_List
+                0x00000000000080a0        0xd /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x00000000000080a0                ARUTILS_WifiFtpAL_List
+ *fill*         0x00000000000080ad        0x3 
+ .text.ARUTILS_WifiFtp_GetInternal
+                0x00000000000080b0      0x5e8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x00000000000080b0                ARUTILS_WifiFtp_GetInternal
+ *fill*         0x0000000000008698        0x8 
+ .text.ARUTILS_WifiFtp_Get
+                0x00000000000086a0       0x1e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x00000000000086a0                ARUTILS_WifiFtp_Get
+ *fill*         0x00000000000086be        0x2 
+ .text.ARUTILS_WifiFtpAL_Get
+                0x00000000000086c0        0xd /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x00000000000086c0                ARUTILS_WifiFtpAL_Get
+ *fill*         0x00000000000086cd        0x3 
+ .text.ARUTILS_WifiFtp_Get_WithBuffer
+                0x00000000000086d0       0x21 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x00000000000086d0                ARUTILS_WifiFtp_Get_WithBuffer
+ *fill*         0x00000000000086f1        0xf 
+ .text.ARUTILS_WifiFtpAL_Get_WithBuffer
+                0x0000000000008700        0xd /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000008700                ARUTILS_WifiFtpAL_Get_WithBuffer
+ *fill*         0x000000000000870d        0x3 
+ .text.ARUTILS_WifiFtp_Put
+                0x0000000000008710      0x551 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000008710                ARUTILS_WifiFtp_Put
+ *fill*         0x0000000000008c61        0xf 
+ .text.ARUTILS_WifiFtpAL_Put
+                0x0000000000008c70        0xd /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000008c70                ARUTILS_WifiFtpAL_Put
+ *fill*         0x0000000000008c7d        0x3 
+ .text.ARUTILS_Manager_InitWifiFtpOverMux
+                0x0000000000008c80      0x174 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000008c80                ARUTILS_Manager_InitWifiFtpOverMux
+ *fill*         0x0000000000008df4        0xc 
+ .text.ARUTILS_Manager_InitWifiFtp
+                0x0000000000008e00       0x11 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000008e00                ARUTILS_Manager_InitWifiFtp
+ *fill*         0x0000000000008e11        0xf 
+ .text.ARUTILS_Manager_CloseWifiFtp
+                0x0000000000008e20       0x21 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                0x0000000000008e20                ARUTILS_Manager_CloseWifiFtp
+ *fill*         0x0000000000008e41        0xf 
+ .text.ARUTILS_Error_ToString
+                0x0000000000008e50      0x212 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+                0x0000000000008e50                ARUTILS_Error_ToString
+ *fill*         0x0000000000009062        0xe 
+ .text.ARUTILS_Manager_InitBLEFtp
+                0x0000000000009070        0xa /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_BLEFtp_stub.c.o
+                0x0000000000009070                ARUTILS_Manager_InitBLEFtp
+ *fill*         0x000000000000907a        0x6 
+ .text.ARUTILS_Manager_CloseBLEFtp
+                0x0000000000009080        0x5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_BLEFtp_stub.c.o
+                0x0000000000009080                ARUTILS_Manager_CloseBLEFtp
+ *(.gnu.warning)
+
+.fini           0x0000000000009088        0xd
+ *(SORT_NONE(.fini))
+ .fini          0x0000000000009088        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000009088                _fini
+ .fini          0x0000000000009090        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x000000000000a000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x000000000000a000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x000000000000a000      0x874
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x000000000000a000       0x2d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+                                         0x30 (size before relaxing)
+ *fill*         0x000000000000a02d       0x13 
+ .rodata        0x000000000000a040       0xcf /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+ .rodata.str1.1
+                0x000000000000a10f       0x8c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                                         0xa1 (size before relaxing)
+ *fill*         0x000000000000a19b        0x5 
+ .rodata        0x000000000000a1a0       0xbc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+ *fill*         0x000000000000a25c        0x4 
+ .rodata.cst8   0x000000000000a260       0x10 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+ .rodata.str1.1
+                0x000000000000a270       0x26 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                                         0x2a (size before relaxing)
+ *fill*         0x000000000000a296        0xa 
+ .rodata        0x000000000000a2a0       0x34 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+ .rodata.str1.1
+                0x000000000000a2d4       0x8b /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                                         0xa3 (size before relaxing)
+ *fill*         0x000000000000a35f        0x1 
+ .rodata.str1.8
+                0x000000000000a360       0x6e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+ *fill*         0x000000000000a3ce       0x12 
+ .rodata        0x000000000000a3e0      0x1ef /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+ *fill*         0x000000000000a5cf        0x1 
+ .rodata.cst8   0x000000000000a5d0        0x8 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                                         0x18 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000a5d8      0x222 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+ *fill*         0x000000000000a7fa        0x6 
+ .rodata.str1.8
+                0x000000000000a800       0x33 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+ *fill*         0x000000000000a833        0x1 
+ .rodata        0x000000000000a834       0x40 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000000a874      0x2d4
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000000a874      0x2d4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+                0x000000000000a874                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000000ab48      0xf74
+ *(.eh_frame)
+ .eh_frame      0x000000000000ab48       0x40 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x000000000000ab88       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000aba0       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000abb8      0x128 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+                                        0x140 (size before relaxing)
+ .eh_frame      0x000000000000ace0      0x468 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                                        0x480 (size before relaxing)
+ .eh_frame      0x000000000000b148      0x198 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                                        0x1b0 (size before relaxing)
+ .eh_frame      0x000000000000b2e0      0x798 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                                        0x7b0 (size before relaxing)
+ .eh_frame      0x000000000000ba78       0x18 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000ba90       0x28 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_BLEFtp_stub.c.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000000bab8        0x4 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x000000000000ccf8                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x000000000000ccf8        0x8
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000000ccf8        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.fini_array     0x000000000000cd00        0x8
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000000cd00        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x000000000000cd08        0x0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000000cd08        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynamic        0x000000000000cd08      0x220
+ *(.dynamic)
+ .dynamic       0x000000000000cd08      0x220 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x000000000000cd08                _DYNAMIC
+
+.got            0x000000000000cf28       0xd8
+ *(.got)
+ .got           0x000000000000cf28       0xd8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x000000000000dfe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x000000000000d000      0x2d8
+ *(.got.plt)
+ .got.plt       0x000000000000d000      0x2d8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x000000000000d000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000000d2d8        0x8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x000000000000d2d8        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                0x000000000000d2d8                __dso_handle
+
+.tm_clone_table
+                0x000000000000d2e0        0x0
+ .tm_clone_table
+                0x000000000000d2e0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .tm_clone_table
+                0x000000000000d2e0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.data1
+ *(.data1)
+                [!provide]                        PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                0x000000000000d2e0                . = .
+                [!provide]                        PROVIDE (__bss_start = .)
+
+.bss            0x000000000000d2e0        0x8
+ *(.dynbss)
+ .dynbss        0x000000000000d2e0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000d2e0        0x1 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *(COMMON)
+                0x000000000000d2e8                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x000000000000d2e1        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x000000000000d2e8                . = ALIGN (0x8)
+                0x000000000000d2e8                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x000000000000f2e8        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x000000000000f2e8                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x000000000000f2e8                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+                0x000000000000f2e8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+ .comment       0x000000000000002b       0x2c /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_BLEFtp_stub.c.o
+ .comment       0x000000000000002b       0x2c /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x620
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x90 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+ .debug_aranges
+                0x0000000000000090      0x140 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+ .debug_aranges
+                0x00000000000001d0      0x130 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+ .debug_aranges
+                0x0000000000000300      0x2b0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+ .debug_aranges
+                0x00000000000005b0       0x30 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+ .debug_aranges
+                0x00000000000005e0       0x40 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_BLEFtp_stub.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xe438
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x1289 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+ .debug_info    0x0000000000001289     0x3f74 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+ .debug_info    0x00000000000051fd     0x20d5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+ .debug_info    0x00000000000072d2     0x6735 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+ .debug_info    0x000000000000da07      0x158 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+ .debug_info    0x000000000000db5f      0x8d9 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_BLEFtp_stub.c.o
+
+.debug_abbrev   0x0000000000000000     0x12e5
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x2df /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+ .debug_abbrev  0x00000000000002df      0x515 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+ .debug_abbrev  0x00000000000007f4      0x310 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+ .debug_abbrev  0x0000000000000b04      0x5b7 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+ .debug_abbrev  0x00000000000010bb       0xa0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+ .debug_abbrev  0x000000000000115b      0x18a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_BLEFtp_stub.c.o
+
+.debug_line     0x0000000000000000     0x6338
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x5be /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+ .debug_line    0x00000000000005be     0x1dfe /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+ .debug_line    0x00000000000023bc      0x94a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+ .debug_line    0x0000000000002d06     0x31dc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+ .debug_line    0x0000000000005ee2      0x19a /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+ .debug_line    0x000000000000607c      0x2bc /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_BLEFtp_stub.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x5e73
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0xa9d /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+                                        0xb64 (size before relaxing)
+ .debug_str     0x0000000000000a9d     0x2aed /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+                                       0x337a (size before relaxing)
+ .debug_str     0x000000000000358a     0x20ce /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+                                       0x2939 (size before relaxing)
+ .debug_str     0x0000000000005658      0x78e /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+                                       0x385c (size before relaxing)
+ .debug_str     0x0000000000005de6       0x47 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+                                        0x43a (size before relaxing)
+ .debug_str     0x0000000000005e2d       0x46 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_BLEFtp_stub.c.o
+                                        0xb38 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x10047
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0xde4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+ .debug_loc     0x0000000000000de4     0x4be6 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+ .debug_loc     0x00000000000059ca     0x15d5 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+ .debug_loc     0x0000000000006f9f     0x8fe4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+ .debug_loc     0x000000000000ff83       0xc4 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x17c0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x110 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_FileSystem.c.o
+ .debug_ranges  0x0000000000000110      0x680 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Http.c.o
+ .debug_ranges  0x0000000000000790      0x120 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_Manager.c.o
+ .debug_ranges  0x00000000000008b0      0xec0 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_WifiFtp.c.o
+ .debug_ranges  0x0000000000001770       0x20 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/gen/Sources/ARUTILS_Error.c.o
+ .debug_ranges  0x0000000000001790       0x30 /home/jose/catkin_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARUtils/obj/Sources/ARUTILS_BLEFtp_stub.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/arsdk-native/build/libARUtils/libarutils.so elf64-x86-64)

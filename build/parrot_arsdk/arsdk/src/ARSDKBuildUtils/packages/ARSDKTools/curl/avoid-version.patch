@@ -1,0 +1,52 @@
+diff -ru curl-7.36.0-orig/lib/Makefile.am curl-7.36.0/lib/Makefile.am
+--- curl-7.36.0-orig/lib/Makefile.am
++++ curl-7.36.0/lib/Makefile.am
+@@ -110,9 +110,7 @@
+ libcurl_la_LDFLAGS_EXTRA =
+ libcurl_la_CFLAGS_EXTRA =
+ 
+-if CURL_LT_SHLIB_USE_VERSION_INFO
+-libcurl_la_LDFLAGS_EXTRA += $(VERSIONINFO)
+-endif
++libcurl_la_LDFLAGS_EXTRA += -avoid-version
+ 
+ if CURL_LT_SHLIB_USE_NO_UNDEFINED
+ libcurl_la_LDFLAGS_EXTRA += -no-undefined
+diff -ru curl-7.36.0-orig/lib/Makefile.in curl-7.36.0/lib/Makefile.in
+--- curl-7.36.0-orig/lib/Makefile.in
++++ curl-7.36.0/lib/Makefile.in
+@@ -103,13 +103,12 @@
+ @USE_EMBEDDED_ARES_TRUE@am__append_1 = -I$(top_builddir)/ares        \
+ @USE_EMBEDDED_ARES_TRUE@               -I$(top_srcdir)/ares
+ 
+-@CURL_LT_SHLIB_USE_VERSION_INFO_TRUE@am__append_2 = $(VERSIONINFO)
+-@CURL_LT_SHLIB_USE_NO_UNDEFINED_TRUE@am__append_3 = -no-undefined
+-@CURL_LT_SHLIB_USE_MIMPURE_TEXT_TRUE@am__append_4 = -mimpure-text
+-@CURL_LT_SHLIB_USE_VERSIONED_SYMBOLS_TRUE@am__append_5 = -Wl,--version-script=libcurl.vers
+-@USE_CPPFLAG_CURL_STATICLIB_TRUE@am__append_6 = -DCURL_STATICLIB
+-@DOING_CURL_SYMBOL_HIDING_TRUE@am__append_7 = -DCURL_HIDDEN_SYMBOLS
+-@DOING_CURL_SYMBOL_HIDING_TRUE@am__append_8 = $(CFLAG_CURL_SYMBOL_HIDING)
++@CURL_LT_SHLIB_USE_NO_UNDEFINED_TRUE@am__append_2 = -no-undefined
++@CURL_LT_SHLIB_USE_MIMPURE_TEXT_TRUE@am__append_3 = -mimpure-text
++@CURL_LT_SHLIB_USE_VERSIONED_SYMBOLS_TRUE@am__append_4 = -Wl,--version-script=libcurl.vers
++@USE_CPPFLAG_CURL_STATICLIB_TRUE@am__append_5 = -DCURL_STATICLIB
++@DOING_CURL_SYMBOL_HIDING_TRUE@am__append_6 = -DCURL_HIDDEN_SYMBOLS
++@DOING_CURL_SYMBOL_HIDING_TRUE@am__append_7 = $(CFLAG_CURL_SYMBOL_HIDING)
+ DIST_COMMON = $(srcdir)/Makefile.inc $(srcdir)/Makefile.in \
+ 	$(srcdir)/Makefile.am $(srcdir)/curl_config.h.in \
+ 	$(top_srcdir)/mkinstalldirs $(srcdir)/libcurl.vers.in \
+@@ -628,10 +627,10 @@
+ @SONAME_BUMP_TRUE@VERSIONINFO = -version-info 8:0:3
+ AM_LDFLAGS = 
+ AM_CFLAGS = 
+-libcurl_la_CPPFLAGS_EXTRA = $(am__append_6) $(am__append_7)
+-libcurl_la_LDFLAGS_EXTRA = $(am__append_2) $(am__append_3) \
+-	$(am__append_4) $(am__append_5)
+-libcurl_la_CFLAGS_EXTRA = $(am__append_8)
++libcurl_la_CPPFLAGS_EXTRA = $(am__append_5) $(am__append_6)
++libcurl_la_LDFLAGS_EXTRA = -avoid-version $(am__append_2) \
++	$(am__append_3) $(am__append_4)
++libcurl_la_CFLAGS_EXTRA = $(am__append_7)
+ libcurl_la_CPPFLAGS = $(AM_CPPFLAGS) $(libcurl_la_CPPFLAGS_EXTRA)
+ libcurl_la_LDFLAGS = $(AM_LDFLAGS) $(libcurl_la_LDFLAGS_EXTRA) $(LDFLAGS) $(LIBCURL_LIBS)
+ libcurl_la_CFLAGS = $(AM_CFLAGS) $(libcurl_la_CFLAGS_EXTRA)

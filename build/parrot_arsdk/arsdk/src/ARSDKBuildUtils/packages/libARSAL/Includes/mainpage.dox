@@ -1,0 +1,112 @@
+/**
+ * @mainpage libARSAL Documentation
+ *
+ * @section SAL_intro_sec Introduction
+ *
+ * The ARSAL library in an abstraction layer use by almost all others ARSDK
+ * libraries.
+ *
+ * It provides abstraction of multiple common functions.
+ *
+ * @section SAL_modules_sec Submodules
+ *
+ * Here is a list and a short description of all libARSAL submodules:
+ *
+ * @subsection SAL_endianness_subsec Endianness conversion
+ * @link ARSAL_Endianness.h Header file @endlink
+ *
+ * This submodule defines different functions used to convert endianness.
+ * The reference endian is the ARM-Little endian, as it is the endian used
+ * on all products developped around the ARSDK.
+ *
+ * The function are named in a way similar to the htons/htonl/ntohs/ntohl,
+ * but use the letter 'd' (for device) instead of 'n' (for network).
+ *
+ * This submodule includes functions to convert short int (@ref htods,
+ * @ref dtohs), long int (@ref htodl, @ref dtohl), long long int (@ref htodll,
+ * @ref dtohll), float (@ref htodf, @ref dtohf) and double (@ref htodd,
+ * @ref dtohd)
+ *
+ * @subsection SAL_mutex_subsec Mutexes and Conditionnal variables
+ * @link ARSAL_Mutex.h Header file @endlink
+ *
+ * This submodule defines mutexes and conditionnal variables structures.
+ *
+ * Synchronization structures are created using an init function
+ * (@ref ARSAL_Mutex_Init, @ref ARSAL_Cond_Init), and must be destroyed using
+ * their destroy functions (@ref ARSAL_Mutex_Destroy, @ref ARSAL_Cond_Destroy)
+ * when no longer used.
+ *
+ * The mutexes and conditionnal variables API is based on the POSIX API.
+ *
+ * @subsection SAL_print_subsec Printing and Logging
+ * @link ARSAL_Print.h Header file @endlink
+ *
+ * This submodule provides the @ref ARSAL_PRINT macro, which is a simple log
+ * function. This function prints the message in an easy to parse way,
+ * including a timestamp, a user defined TAG, and a log level.
+ *
+ * Debug (@ref ARSAL_PRINT_DEBUG) and Warning (@ref ARSAL_PRINT_WARNING) logs
+ * are added to the standard output (stdout), while Error
+ * (@ref ARSAL_PRINT_ERROR) logs are added to the error outptut (stderr).
+ * Debug messages are not shown on release builds.
+ *
+ * This behavior can change on specific operating systems. (On Android,
+ * all @ref ARSAL_PRINT calls outputs the messages to the Logcat)
+ *
+ * @subsection SAL_sem_subsec Semaphores
+ * @link ARSAL_Sem.h Header file @endlink
+ *
+ * This submodule defines semaphores structures.
+ *
+ * The semaphores are created using the @ref ARSAL_Sem_Init function, and must
+ * be destroyed using @ref ARSAL_Sem_Destroy function when no longer used.
+ *
+ * The semaphore API is based on the POSIX semaphore API, and can be found in
+ * the file @ref ARSAL_Sem.h
+ *
+ * @subsection SAL_socket_subsec Sockets
+ * @link ARSAL_Socket.h Header file @endlink
+ *
+ * This submodule defines wrapper functions around the POSIX Socket API.
+ *
+ * Sockets are created using @ref ARSAL_Socket_Create and destroyed using
+ * @ref ARSAL_Socket_Close.
+ *
+ * @subsection SAL_thread_subsec Threads
+ * @link ARSAL_Thread.h Header file @endlink
+ *
+ * This submodule defines a thread API based on the POSIX-Pthread API.
+ *
+ * @subsection SAL_time_subsec Time related functions
+ * @link ARSAL_Time.h Header file @endlink
+ *
+ * This submodule defines many time related functions.
+ *
+ * The @ref TIMEVAL_TO_TIMESPEC and @ref TIMESPEC_TO_TIMEVAL macros are used
+ * to convert time holding structures from one to another.
+ *
+ * The others functions are helpers around time comparaison and delta
+ * calculations.
+ *
+ * @subsection SAL_ftw_subsec Ftw related functions
+ * @link ARSAL_Ftw.h Header file @endlink
+ *
+ * This submodule defines ftw/nftw like functions to recursively descends the directory hierarchy 
+ *
+ * @section SAL_posix_sec POSIX Compliance warnings
+ *
+ * While this library is merely a POSIX wrapper on most platforms, its internal
+ * data types should NOT be used directly with POSIX functions. The same
+ * restriction apply to POSIX data types used as ARSAL parameters.
+ *
+ * The POSIX <-> ARSAL binary compatibility is NOT guaranteed, and may change
+ * on any platform, even on a Unix-like, full POSIX-compliant platform.
+ *
+ * One such example of POSIX <-> ARSAL incompatibility is the iOS
+ * implementation of the @ref ARSAL_Sem_t semaphores. As the iOS POSIX
+ * implementation is not complete, the @ref ARSAL_Sem_t semaphore had to be
+ * coded using other APIs to create the same features as the original POSIX
+ * semaphores.
+ *
+ */

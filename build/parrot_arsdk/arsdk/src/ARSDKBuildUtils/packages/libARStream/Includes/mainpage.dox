@@ -1,0 +1,226 @@
+/**
+ * @mainpage libARStream Documentation
+ *
+ * @section VID_intro_sec Introduction
+ *
+ * The ARStream library provides interface to send and receive a data stream
+ * through an @ref ARNETWORK_Manager_t object.
+ *
+ * The ARStream library is designed to transmit h.264 video frames, but may in
+ * fact be used for any kind of data.
+ *
+ * The ARStream library use two different objects (@ref ARSTREAM_Sender_t and
+ * @ref ARSTREAM_Reader_t) for both ends of the data stream.
+ *
+ * Multiple ARStream objects can share the same @ref ARNETWORK_Manager_t,
+ * allowing bidirectionnal streams or multiple streams to be achieved.
+ *
+ * @note The ARStream library does not work on BLE networks.
+ *
+ * @section VID_read_flow_sec ARStream Reader usage
+ *
+ * The typical use flow for an ARStream Reader application is the following:
+ *
+ * @subsection VID_R_arnet_subsec 1> Provide an initialized ARNetwork instance
+ *
+ * An @ref ARSTREAM_Reader_t instance uses an @ref ARNETWORK_Manager_t instance
+ * to read frames and send acknowledges on the network.
+ *
+ * The @ref ARNETWORK_Manager_t must also have properly initialized buffers
+ * (1 input for stream ack, 1 output for stream data). To create these buffers,
+ * the ARStream library exports functions
+ * (@ref ARSTREAM_Reader_InitStreamDataBuffer and
+ * @ref ARSTREAM_Reader_InitStreamAckBuffer) to initialize the
+ * @ref ARNETWORK_IOBufferParam_t structures with the good settings.
+ *
+ * @note If your network will use multiple @ref ARSTREAM_Reader_t, it must have
+ * one pair of buffers for each instance.
+ *
+ * @see <a href="../../libARNetwork/html/index.html" target="_blank">ARNetwork Documentation</a>
+ *
+ * @subsection VID_R_create_subsec 2> Create the reader
+ *
+ * The @ref ARSTREAM_Reader_t can now be properly created, using the
+ * @ref ARSTREAM_Reader_New function.
+ *
+ * This function takes two important things as parameters:
+ *
+ * The frame buffer will be used to hold the first frame.
+ *
+ * The callback (@ref ARSTREAM_Reader_FrameCompleteCallback_t) will be called
+ * every time a frame is complete. It may also be called on different events
+ * (see @ref eARSTREAM_READER_CAUSE). The callback will also provide new frame
+ * buffers to the library
+ *
+ * @note The callback is called in the @ref ARSTREAM_Reader_t data thread.
+ * Processing in the callback should be minimal to avoid introducing delay in
+ * the stream.
+ *
+ * @note If the callback does a frame copy (which is not the recommanded
+ * behavior), it can return the same frame buffer for the next frame. In other
+ * cases, a new buffer must be used (like in
+ * <a href="https://en.wikipedia.org/wiki/Multiple_buffering" target="_blank">multi buffering</a>)
+ *
+ * @subsection VID_R_start_th_subsec 3> Start the readers threads
+ *
+ * The @ref ARSTREAM_Reader_t uses two internal threads to perform the
+ * network operations. The application can use any threading framework to
+ * launch the internal threads, but in any case each one must be started
+ * once and only once.
+ *
+ * The threads entry point are @ref ARSTREAM_Reader_RunDataThread and
+ * @ref ARSTREAM_Reader_RunAckThread.
+ *
+ * If your application does not require any special threading framework, it
+ * can use the libARSAL Thread module.
+ *
+ * @note To ease the closing process, the threads should not be created in
+ * detached mode.
+ *
+ * @subsection VID_R_use_subsec 4> Use the reader
+ *
+ * The @ref ARSTREAM_Reader_t has a full synchronous approach.
+ *
+ * After thread starts, the @ref ARSTREAM_Reader_t will automatically call its
+ * @ref ARSTREAM_Reader_FrameCompleteCallback_t callback every time a complete
+ * frame is received.
+ *
+ * @subsection VID_R_stop_th_subsec 5> Stop the readers threads
+ *
+ * To stop the @ref ARSTREAM_Reader_t threads, use the
+ * @ref ARSTREAM_Reader_StopReader function. This function causes the threads to
+ * return as soon as possible. Thread returns may be delayed by ARNetwork
+ * calls for a time up to the internally set timeout (typically 1 second).
+ *
+ * To ensure that the threads are correctly stopped, the application should
+ * join them (any order works).
+ *
+ * When stopping, the data thread will call the
+ * @ref ARSTREAM_Reader_FrameCompleteCallback_t a last time with
+ * @ref ARSTREAM_READER_CAUSE_CANCEL as the cause, letting know the application
+ * that the frame buffer is no longer referenced and can be freed.
+ *
+ * @subsection VID_R_clean_sec 6> Close the reader
+ *
+ * The @ref ARSTREAM_Reader_t object can then be destroyed using
+ * @ref ARSTREAM_Reader_Delete function.
+ *
+ * This call is mandatory, as it reclaims all allocated memory.
+ *
+ * @section VID_send_flow_sec ARStream Sender usage
+ *
+ * The typical use flow for an ARStream Sender application is the following:
+ *
+ * @subsection VID_S_arnet_subsec 1> Provide an initialized ARNetwork instance
+ *
+ * An @ref ARSTREAM_Sender_t instance uses an @ref ARNETWORK_Manager_t instance
+ * to read acknowledges and send frames on the network.
+ *
+ * The @ref ARNETWORK_Manager_t must also have properly initialized buffers
+ * (1 output for stream ack, 1 input for stream data). To create these buffers,
+ * the ARStream library exports functions
+ * (@ref ARSTREAM_Sender_InitStreamDataBuffer and
+ * @ref ARSTREAM_Sender_InitStreamAckBuffer) to initialize the
+ * @ref ARNETWORK_IOBufferParam_t structures with the good settings.
+ *
+ * @note If your network will use multiple @ref ARSTREAM_Sender_t, it must have
+ * one pair of buffers for each instance.
+ *
+ * @see <a href="../../libARNetwork/html/index.html" target="_blank">ARNetwork Documentation</a>
+ *
+ * @subsection VID_S_create_subsec 2> Create the sender
+ *
+ * The @ref ARSTREAM_Sender_t can now be properly created, using the
+ * @ref ARSTREAM_Sender_New function.
+ *
+ * This function takes two important things as parameters:
+ *
+ * The frame buffer size is the number of frames that can be bufferized by the
+ * @ref ARSTREAM_Sender_t instance.
+ *
+ * The callback (@ref ARSTREAM_Sender_FrameUpdateCallback_t) will be called
+ * every time a frame buffer reference will be dropped by the
+ * @ref ARSTREAM_Sender_t. This will typically happen when the
+ * @ref ARSTREAM_Sender_t received a full acknowledge for a frame, but can also
+ * happen when flushing the frame queue. (see @ref eARSTREAM_SENDER_STATUS)
+ *
+ * @note The callback is called in one of the @ref ARSTREAM_Sender_t threads.
+ * Processing in the callback should be minimal to avoid introducing delay in
+ * the stream.
+ *
+ * @subsection VID_S_start_th_subsec 3> Start the senders threads
+ *
+ * The @ref ARSTREAM_Sender_t uses two internal threads to perform the
+ * network operations. The application can use any threading framework to
+ * launch the internal threads, but in any case each one must be started
+ * once and only once.
+ *
+ * The threads entry point are @ref ARSTREAM_Sender_RunDataThread and
+ * @ref ARSTREAM_Sender_RunAckThread.
+ *
+ * If your application does not require any special threading framework, it
+ * can use the libARSAL Thread module.
+ *
+ * @note To ease the closing process, the threads should not be created in
+ * detached mode.
+ *
+ * @subsection VID_S_use_subsec 4> Use the sender
+ *
+ * To send a new frame through the @ref ARSTREAM_Sender_t, use the
+ * @ref ARSTREAM_Sender_SendNewFrame function. If this function does not return
+ * an error, then the frame buffer will be referenced by the
+ * @ref ARSTREAM_Sender_t until the @ref ARSTREAM_Sender_FrameUpdateCallback_t
+ * callback is called for it.
+ *
+ * This function can also return (through an optionnal pointer parameter) the
+ * number of buffered frames. This information can be used to adapt the stream
+ * quality to the network. (If the buffer grows, it may be because the network
+ * can not handle the stream bandwidth)
+ *
+ * This function can also flush all previously sent frame (typically when the
+ * new frame is an h.264 I-Frame).
+ *
+ * @subsection VID_S_stop_th_subsec 5> Stop the senders threads
+ *
+ * To stop the @ref ARSTREAM_Sender_t threads, use the
+ * @ref ARSTREAM_Sender_StopSender function. This function causes the threads to
+ * return as soon as possible. Thread returns may be delayed by ARNetwork
+ * calls for a time up to the internally set timeout (typically 1 second).
+ *
+ * To ensure that the threads are correctly stopped, the application should
+ * join them (any order works).
+ *
+ * When stopping, the data thread will call the
+ * @ref ARSTREAM_Sender_FrameUpdateCallback_t on all buffered frames with
+ * @ref ARSTREAM_SENDER_STATUS_FRAME_CANCEL as the status, letting know the
+ * application that the frame buffers are no longer referenced and can be freed.
+ *
+ * @subsection VID_S_clean_sec 6> Close the sender
+ *
+ * The @ref ARSTREAM_Sender_t object can then be destroyed using
+ * @ref ARSTREAM_Sender_Delete function.
+ *
+ * This call is mandatory, as it reclaims all allocated memory.
+ *
+ * @section VID_utility_sec Utility functions
+ *
+ * Both the @ref ARSTREAM_Sender_t and @ref ARSTREAM_Reader_t implements an
+ * efficiency estimation function.
+ *
+ * The @ref ARSTREAM_Sender_t function
+ * (@ref ARSTREAM_Sender_GetEstimatedEfficiency) computes the ratio of frame
+ * fragments actually sent on the network, over the number of frame fragments
+ * that would have been sent in an ideal case (no network losses).
+ *
+ * The @ref ARSTREAM_Reader_t function
+ * (@ref ARSTREAM_Reader_GetEstimatedEfficiency) computes the ratio of frame
+ * fragments received from the network, over the number of frame fragments
+ * actually used to construct output frames (i.e. it counts the fragments that
+ * had useless retries from the @ref ARSTREAM_Sender_t)
+ *
+ * Due to the difference in calculation, the efficiency value for both ends of
+ * the stream will be different. Typically, the @ref ARSTREAM_Sender_t estimated
+ * efficiency should be lower, as the actually dropped frames fragments are
+ * not counted by the @ref ARSTREAM_Reader_t estimation.
+ *
+ */

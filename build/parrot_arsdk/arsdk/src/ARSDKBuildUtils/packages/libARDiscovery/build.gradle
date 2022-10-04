@@ -1,0 +1,27 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['JNI/java', 'gen/JNI/java']
+        }
+    }
+}
+
+dependencies {
+    compile project(':libARSAL')
+    compile project(':libARNetworkAL')
+    compile project(':libmux')
+    compile rootProject.ext.jmdnsVersion
+    compile rootProject.ext.androidSupportV4Version
+    compile rootProject.ext.sanselanVersion
+}

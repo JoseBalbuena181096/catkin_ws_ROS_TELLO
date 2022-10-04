@@ -1,0 +1,28 @@
+From c5850b4e8fc867cb466d9ad1b60708af2414c109 Mon Sep 17 00:00:00 2001
+From: Nicolas BRULEZ <nicolas.brulez@parrot.com>
+Date: Thu, 26 Feb 2015 17:59:04 +0100
+Subject: [PATCH 1/2] ARSDK: Allow mixed 32/64bits builds
+
+---
+ include/curl/curlrules.h | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/include/curl/curlrules.h b/include/curl/curlrules.h
+index 7c2ede3..7876847 100644
+--- a/include/curl/curlrules.h
++++ b/include/curl/curlrules.h
+@@ -138,9 +138,9 @@
+  * is the same as the one reported by sizeof() at compile time.
+  */
+ 
+-typedef char
++/*typedef char
+   __curl_rule_01__
+-    [CurlchkszEQ(long, CURL_SIZEOF_LONG)];
++    [CurlchkszEQ(long, CURL_SIZEOF_LONG)];*/
+ 
+ /*
+  * Verify that the size previously defined and expected for
+-- 
+2.1.0
+

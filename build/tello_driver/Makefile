@@ -68,28 +68,6 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -100,17 +78,6 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -134,6 +101,39 @@ install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,96 +168,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-.PHONY : tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_cpp: tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-
-.PHONY : dynamic_reconfigure_generate_messages_cpp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_cpp/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_cpp/fast
-
-# Convenience name for target.
-tello_driver/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
-.PHONY : tello_driver/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-nav_msgs_generate_messages_py: tello_driver/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
-
-.PHONY : nav_msgs_generate_messages_py
-
-# fast build rule for target.
-nav_msgs_generate_messages_py/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make tello_driver/CMakeFiles/nav_msgs_generate_messages_py.dir/build
-.PHONY : nav_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-tello_driver/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-.PHONY : tello_driver/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_cpp: tello_driver/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_cpp
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_cpp/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make tello_driver/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
-.PHONY : actionlib_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-tello_driver/CMakeFiles/tello_driver_generate_messages.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_generate_messages.dir/rule
-.PHONY : tello_driver/CMakeFiles/tello_driver_generate_messages.dir/rule
-
-# Convenience name for target.
-tello_driver_generate_messages: tello_driver/CMakeFiles/tello_driver_generate_messages.dir/rule
-
-.PHONY : tello_driver_generate_messages
-
-# fast build rule for target.
-tello_driver_generate_messages/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_generate_messages.dir/build.make tello_driver/CMakeFiles/tello_driver_generate_messages.dir/build
-.PHONY : tello_driver_generate_messages/fast
-
-# Convenience name for target.
-tello_driver/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
-.PHONY : tello_driver/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_eus: tello_driver/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_eus
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_eus/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make tello_driver/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
-.PHONY : actionlib_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-tello_driver/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
-.PHONY : tello_driver/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-nav_msgs_generate_messages_nodejs: tello_driver/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : nav_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-nav_msgs_generate_messages_nodejs/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make tello_driver/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
-.PHONY : nav_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
 tello_driver/CMakeFiles/tello_driver_gencfg.dir/rule:
 	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_gencfg.dir/rule
 .PHONY : tello_driver/CMakeFiles/tello_driver_gencfg.dir/rule
@@ -273,94 +183,79 @@ tello_driver_gencfg/fast:
 .PHONY : tello_driver_gencfg/fast
 
 # Convenience name for target.
-tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
-.PHONY : tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+tello_driver/CMakeFiles/tello_driver_genpy.dir/rule:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_genpy.dir/rule
+.PHONY : tello_driver/CMakeFiles/tello_driver_genpy.dir/rule
 
 # Convenience name for target.
-dynamic_reconfigure_generate_messages_nodejs: tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+tello_driver_genpy: tello_driver/CMakeFiles/tello_driver_genpy.dir/rule
 
-.PHONY : dynamic_reconfigure_generate_messages_nodejs
+.PHONY : tello_driver_genpy
 
 # fast build rule for target.
-dynamic_reconfigure_generate_messages_nodejs/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
+tello_driver_genpy/fast:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_genpy.dir/build.make tello_driver/CMakeFiles/tello_driver_genpy.dir/build
+.PHONY : tello_driver_genpy/fast
 
 # Convenience name for target.
-tello_driver/CMakeFiles/tello_driver_generate_messages_eus.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_generate_messages_eus.dir/rule
-.PHONY : tello_driver/CMakeFiles/tello_driver_generate_messages_eus.dir/rule
+tello_driver/CMakeFiles/tello_driver_gennodejs.dir/rule:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_gennodejs.dir/rule
+.PHONY : tello_driver/CMakeFiles/tello_driver_gennodejs.dir/rule
 
 # Convenience name for target.
-tello_driver_generate_messages_eus: tello_driver/CMakeFiles/tello_driver_generate_messages_eus.dir/rule
+tello_driver_gennodejs: tello_driver/CMakeFiles/tello_driver_gennodejs.dir/rule
 
-.PHONY : tello_driver_generate_messages_eus
+.PHONY : tello_driver_gennodejs
 
 # fast build rule for target.
-tello_driver_generate_messages_eus/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_generate_messages_eus.dir/build.make tello_driver/CMakeFiles/tello_driver_generate_messages_eus.dir/build
-.PHONY : tello_driver_generate_messages_eus/fast
+tello_driver_gennodejs/fast:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_gennodejs.dir/build.make tello_driver/CMakeFiles/tello_driver_gennodejs.dir/build
+.PHONY : tello_driver_gennodejs/fast
 
 # Convenience name for target.
-tello_driver/CMakeFiles/tello_driver_generate_messages_py.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_generate_messages_py.dir/rule
-.PHONY : tello_driver/CMakeFiles/tello_driver_generate_messages_py.dir/rule
+tello_driver/CMakeFiles/tello_driver_generate_messages_nodejs.dir/rule:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_generate_messages_nodejs.dir/rule
+.PHONY : tello_driver/CMakeFiles/tello_driver_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-tello_driver_generate_messages_py: tello_driver/CMakeFiles/tello_driver_generate_messages_py.dir/rule
+tello_driver_generate_messages_nodejs: tello_driver/CMakeFiles/tello_driver_generate_messages_nodejs.dir/rule
 
-.PHONY : tello_driver_generate_messages_py
+.PHONY : tello_driver_generate_messages_nodejs
 
 # fast build rule for target.
-tello_driver_generate_messages_py/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_generate_messages_py.dir/build.make tello_driver/CMakeFiles/tello_driver_generate_messages_py.dir/build
-.PHONY : tello_driver_generate_messages_py/fast
+tello_driver_generate_messages_nodejs/fast:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_generate_messages_nodejs.dir/build.make tello_driver/CMakeFiles/tello_driver_generate_messages_nodejs.dir/build
+.PHONY : tello_driver_generate_messages_nodejs/fast
 
 # Convenience name for target.
-tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-.PHONY : tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+tello_driver/CMakeFiles/tello_driver_genlisp.dir/rule:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_genlisp.dir/rule
+.PHONY : tello_driver/CMakeFiles/tello_driver_genlisp.dir/rule
 
 # Convenience name for target.
-dynamic_reconfigure_generate_messages_lisp: tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+tello_driver_genlisp: tello_driver/CMakeFiles/tello_driver_genlisp.dir/rule
 
-.PHONY : dynamic_reconfigure_generate_messages_lisp
+.PHONY : tello_driver_genlisp
 
 # fast build rule for target.
-dynamic_reconfigure_generate_messages_lisp/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
+tello_driver_genlisp/fast:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_genlisp.dir/build.make tello_driver/CMakeFiles/tello_driver_genlisp.dir/build
+.PHONY : tello_driver_genlisp/fast
 
 # Convenience name for target.
-tello_driver/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
-.PHONY : tello_driver/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+.PHONY : tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-nav_msgs_generate_messages_lisp: tello_driver/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+dynamic_reconfigure_generate_messages_cpp: tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 
-.PHONY : nav_msgs_generate_messages_lisp
+.PHONY : dynamic_reconfigure_generate_messages_cpp
 
 # fast build rule for target.
-nav_msgs_generate_messages_lisp/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make tello_driver/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
-.PHONY : nav_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-tello_driver/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-.PHONY : tello_driver/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_gencfg: tello_driver/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-
-.PHONY : dynamic_reconfigure_gencfg
-
-# fast build rule for target.
-dynamic_reconfigure_gencfg/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make tello_driver/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
-.PHONY : dynamic_reconfigure_gencfg/fast
+dynamic_reconfigure_generate_messages_cpp/fast:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 # Convenience name for target.
 tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
@@ -378,49 +273,124 @@ dynamic_reconfigure_generate_messages_eus/fast:
 .PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 # Convenience name for target.
-tello_driver/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
-.PHONY : tello_driver/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+.PHONY : tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 
 # Convenience name for target.
-nav_msgs_generate_messages_cpp: tello_driver/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+dynamic_reconfigure_generate_messages_py: tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 
-.PHONY : nav_msgs_generate_messages_cpp
+.PHONY : dynamic_reconfigure_generate_messages_py
 
 # fast build rule for target.
-nav_msgs_generate_messages_cpp/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make tello_driver/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
-.PHONY : nav_msgs_generate_messages_cpp/fast
+dynamic_reconfigure_generate_messages_py/fast:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 # Convenience name for target.
-tello_driver/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-.PHONY : tello_driver/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+.PHONY : tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-actionlib_msgs_generate_messages_lisp: tello_driver/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+dynamic_reconfigure_generate_messages_lisp: tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
-.PHONY : actionlib_msgs_generate_messages_lisp
+.PHONY : dynamic_reconfigure_generate_messages_lisp
 
 # fast build rule for target.
-actionlib_msgs_generate_messages_lisp/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make tello_driver/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
-.PHONY : actionlib_msgs_generate_messages_lisp/fast
+dynamic_reconfigure_generate_messages_lisp/fast:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 # Convenience name for target.
-tello_driver/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
-.PHONY : tello_driver/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+tello_driver/CMakeFiles/tello_driver_generate_messages_py.dir/rule:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_generate_messages_py.dir/rule
+.PHONY : tello_driver/CMakeFiles/tello_driver_generate_messages_py.dir/rule
 
 # Convenience name for target.
-nav_msgs_generate_messages_eus: tello_driver/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+tello_driver_generate_messages_py: tello_driver/CMakeFiles/tello_driver_generate_messages_py.dir/rule
 
-.PHONY : nav_msgs_generate_messages_eus
+.PHONY : tello_driver_generate_messages_py
 
 # fast build rule for target.
-nav_msgs_generate_messages_eus/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make tello_driver/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
-.PHONY : nav_msgs_generate_messages_eus/fast
+tello_driver_generate_messages_py/fast:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_generate_messages_py.dir/build.make tello_driver/CMakeFiles/tello_driver_generate_messages_py.dir/build
+.PHONY : tello_driver_generate_messages_py/fast
+
+# Convenience name for target.
+tello_driver/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+.PHONY : tello_driver/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_gencfg: tello_driver/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+
+.PHONY : dynamic_reconfigure_gencfg
+
+# fast build rule for target.
+dynamic_reconfigure_gencfg/fast:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make tello_driver/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+.PHONY : dynamic_reconfigure_gencfg/fast
+
+# Convenience name for target.
+tello_driver/CMakeFiles/tello_driver_generate_messages_eus.dir/rule:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_generate_messages_eus.dir/rule
+.PHONY : tello_driver/CMakeFiles/tello_driver_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+tello_driver_generate_messages_eus: tello_driver/CMakeFiles/tello_driver_generate_messages_eus.dir/rule
+
+.PHONY : tello_driver_generate_messages_eus
+
+# fast build rule for target.
+tello_driver_generate_messages_eus/fast:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_generate_messages_eus.dir/build.make tello_driver/CMakeFiles/tello_driver_generate_messages_eus.dir/build
+.PHONY : tello_driver_generate_messages_eus/fast
+
+# Convenience name for target.
+tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+.PHONY : tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_nodejs: tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+
+.PHONY : dynamic_reconfigure_generate_messages_nodejs
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_nodejs/fast:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
+
+# Convenience name for target.
+tello_driver/CMakeFiles/tello_driver_geneus.dir/rule:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_geneus.dir/rule
+.PHONY : tello_driver/CMakeFiles/tello_driver_geneus.dir/rule
+
+# Convenience name for target.
+tello_driver_geneus: tello_driver/CMakeFiles/tello_driver_geneus.dir/rule
+
+.PHONY : tello_driver_geneus
+
+# fast build rule for target.
+tello_driver_geneus/fast:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_geneus.dir/build.make tello_driver/CMakeFiles/tello_driver_geneus.dir/build
+.PHONY : tello_driver_geneus/fast
+
+# Convenience name for target.
+tello_driver/CMakeFiles/tello_driver_generate_messages.dir/rule:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_generate_messages.dir/rule
+.PHONY : tello_driver/CMakeFiles/tello_driver_generate_messages.dir/rule
+
+# Convenience name for target.
+tello_driver_generate_messages: tello_driver/CMakeFiles/tello_driver_generate_messages.dir/rule
+
+.PHONY : tello_driver_generate_messages
+
+# fast build rule for target.
+tello_driver_generate_messages/fast:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_generate_messages.dir/build.make tello_driver/CMakeFiles/tello_driver_generate_messages.dir/build
+.PHONY : tello_driver_generate_messages/fast
 
 # Convenience name for target.
 tello_driver/CMakeFiles/_tello_driver_generate_messages_check_deps_TelloStatus.dir/rule:
@@ -453,34 +423,19 @@ tello_driver_generate_messages_cpp/fast:
 .PHONY : tello_driver_generate_messages_cpp/fast
 
 # Convenience name for target.
-tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-.PHONY : tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+tello_driver/CMakeFiles/tello_driver_generate_messages_lisp.dir/rule:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_generate_messages_lisp.dir/rule
+.PHONY : tello_driver/CMakeFiles/tello_driver_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-dynamic_reconfigure_generate_messages_py: tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+tello_driver_generate_messages_lisp: tello_driver/CMakeFiles/tello_driver_generate_messages_lisp.dir/rule
 
-.PHONY : dynamic_reconfigure_generate_messages_py
+.PHONY : tello_driver_generate_messages_lisp
 
 # fast build rule for target.
-dynamic_reconfigure_generate_messages_py/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make tello_driver/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_py/fast
-
-# Convenience name for target.
-tello_driver/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-.PHONY : tello_driver/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_py: tello_driver/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_py
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_py/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make tello_driver/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
-.PHONY : actionlib_msgs_generate_messages_py/fast
+tello_driver_generate_messages_lisp/fast:
+	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_generate_messages_lisp.dir/build.make tello_driver/CMakeFiles/tello_driver_generate_messages_lisp.dir/build
+.PHONY : tello_driver_generate_messages_lisp/fast
 
 # Convenience name for target.
 tello_driver/CMakeFiles/tello_driver_gencpp.dir/rule:
@@ -497,111 +452,6 @@ tello_driver_gencpp/fast:
 	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_gencpp.dir/build.make tello_driver/CMakeFiles/tello_driver_gencpp.dir/build
 .PHONY : tello_driver_gencpp/fast
 
-# Convenience name for target.
-tello_driver/CMakeFiles/tello_driver_generate_messages_lisp.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_generate_messages_lisp.dir/rule
-.PHONY : tello_driver/CMakeFiles/tello_driver_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-tello_driver_generate_messages_lisp: tello_driver/CMakeFiles/tello_driver_generate_messages_lisp.dir/rule
-
-.PHONY : tello_driver_generate_messages_lisp
-
-# fast build rule for target.
-tello_driver_generate_messages_lisp/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_generate_messages_lisp.dir/build.make tello_driver/CMakeFiles/tello_driver_generate_messages_lisp.dir/build
-.PHONY : tello_driver_generate_messages_lisp/fast
-
-# Convenience name for target.
-tello_driver/CMakeFiles/tello_driver_genlisp.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_genlisp.dir/rule
-.PHONY : tello_driver/CMakeFiles/tello_driver_genlisp.dir/rule
-
-# Convenience name for target.
-tello_driver_genlisp: tello_driver/CMakeFiles/tello_driver_genlisp.dir/rule
-
-.PHONY : tello_driver_genlisp
-
-# fast build rule for target.
-tello_driver_genlisp/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_genlisp.dir/build.make tello_driver/CMakeFiles/tello_driver_genlisp.dir/build
-.PHONY : tello_driver_genlisp/fast
-
-# Convenience name for target.
-tello_driver/CMakeFiles/tello_driver_generate_messages_nodejs.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_generate_messages_nodejs.dir/rule
-.PHONY : tello_driver/CMakeFiles/tello_driver_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-tello_driver_generate_messages_nodejs: tello_driver/CMakeFiles/tello_driver_generate_messages_nodejs.dir/rule
-
-.PHONY : tello_driver_generate_messages_nodejs
-
-# fast build rule for target.
-tello_driver_generate_messages_nodejs/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_generate_messages_nodejs.dir/build.make tello_driver/CMakeFiles/tello_driver_generate_messages_nodejs.dir/build
-.PHONY : tello_driver_generate_messages_nodejs/fast
-
-# Convenience name for target.
-tello_driver/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
-.PHONY : tello_driver/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_nodejs: tello_driver/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_nodejs/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make tello_driver/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
-.PHONY : actionlib_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-tello_driver/CMakeFiles/tello_driver_geneus.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_geneus.dir/rule
-.PHONY : tello_driver/CMakeFiles/tello_driver_geneus.dir/rule
-
-# Convenience name for target.
-tello_driver_geneus: tello_driver/CMakeFiles/tello_driver_geneus.dir/rule
-
-.PHONY : tello_driver_geneus
-
-# fast build rule for target.
-tello_driver_geneus/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_geneus.dir/build.make tello_driver/CMakeFiles/tello_driver_geneus.dir/build
-.PHONY : tello_driver_geneus/fast
-
-# Convenience name for target.
-tello_driver/CMakeFiles/tello_driver_gennodejs.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_gennodejs.dir/rule
-.PHONY : tello_driver/CMakeFiles/tello_driver_gennodejs.dir/rule
-
-# Convenience name for target.
-tello_driver_gennodejs: tello_driver/CMakeFiles/tello_driver_gennodejs.dir/rule
-
-.PHONY : tello_driver_gennodejs
-
-# fast build rule for target.
-tello_driver_gennodejs/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_gennodejs.dir/build.make tello_driver/CMakeFiles/tello_driver_gennodejs.dir/build
-.PHONY : tello_driver_gennodejs/fast
-
-# Convenience name for target.
-tello_driver/CMakeFiles/tello_driver_genpy.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tello_driver/CMakeFiles/tello_driver_genpy.dir/rule
-.PHONY : tello_driver/CMakeFiles/tello_driver_genpy.dir/rule
-
-# Convenience name for target.
-tello_driver_genpy: tello_driver/CMakeFiles/tello_driver_genpy.dir/rule
-
-.PHONY : tello_driver_genpy
-
-# fast build rule for target.
-tello_driver_genpy/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f tello_driver/CMakeFiles/tello_driver_genpy.dir/build.make tello_driver/CMakeFiles/tello_driver_genpy.dir/build
-.PHONY : tello_driver_genpy/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -609,41 +459,31 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install"
-	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... test"
 	@echo "... edit_cache"
-	@echo "... dynamic_reconfigure_generate_messages_cpp"
-	@echo "... nav_msgs_generate_messages_py"
-	@echo "... actionlib_msgs_generate_messages_cpp"
-	@echo "... tello_driver_generate_messages"
-	@echo "... actionlib_msgs_generate_messages_eus"
-	@echo "... nav_msgs_generate_messages_nodejs"
 	@echo "... tello_driver_gencfg"
-	@echo "... dynamic_reconfigure_generate_messages_nodejs"
-	@echo "... tello_driver_generate_messages_eus"
-	@echo "... tello_driver_generate_messages_py"
-	@echo "... dynamic_reconfigure_generate_messages_lisp"
-	@echo "... nav_msgs_generate_messages_lisp"
-	@echo "... dynamic_reconfigure_gencfg"
-	@echo "... dynamic_reconfigure_generate_messages_eus"
+	@echo "... tello_driver_genpy"
+	@echo "... tello_driver_gennodejs"
 	@echo "... install/local"
-	@echo "... nav_msgs_generate_messages_cpp"
-	@echo "... actionlib_msgs_generate_messages_lisp"
-	@echo "... nav_msgs_generate_messages_eus"
+	@echo "... tello_driver_generate_messages_nodejs"
+	@echo "... tello_driver_genlisp"
+	@echo "... dynamic_reconfigure_generate_messages_cpp"
+	@echo "... dynamic_reconfigure_generate_messages_eus"
+	@echo "... dynamic_reconfigure_generate_messages_py"
+	@echo "... test"
+	@echo "... dynamic_reconfigure_generate_messages_lisp"
+	@echo "... tello_driver_generate_messages_py"
+	@echo "... dynamic_reconfigure_gencfg"
+	@echo "... tello_driver_generate_messages_eus"
+	@echo "... dynamic_reconfigure_generate_messages_nodejs"
+	@echo "... tello_driver_geneus"
+	@echo "... list_install_components"
+	@echo "... tello_driver_generate_messages"
 	@echo "... _tello_driver_generate_messages_check_deps_TelloStatus"
 	@echo "... tello_driver_generate_messages_cpp"
-	@echo "... dynamic_reconfigure_generate_messages_py"
-	@echo "... actionlib_msgs_generate_messages_py"
-	@echo "... tello_driver_gencpp"
+	@echo "... install"
 	@echo "... tello_driver_generate_messages_lisp"
-	@echo "... tello_driver_genlisp"
-	@echo "... tello_driver_generate_messages_nodejs"
-	@echo "... actionlib_msgs_generate_messages_nodejs"
-	@echo "... tello_driver_geneus"
-	@echo "... tello_driver_gennodejs"
-	@echo "... tello_driver_genpy"
+	@echo "... tello_driver_gencpp"
 .PHONY : help
 
 

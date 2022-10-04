@@ -1,0 +1,8 @@
+prefix=/home/jose/catkin_ws/devel
+
+Name: follow_face_bebop
+Description: Description of follow_face_bebop
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

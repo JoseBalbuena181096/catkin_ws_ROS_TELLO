@@ -1,0 +1,7 @@
+config ENABLE_MONITOR_INCOMING_DATA
+    bool "Enable Monitoring of incoming data through an eventfd"
+    default n
+    help
+       This fd shall be used to monitor incoming packets.
+       This fd is readable when incoming data are received and need to be processed.
+

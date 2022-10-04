@@ -1,0 +1,13 @@
+rc2/libcrypto_la-rc2cfb64.lo: rc2/rc2cfb64.c /usr/include/stdc-predef.h \
+ ../include/openssl/rc2.h ../include/openssl/opensslconf.h \
+ ../include/openssl/opensslfeatures.h rc2/rc2_locl.h
+
+/usr/include/stdc-predef.h:
+
+../include/openssl/rc2.h:
+
+../include/openssl/opensslconf.h:
+
+../include/openssl/opensslfeatures.h:
+
+rc2/rc2_locl.h:

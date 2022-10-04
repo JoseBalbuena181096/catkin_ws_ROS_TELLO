@@ -1,0 +1,13 @@
+diff --git a/Makefile.in b/Makefile.in
+index b4493b5..e430ac6 100644
+--- a/Makefile.in
++++ b/Makefile.in
+@@ -418,7 +418,7 @@ libjson_cinclude_HEADERS = \
+ #
+ #libjsonx_include_HEADERS = \
+ #	json_config.h
+-libjson_c_la_LDFLAGS = -version-info 2:2:0 -no-undefined @JSON_BSYMBOLIC_LDFLAGS@
++libjson_c_la_LDFLAGS = -avoid-version -no-undefined @JSON_BSYMBOLIC_LDFLAGS@
+ libjson_c_la_SOURCES = \
+ 	arraylist.c \
+ 	debug.c \

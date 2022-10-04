@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+
+<robot xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
+xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
+xmlns:xacro="http://ros.org/wiki/xacro">  
+  
+    <xacro:property name="M_PI" value="3.1415926535897931" />
+  
+    <xacro:macro name="generic_camera" params="name sim_name parent *origin update_rate res_x res_y image_format hfov">
+      <joint name="${name}_joint" type="fixed">
+        <xacro:insert_block name="origin" />
+        <parent link="${parent}"/>
+        <child link="${name}_link"/>
+      </joint>
+      
+      <link name="${name}_link">
+        <inertial>
+          <mass value="1e-5" />
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+        </inertial>
+        <visual>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <cylinder length="0.01" radius="0.007" />
+          </geometry>
+	<material name="Blue">
+      <color rgba="0.0 0.0 0.8 1"/>
+    </material>
+        </visual>
+        <collision>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <cylinder length="0.01" radius="0.007" />
+          </geometry>
+        </collision>
+      </link>
+      
+      
+    <joint name="${name}_optical_joint" type="fixed">
+      <origin xyz="0 0 0" rpy="${-M_PI/2} 0.0 ${-M_PI/2}" />
+      <parent link="${name}_link" />
+      <child link="ardrone_base_${name}cam"/>
+    </joint>
+    
+    <link name="ardrone_base_${name}cam">
+      <inertial>
+        <mass value="1e-5" />
+        <origin xyz="0 0 0" />
+        <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder length="0.01" radius="0.007" />
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder length="0.01" radius="0.007" />
+        </geometry>
+      </collision>
+    </link>
+      
+    <gazebo reference="${name}_link">
+      <sensor type="depth" name="${name}_camera_sensor">
+        <update_rate>${update_rate}</update_rate>
+        <camera name="head">
+          <horizontal_fov>${hfov}</horizontal_fov>
+          <image>
+            <width>${res_x}</width>
+            <height>${res_y}</height>
+            <format>${image_format}</format>
+          </image>
+
+          <clip>0.01
+	    <near>0.01</near>
+            <far>100</far>
+          </clip>
+        </camera>
+        <plugin name="${name}_camera_controller" filename="libgazebo_ros_openni_kinect.so">
+	  <cameraName>/${sim_name}/${name}</cameraName>
+          <baseline>0.2</baseline>
+          <alwaysOn>true</alwaysOn>
+          <updateRate>${update_rate}</updateRate>
+          <cameraName>camera_ir</cameraName>
+          <imageTopicName>/${sim_name}/${name}/rgb/image_raw</imageTopicName>
+          <cameraInfoTopicName>/${sim_name}/${name}/rgb/camera_info</cameraInfoTopicName>
+          <depthImageTopicName>/${sim_name}/${name}/depth/image_raw</depthImageTopicName>
+          <depthImageInfoTopicName>/${sim_name}/${name}/depth/camera_info</depthImageInfoTopicName>
+          <pointCloudTopicName>/${sim_name}/${name}/depth/points</pointCloudTopicName>
+          <frameName>camera_link</frameName>
+          <pointCloudCutoff>0.05</pointCloudCutoff>
+          <pointCloudCutoffMax>60</pointCloudCutoffMax>
+          <rangeMax>60.0</rangeMax>
+          <distortionK1>0</distortionK1>
+          <distortionK2>0</distortionK2>
+          <distortionK3>0</distortionK3>
+          <distortionT1>0</distortionT1>
+          <distortionT2>0</distortionT2>
+          <CxPrime>0</CxPrime>
+          <Cx>0</Cx>
+          <Cy>0</Cy>
+          <focalLength>0</focalLength>
+          <hackBaseline>0</hackBaseline>
+          <frameName>ardrone_base_${name}cam</frameName>
+        </plugin>
+      </sensor>
+      <turnGravityOff>true</turnGravityOff>
+      <material>PR2/Blue</material>
+    </gazebo>
+    </xacro:macro>
+  </robot>
+  

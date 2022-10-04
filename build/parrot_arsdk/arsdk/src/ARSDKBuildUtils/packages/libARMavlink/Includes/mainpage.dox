@@ -1,0 +1,60 @@
+/**
+ * @mainpage libARMavlink Documentation
+ *
+ * @section ARMAVLINK_intro_sec Introduction
+ *
+ * The ARMavlink library provides an API to read and write mavlink files
+ *
+ * The library uses @ref ARMAVLINK_FileGenerator_t object as its main entry point to write mavlink files
+ * The library uses @ref ARMAVLINK_FileParser_t object as its main entry point to read mavlink files
+ *
+ * @section ARMAVLINK_write_flow_sec ARMavlink writing file usage
+ *
+ * The typical use flow of the ARMavlink library to write a mavlink file is the following:
+ *
+ * @subsection ARMAVLINK_write_create_subsec 1> Create the File generator
+ *
+ * The @ref ARMAVLINK_FileGenerator_t can now be properly created, using the
+ * @ref ARMAVLINK_FileGenerator_New function.
+ *
+ * @subsection ARMAVLINK_write_use_subsec 2> Use the File generator
+ *
+ * At this point the @ref ARMAVLINK_FileGenerator_t is ready for use. 
+ * You can add waypoints to the list, replace ones, also insert or delete waypoints.
+ * Then you can call @ref ARMAVLINK_FileGenerator_CreateMavlinkFile to create the mavlink file.
+ *
+ * @subsection ARMAVLINK_write_clean_sec 2> Close the File generator
+ *
+ * The @ref ARMAVLINK_FileGenerator_t object can the be destroyed using
+ * @ref ARMAVLINK_FileGenerator_Delete function.
+ *
+ * This call is mandatory, as it reclaims all allocated memory.
+ *
+ *
+ *
+ *
+ *
+ * @section ARMAVLINK_parse_flow_sec ARMavlink reading file usage
+ *
+ * The typical use flow of the ARMavlink library to read a mavlink file is the following:
+ *
+ * @subsection ARMAVLINK_parse_create_subsec 1> Create the File parser
+ *
+ * The @ref ARMAVLINK_FileParser_t can now be properly created, using the
+ * @ref ARMAVLINK_FileParser_New function.
+ *
+ * @subsection ARMAVLINK_parse_use_subsec 2> Use the File parser
+ *
+ * At this point the @ref ARMAVLINK_FileParser_t is ready for use. 
+ * All you have to do is to call @ref ARMAVLINK_FileParser_Parse
+ * This gives you a list of waypoints
+ *
+ * @subsection ARMAVLINK_parse_clean_sec 2> Close the File parser
+ *
+ * The @ref ARMAVLINK_FileParser_t object can the be destroyed using
+ * @ref ARMAVLINK_FileParser_Delete function.
+ *
+ * This call is mandatory, as it reclaims all allocated memory.
+ *
+ 
+ */

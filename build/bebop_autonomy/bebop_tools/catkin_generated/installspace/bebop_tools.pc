@@ -1,0 +1,8 @@
+prefix=/home/jose/catkin_ws/install
+
+Name: bebop_tools
+Description: Description of bebop_tools
+Version: 0.7.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: bebop_msgs

@@ -1,0 +1,6 @@
+/Build/
+/build/
+/Python/*.pyc
+/Python/documentation
+/Python/reference
+libARController.iml

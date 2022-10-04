@@ -1,0 +1,8 @@
+prefix=/home/jose/catkin_ws/install
+
+Name: parrot_arsdk
+Description: Description of parrot_arsdk
+Version: 3.14.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>	
+
+	<arg name="image_reduction" default="60"/>
+
+	<rosparam file="$(find follow_face_bebop)/config/bebop_cam.yaml" command="load" />
+	<node name="followFaceBebop" pkg="follow_face_bebop" type="follow_face_bebop.py" output="screen" >		
+		<param name="imageReduction" type="int" value="$(arg image_reduction)" />
+    </node>
+</launch>

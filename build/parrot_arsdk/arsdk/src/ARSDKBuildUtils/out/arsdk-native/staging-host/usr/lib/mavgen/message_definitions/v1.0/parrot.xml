@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<mavlink>
+        <include>common.xml</include>
+        <enums>
+            <!-- Parrot specific MAV_CMD_* commands -->
+            <!-- Space for custom messages starts at 40000, external custom MAV_CMD_* starts at 50000 -->
+            <enum name="MAV_CMD">
+                <entry value="50000" name="MAV_CMD_SET_VIEW_MODE">
+                    <description>Set the view mode</description>
+                    <param index="1">View mode type (see MAV_VIEW_MODE_TYPE)</param>
+                    <param index="2">Index of the ROI if view mode type is VIEW_MODE_TYPE_ROI. Empty otherwise.</param>
+                    <param index="3">Empty</param>
+                    <param index="4">Empty</param>
+                    <param index="5">Empty</param>
+                    <param index="6">Empty</param>
+                    <param index="7">Empty</param>
+                </entry>
+                <entry value="50001" name="MAV_CMD_SET_STILL_CAPTURE_MODE">
+                    <description>Set the still capture mode</description>
+                    <param index="1">Still capture mode type (see MAV_STILL_CAPTURE_MODE_TYPE)</param>
+                    <param index="2">Timelapse interval in milliseconds if still capture mode type is STILL_CAPTURE_MODE_TYPE_TIMELAPSE. Interval in centimeters between each capture if still capture mode type is STILL_CAPTURE_MODE_TYPE_GPS_POSITION. Overlapping percentage between each capture if still capture mode is STILL_CAPTURE_MODE_TYPE_AUTOMATIC_OVERLAP.</param>
+                    <param index="3">Empty</param>
+                    <param index="4">Empty</param>
+                    <param index="5">Empty</param>
+                    <param index="6">Empty</param>
+                    <param index="7">Empty</param>
+                </entry>
+                <entry value="50002" name="MAV_CMD_SET_PHOTO_SENSORS">
+                    <description>Set the photo sensors that are/will be used.</description>
+                    <param index="1">Photo sensors bitfield (see MAV_PHOTO_SENSORS_FLAG)</param>
+                    <param index="2">Empty</param>
+                    <param index="3">Empty</param>
+                    <param index="4">Empty</param>
+                    <param index="5">Empty</param>
+                    <param index="6">Empty</param>
+                    <param index="7">Empty</param>
+                </entry>
+            </enum>
+            <enum name="MAV_VIEW_MODE_TYPE">
+               <description>Type of the view mode. This is how the vehicle should behave to set its orientation.</description>
+               <entry value="0" name="VIEW_MODE_TYPE_ABSOLUTE">
+                    <description>Vehicle orientation is fixed between two waypoints. Orientation is changed when the waypoint is validated</description>
+               </entry>
+               <entry value="1" name="VIEW_MODE_TYPE_CONTINUE">
+                    <description>Vehicle orientation changes linearly between two waypoints.</description>
+               </entry>
+               <entry value="2" name="VIEW_MODE_TYPE_ROI">
+                    <description>Vehicle orientation is given by a ROI.</description>
+               </entry>
+            </enum>
+            <enum name="MAV_STILL_CAPTURE_MODE_TYPE">
+               <description>Type of still capture that is performed upon a still capture initiation.</description>
+               <entry value="0" name="STILL_CAPTURE_MODE_TYPE_TIMELAPSE">
+                    <description>Timelapse capture.</description>
+               </entry>
+               <entry value="1" name="STILL_CAPTURE_MODE_TYPE_GPS_POSITION">
+                    <description>Capture according to the GPS position of the vehicle. Images are captured with an equal spacing.</description>
+               </entry>
+               <entry value="2" name="STILL_CAPTURE_MODE_TYPE_AUTOMATIC_OVERLAP">
+                    <description>Capture according to an overlap rate. Images captured will overlap each other by a percentage defined by the overlap rate.</description>
+               </entry>
+            </enum>
+            <enum name="MAV_PHOTO_SENSORS_FLAG">
+               <description>These flags encode the photo sensors.</description>
+               <entry value="1" name="MAV_PHOTO_SENSORS_FLAG_RGB">
+                    <description>0x01 RGB sensor.</description>
+               </entry>
+               <entry value="2" name="MAV_PHOTO_SENSORS_FLAG_GREEN_BAND">
+                    <description>0x02 Green band sensor.</description>
+               </entry>
+               <entry value="4" name="MAV_PHOTO_SENSORS_FLAG_RED_BAND">
+                    <description>0x04 Red band sensor.</description>
+               </entry>
+               <entry value="8" name="MAV_PHOTO_SENSORS_FLAG_RED_EDGE_BAND">
+                    <description>0x08 Red-edge band sensor.</description>
+               </entry>
+               <entry value="16" name="MAV_PHOTO_SENSORS_FLAG_NEAR_IR_BAND">
+                    <description>0x10 Near-infrared band sensor.</description>
+               </entry>
+            </enum>
+        </enums>
+        <messages>
+        </messages>
+</mavlink>
+

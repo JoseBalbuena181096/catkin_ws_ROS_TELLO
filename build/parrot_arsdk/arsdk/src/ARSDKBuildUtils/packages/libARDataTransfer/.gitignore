@@ -1,0 +1,13 @@
+/TestBench/Android/TestARDataTransfer/bin/
+/TestBench/Android/TestARDataTransfer/libs/armeabi-v7a/
+/TestBench/Android/TestARDataTransfer/libs/armeabi/
+/TestBench/Android/TestARDataTransfer/libs/libARDataTransfer.jar
+/TestBench/Android/TestARDataTransfer/libs/libARDiscovery.jar
+/TestBench/Android/TestARDataTransfer/libs/libARSAL.jar
+/TestBench/Android/TestARDataTransfer/libs/libARUtils.jar
+/TestBench/Android/TestARDataTransfer/libs/libcurl.jar
+/TestBench/Android/TestARDataTransfer/libs/mips/
+/TestBench/Android/TestARDataTransfer/libs/x86/
+/Build/
+/build/
+libARDataTransfer.iml

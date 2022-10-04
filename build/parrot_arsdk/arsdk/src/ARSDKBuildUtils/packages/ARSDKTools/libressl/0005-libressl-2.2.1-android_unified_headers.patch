@@ -1,0 +1,13 @@
+diff --git a/include/machine/endian.h b/include/machine/endian.h
+index 6f6d31f..39b2031 100644
+--- a/include/machine/endian.h
++++ b/include/machine/endian.h
+@@ -22,7 +22,7 @@
+ #endif
+ 
+ #elif defined(__ANDROID__)
+-#include_next <machine/endian.h>
++#include_next <sys/endian.h>
+ 
+ #elif defined(__linux__)
+ #include <endian.h>

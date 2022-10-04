@@ -1,0 +1,16 @@
+#!/bin/sh
+# simple shell wrapper around alchemake.py
+
+# Set our home
+if [ "${ALCHEMY_HOME}" = "" ]; then
+	ALCHEMY_HOME=/usr/lib/Alchemy
+fi
+
+# If ALCHEMY_WORKSPACE_DIR is given switch to it and exec alchemy main Makefile
+if [ "${ALCHEMY_WORKSPACE_DIR}" != "" -a -d "${ALCHEMY_WORKSPACE_DIR}" ]; then
+	cd ${ALCHEMY_WORKSPACE_DIR}
+	exec ${ALCHEMY_HOME}/scripts/alchemake.py -f ${ALCHEMY_HOME}/main.mk "$@"
+else
+	# Otherwise simply wrap make
+	exec ${ALCHEMY_HOME}/scripts/alchemake.py "$@"
+fi

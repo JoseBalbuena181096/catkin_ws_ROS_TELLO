@@ -1,0 +1,8 @@
+prefix=/home/jose/catkin_ws/install
+
+Name: rotors_gazebo
+Description: Description of rotors_gazebo
+Version: 2.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: gazebo_msgs geometry_msgs mav_msgs roscpp sensor_msgs nav_msgs eigen_conversions std_msgs

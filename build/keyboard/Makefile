@@ -167,81 +167,6 @@ depend:
 	cd /home/jose/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-keyboard/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-.PHONY : keyboard/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_nodejs: keyboard/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-geometry_msgs_generate_messages_nodejs/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f keyboard/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make keyboard/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-.PHONY : geometry_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-keyboard/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : keyboard/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: keyboard/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f keyboard/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make keyboard/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-keyboard/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : keyboard/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: keyboard/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f keyboard/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make keyboard/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-keyboard/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-.PHONY : keyboard/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_eus: keyboard/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_eus
-
-# fast build rule for target.
-geometry_msgs_generate_messages_eus/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f keyboard/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make keyboard/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-.PHONY : geometry_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-keyboard/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 keyboard/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : keyboard/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: keyboard/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	cd /home/jose/catkin_ws/build && $(MAKE) -f keyboard/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make keyboard/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -255,11 +180,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... geometry_msgs_generate_messages_nodejs"
-	@echo "... geometry_msgs_generate_messages_py"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... geometry_msgs_generate_messages_cpp"
 .PHONY : help
 
 

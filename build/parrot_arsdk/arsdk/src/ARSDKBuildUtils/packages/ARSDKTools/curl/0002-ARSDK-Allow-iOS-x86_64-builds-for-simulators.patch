@@ -1,0 +1,28 @@
+From 8fbb7186c1f14b8b1a3dc0f295806fb5512dea8b Mon Sep 17 00:00:00 2001
+From: Nicolas BRULEZ <nicolas.brulez@parrot.com>
+Date: Wed, 6 May 2015 17:55:36 +0200
+Subject: [PATCH 2/2] ARSDK: Allow iOS x86_64 builds for simulators
+
+---
+ include/curl/curlrules.h | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/include/curl/curlrules.h b/include/curl/curlrules.h
+index 7876847..7db86e8 100644
+--- a/include/curl/curlrules.h
++++ b/include/curl/curlrules.h
+@@ -148,9 +148,9 @@
+  * by sizeof() at compile time.
+  */
+ 
+-typedef char
++/*typedef char
+   __curl_rule_02__
+-    [CurlchkszEQ(curl_off_t, CURL_SIZEOF_CURL_OFF_T)];
++    [CurlchkszEQ(curl_off_t, CURL_SIZEOF_CURL_OFF_T)];*/
+ 
+ /*
+  * Verify at compile time that the size of curl_off_t as reported
+-- 
+2.1.0
+
